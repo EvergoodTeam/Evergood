@@ -1,3 +1,5 @@
+<img src="evergood.png" align="center" />
+
 # Evergood
 Evergood is a 1.12.2 Minecraft modpack featuring relevant mods, quests and complex recipes!
 
