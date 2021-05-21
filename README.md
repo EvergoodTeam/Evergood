@@ -5,7 +5,7 @@ Evergood is a 1.12.2 Minecraft modpack featuring relevant mods, quests and compl
 
 You can find more about it and the stable versions on curseforge: https://www.curseforge.com/minecraft/modpacks/evergood
 
-You can find the dev versions and dev Serverpacks here on github: https://github.com/EccentricLibra/Evergood/releases
+You can find the dev versions and dev Serverpacks here on github: https://github.com/EvergoodTeam/Evergood/releases
 
 ## Support us!
 Want to support us? Make sure to use code "Libra" when renting a server over at BisectHosting! https://www.bisecthosting.com/Libra
