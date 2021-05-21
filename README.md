@@ -11,5 +11,5 @@ You can find the dev versions and dev Serverpacks here on github: https://github
 Want to support us? Make sure to use code "Libra" when renting a server over at BisectHosting! https://www.bisecthosting.com/Libra
 
 ## Discord
-Join us on discord for updates, support and for our official Minecraft server!
+Join us on discord for support and updates on upcoming versions
 https://discord.gg/k2P68Y8
