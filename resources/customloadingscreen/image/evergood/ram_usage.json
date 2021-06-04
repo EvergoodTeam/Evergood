@@ -1,0 +1,14 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "BOTTOM_LEFT",
+    "offset_pos": "BOTTOM_LEFT",
+    "text": "' Memory Usage: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
+    "position": {
+        "x": "0",
+        "y": "-6",
+        "width": "0",
+        "height": "0"
+    },
+    "colour": "0xffffffff"
+}

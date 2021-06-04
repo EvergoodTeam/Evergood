@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "item": "mekanism:gastank|0",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:machineblock2|11",
+      "emc": 0
+    },
+    {
+      "item": "forestry:sapling|0",
+      "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_tome|0",
+      "emc": 50000
+    }
+  ]
+}

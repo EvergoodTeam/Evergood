@@ -1,0 +1,44 @@
+[
+	{
+		"sourceFilePath": "journeymap.core.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.core.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+	{
+		"sourceFilePath": "journeymap.fullmap.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.fullmap.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+	{
+		"sourceFilePath": "journeymap.minimap.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.minimap.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+	{
+		"sourceFilePath": "journeymap.minimap2.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.minimap2.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+	{
+		"sourceFilePath": "journeymap.topo.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.topo.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+	{
+		"sourceFilePath": "journeymap.waypoint.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.waypoint.config",
+		"serverSide": false,
+		"clientSide": true
+	},
+		{
+		"sourceFilePath": "journeymap.webmap.config",
+		"destinationFilePath": "journeymap/config/5.7/journeymap.webmap.config",
+		"serverSide": false,
+		"clientSide": true
+	}
+]

@@ -1,0 +1,14 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "BOTTOM_RIGHT",
+    "offset_pos": "BOTTOM_RIGHT",
+    "text": "' Loading Time: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's'",
+    "position": {
+        "x": "-3",
+        "y": "-6",
+        "width": "0",
+        "height": "0"
+    },
+    "colour": "0xFFFFFFFF"
+}

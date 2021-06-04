@@ -1,0 +1,12 @@
+{
+  "minecraft:torch": 1,
+  "minecraft:fire": 4,
+  "minecraft:lava": 3,
+  "botania:quartztypeblaze":10,
+  "bigreactors:blockyellorium": 20,
+  "botania:blazeblock":30,
+  "bigreactors:blockblutonium": 40,
+  "bigreactors:blockludicrite": 60,
+  "natura:nether_heat_sand:0": 120,
+  "draconicevolution:draconic_block": 480
+}

@@ -1,0 +1,26 @@
+{
+    "renders": [
+        "evergood/background",
+	"evergood/banner",
+
+        "evergood/progress_white",
+        "evergood/progress_color",
+        "evergood/progress_percent",
+        "evergood/progress_text",
+        "evergood/progress_text2",
+
+        "evergood/time",
+
+        "evergood/ram_bar",
+        "evergood/ram_usage",
+        "evergood/ram_percent"
+    ],
+    "variables": {
+        "mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
+        "mem_color": "(mem_percent < 0.6) ? 0x5fea07 : ((mem_percent < 0.7) ? 0xffeb3b : ((mem_percent < 0.8) ? 0xffc400 : 0xff5252))"
+    },
+    "functions": [],
+    "factories": [
+    ],
+    "actions": []
+}

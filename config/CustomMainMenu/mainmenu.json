@@ -1,0 +1,179 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:title/evergood.PNG",
+            "posX" : -166,
+            "posY" : 18,
+            "width" : 335,
+            "height" : 115,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 166,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+
+	    "discord":
+        {
+            "text" : "",
+            "posX" : 104,
+            "posY" : 166,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:buttons/discord.png",
+            "action" : 
+            {
+                "type" : "openLink",
+		        "link": "https://discord.gg/k2P68Y8"
+            }
+        },
+
+	    "github":
+        {
+            "text" : "",
+            "posX" : 104,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:buttons/github.png",
+            "action" : 
+            {
+                "type" : "openLink",
+		        "link": "https://github.com/EvergoodTeam/Evergood/issues"
+            }
+        },
+
+        "partner":
+        {
+            "text" : "Rent a Server",
+            "hoverText": "BisectHosting",
+            "posX" : -100,
+            "posY" : 166,
+            "width" : 200,
+            "height" : 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 130000,
+            "action" : 
+            {
+                "type" : "openLink",
+		        "link": "https://bisecthosting.com/Libra"
+            }
+        }
+    },
+    
+    "other":
+    { 
+        "background" : 
+        {
+	        "image" : "",
+	        "slideshow" :
+	        {
+	            "images" : 
+		        [
+		        "custommainmenu:background/1.png","custommainmenu:background/2.png","custommainmenu:background/3.png","custommainmenu:background/4.png","custommainmenu:background/5.png","custommainmenu:background/6.png"
+		        ],
+                "displayDuration" : 250,
+                "fadeDuration" : 100,
+		        "shuffle" : true
+            }
+        }	
+    }
+}
