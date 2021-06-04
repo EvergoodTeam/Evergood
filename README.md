@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/WWkX3sU.png" align="center" />
 
-# Evergood
+# Evergood <a href=https://www.curseforge.com/minecraft/modpacks/evergood> <img src="https://cf.way2muchnoise.eu/398982.svg"> </a>
 Evergood is a 1.12.2 Minecraft modpack featuring relevant mods, quests and complex recipes!
 
 You can find more about it and the stable versions on Curseforge: https://www.curseforge.com/minecraft/modpacks/evergood
