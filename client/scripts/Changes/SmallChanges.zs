@@ -40,11 +40,11 @@ recipes.replaceAllOccurences(<minecraft:diamond>, <ore:blockDiamond>, <tp:diamon
 recipes.replaceAllOccurences(<minecraft:blaze_rod>, <ore:blockBlaze>, <tp:blaze_cobblegen_block>);
 recipes.replaceAllOccurences(<minecraft:emerald>, <ore:blockEmerald>, <tp:emerald_cobblegen_block>);
 
-#Personal shrinking device
+#Personal Shrinking Device
 recipes.remove(<compactmachines3:psd>);
 recipes.addShaped(<compactmachines3:psd>, [[null, <enderio:item_material:14>, null],[null, <computercraft:pocket_computer>, null], [null, <enderio:item_alloy_ingot>, null]]);
 
-//More stackables
+//More Stackables
 val arc = <immersiveengineering:blueprint>.withTag({blueprint: "electrode"});
 arc.maxStackSize = 64;
 val arc2 = <immersiveengineering:blueprint>.withTag({blueprint: "electrode", display: {Lore: ["Congratulations!", "You have found an easter egg!"], Name: "Super Special BluPrintz"}});
@@ -77,8 +77,12 @@ recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [[<ore:craftingPis
 #Bronze unidict
 recipes.removeByRecipeName("unidict:ingotbronze_x4_size.4");
 
-#RFTools Machine Frame
-recipes.remove(<rftools:machine_frame>);
-recipes.addShaped(<rftools:machine_frame>, [[<enderio:item_alloy_ingot:9>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:9>],[<thermalfoundation:material:352>, <thermalexpansion:frame>, <thermalfoundation:material:352>], [<enderio:item_alloy_ingot:9>, <enderio:item_material:2>, <enderio:item_alloy_ingot:9>]]);
+#SolarFlux Mirror
+recipes.remove(<solarflux:mirror>);
+recipes.addShaped(<solarflux:mirror>, [[null, null, null],[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<extendedcrafting:material>, <thermalfoundation:material:513>, <extendedcrafting:material>]]);
+
+#SolarFlux Tier 1
+recipes.remove(<solarflux:solar_panel_1>);
+recipes.addShaped(<solarflux:solar_panel_1>, [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],[<thermalfoundation:material:352>, <thermalfoundation:material:512>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <thermalfoundation:material:324>, <thermalfoundation:material:352>]]);
 
 print("- SmallChanges.zs initialized");

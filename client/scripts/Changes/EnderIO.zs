@@ -103,4 +103,8 @@ recipes.replaceAllOccurences(<ore:blockGlass>, <openblocks:tank>, <enderio:block
 #Painting Machine JEI tab
 mods.jei.JEI.hideCategory("Painter");
 
+#Basic Capacitor Bank
+recipes.remove(<enderio:block_cap_bank:1>);
+recipes.addShaped(<enderio:block_cap_bank:1>, [[<enderio:item_alloy_ingot>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot>],[<enderio:item_basic_capacitor>, <ore:blockRedstone>, <enderio:item_basic_capacitor>], [<enderio:item_alloy_ingot>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot>]]);
+
 print("- EnderIO.zs initialized");

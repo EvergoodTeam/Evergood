@@ -15,6 +15,66 @@
     {
       "item": "projecte:item.pe_tome|0",
       "emc": 50000
+    },
+    {
+      "item": "thermalfoundation:material|32",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|33",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|320",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|321",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|322",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|323",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|324",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|325",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|326",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:material|352",
+      "emc": 320
+    },
+    {
+      "item": "thermalfoundation:material|353",
+      "emc": 1280
+    },
+    {
+      "item": "thermalfoundation:material|354",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|355",
+      "emc": 160
+    },
+    {
+      "item": "thermalfoundation:material|357",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:material|358",
+      "emc": 704
     }
   ]
 }

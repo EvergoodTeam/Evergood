@@ -24,5 +24,17 @@ recipes.addShaped(<quantumflux:craftingpiece:1>, [[<mekanism:compressedcarbon>, 
 recipes.remove(<quantumflux:craftingpiece:5>);
 recipes.addShaped(<quantumflux:craftingpiece:5>, [[<immersiveengineering:material:20>, <redstonearsenal:material:128>, <immersiveengineering:material:20>],[<quantumflux:craftingpiece:3>, <pneumaticcraft:advanced_pcb>, <quantumflux:craftingpiece:3>], [<projectred-core:resource_item>, <projectred-core:resource_item:20>, <projectred-core:resource_item>]]);
 
+#Amplification Crystal
+recipes.remove(<quantumflux:craftingpiece:2>);
+mods.mekanism.infuser.addRecipe("OBSIDIAN", 10, <quantumflux:craftingpiece>, <quantumflux:craftingpiece:2>);
+
+#Quibit Crystal
+recipes.remove(<quantumflux:craftingpiece>);
+recipes.addShaped(<quantumflux:craftingpiece> * 2, [[null, <minecraft:quartz>, null],[<quantumflux:craftingpiece:3>, <mekanism:clump:2>, <quantumflux:craftingpiece:3>], [<immersiveengineering:material:21>, <mekanism:polyethene>, <immersiveengineering:material:21>]]);
+
+#Ender Crystal
+recipes.remove(<quantumflux:craftingpiece:3>);
+mods.mekanism.enrichment.addRecipe(<minecraft:ender_pearl>, <quantumflux:craftingpiece:3>);
+recipes.removeByRecipeName("quantumflux:ender_pearl");
 
 print("- Quantum.zs initialized");

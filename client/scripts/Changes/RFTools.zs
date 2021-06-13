@@ -1,3 +1,7 @@
+#RFTools Machine Frame
+recipes.remove(<rftools:machine_frame>);
+recipes.addShaped(<rftools:machine_frame>, [[<enderio:item_alloy_ingot:9>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:9>],[<thermalfoundation:material:352>, <thermalexpansion:frame>, <thermalfoundation:material:352>], [<enderio:item_alloy_ingot:9>, <enderio:item_material:2>, <enderio:item_alloy_ingot:9>]]);
+
 #Card Base
 recipes.remove(<rftoolscontrol:card_base>);
 recipes.addShaped(<rftoolscontrol:card_base>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],[<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);

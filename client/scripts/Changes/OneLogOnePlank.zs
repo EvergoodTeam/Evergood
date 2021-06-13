@@ -156,7 +156,7 @@ recipes.addShaped(<natura:overworld_planks:8>, [[<natura:redwood_logs:1>]]);
 recipes.removeShapeless(<randomthings:spectreplank> * 4, [<randomthings:spectrelog>]);
 recipes.addShaped(<randomthings:spectreplank>, [[<randomthings:spectrelog>]]);
 
-//forestry
+//Forestry
 recipes.removeShapeless(<forestry:planks.0> * 4, [<forestry:logs.0>]);
 recipes.addShaped(<forestry:planks.0>, [[<forestry:logs.0>]]);
 recipes.removeShapeless(<forestry:planks.fireproof.0> * 4, [<forestry:logs.fireproof.0>]);
@@ -317,7 +317,7 @@ recipes.addShaped(<forestry:planks.vanilla.fireproof.0:4>, [[<forestry:logs.vani
 recipes.removeShapeless(<forestry:planks.vanilla.fireproof.0:5> * 4, [<forestry:logs.vanilla.fireproof.1:1>]);
 recipes.addShaped(<forestry:planks.vanilla.fireproof.0:5>, [[<forestry:logs.vanilla.fireproof.1:1>]]);
 
-//binnies
+//Binnies
 recipes.removeShapeless(<extratrees:planks.0> * 4, [<extratrees:logs.0>]);
 recipes.addShaped(<extratrees:planks.0>, [[<extratrees:logs.0>]]);
 recipes.removeShapeless(<extratrees:planks.fireproof.0> * 4, [<extratrees:logs.fireproof.0>]);
@@ -509,7 +509,7 @@ recipes.addShaped(<thaumcraft:plank_greatwood>, [[<thaumcraft:log_greatwood>]]);
 recipes.removeByRecipeName("thaumcraft:planksilverwood");
 recipes.addShaped(<thaumcraft:plank_silverwood>, [[<thaumcraft:log_silverwood>]]);
 
-//Twilightforest
+//Twilight
 recipes.removeShapeless(<twilightforest:sort_planks> * 4, [<twilightforest:magic_log_core:3>]);
 recipes.addShaped(<twilightforest:sort_planks>, [[<twilightforest:magic_log_core:3>]]);
 recipes.removeShapeless(<twilightforest:sort_planks> * 4, [<twilightforest:magic_log:3>]);

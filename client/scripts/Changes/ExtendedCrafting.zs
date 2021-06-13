@@ -305,32 +305,32 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>,
 
 #Basic table
 recipes.remove(<extendedcrafting:table_basic>);
-recipes.addShaped(<extendedcrafting:table_basic>, [[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],[<avaritia:double_compressed_crafting_table>, <minecraft:iron_block>, <avaritia:double_compressed_crafting_table>], [<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]]);
+recipes.addShaped(<extendedcrafting:table_basic>, [[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],[<quantumflux:craftingpiece:2>, <extendedcrafting:frame>, <quantumflux:craftingpiece:2>], [<extendedcrafting:material:14>, <astralsorcery:itemcraftingcomponent:3>, <extendedcrafting:material:14>]]);
 
 #Advanced table
 recipes.remove(<extendedcrafting:table_advanced>);
-recipes.addShaped(<extendedcrafting:table_advanced>, [[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>],[<extendedcrafting:table_basic>, <minecraft:gold_block>, <extendedcrafting:table_basic>], [<extendedcrafting:material:15>, <astralsorcery:itemcoloredlens:1>, <extendedcrafting:material:15>]]);
+recipes.addShaped(<extendedcrafting:table_advanced>, [[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>],[<mekanism:ingot:3>, <extendedcrafting:table_basic>, <mekanism:ingot:3>], [<extendedcrafting:material:15>, <astralsorcery:itemcoloredlens:1>, <extendedcrafting:material:15>]]);
 
 #Elite table
 recipes.remove(<extendedcrafting:table_elite>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_elite>, [
 	[<extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <ore:gemDiamond>, <extendedcrafting:material:2>, <ore:gemDiamond>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:10>, <extendedcrafting:table_advanced>, <ore:blockDiamond>, <extendedcrafting:table_advanced>, <extendedcrafting:material:10>], 
-	[<extendedcrafting:material:16>, <ore:gemDiamond>, <extendedcrafting:material:2>, <ore:gemDiamond>, <extendedcrafting:material:16>], 
-	[<extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:2>, <extendedcrafting:material:16>, <extendedcrafting:material:16>]
+	[<ore:ingotMagnesiumDiboride>, <ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>, <ore:ingotMagnesiumDiboride>], 
+	[<extraplanets:wafer:4>, <extendedcrafting:material:16>, <extendedcrafting:table_advanced>, <extendedcrafting:material:16>, <extraplanets:wafer:4>], 
+	[<ore:ingotMagnesiumDiboride>, <ore:alloyElite>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <ore:alloyElite>, <ore:ingotMagnesiumDiboride>], 
+	[<extendedcrafting:material:16>, <ore:ingotMagnesiumDiboride>, <extraplanets:wafer:4>, <ore:ingotMagnesiumDiboride>, <extendedcrafting:material:16>]
 ]);
 
 #Ultimate table
 recipes.remove(<extendedcrafting:table_ultimate>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_ultimate>, [
-	[<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:2>, <ore:gemEmerald>, <extendedcrafting:material:2>, <ore:gemEmerald>, <extendedcrafting:material:2>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <ore:gemEmerald>, <extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>, <ore:gemEmerald>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:11>, <extendedcrafting:table_elite>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <extendedcrafting:table_elite>, <extendedcrafting:material:11>], 
-	[<extendedcrafting:material:17>, <ore:gemEmerald>, <extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>, <ore:gemEmerald>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:2>, <ore:gemEmerald>, <extendedcrafting:material:2>, <ore:gemEmerald>, <extendedcrafting:material:2>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>]
+	[<extraplanets:tier10_items:4>, <extendedcrafting:material:17>, <extraplanets:tier10_items:4>, <extendedcrafting:material:11>, <extraplanets:tier10_items:4>, <extendedcrafting:material:17>, <extraplanets:tier10_items:4>], 
+	[<extendedcrafting:material:17>, <ore:alloyUltimate>, <ore:ingotTerrasteel>, <extraplanets:tier10_items:4>, <ore:gaiaIngot>, <ore:alloyUltimate>, <extendedcrafting:material:17>], 
+	[<extraplanets:tier10_items:4>, <ore:gaiaIngot>, <extraplanets:tier10_items:4>, <ore:itemPrecientCrystal>, <extraplanets:tier10_items:4>, <ore:ingotTerrasteel>, <extraplanets:tier10_items:4>], 
+	[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}), <extraplanets:tier10_items:4>, <extendedcrafting:material:17>, <extendedcrafting:table_elite>, <extendedcrafting:material:17>, <extraplanets:tier10_items:4>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})], 
+	[<ore:plateElite>, <ore:ingotTerrasteel>, <extraplanets:tier10_items:4>, <ore:itemPrecientCrystal>, <extraplanets:tier10_items:4>, <ore:gaiaIngot>, <ore:plateElite>], 
+	[<extendedcrafting:material:17>, <ore:alloyUltimate>, <ore:gaiaIngot>, <ore:plateElite>, <ore:ingotTerrasteel>, <ore:alloyUltimate>, <extendedcrafting:material:17>], 
+	[<ore:plateElite>, <extendedcrafting:material:17>, <ore:plateElite>, <ore:fuelHEU235Oxide>, <ore:plateElite>, <extendedcrafting:material:17>, <ore:plateElite>]
 ]);
 
 #Crafting core
@@ -443,6 +443,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <galacticraftcore:rocket_workbe
 
 #Luminessence
 recipes.removeByRecipeName("extendedcrafting:luminessence");
-recipes.addShaped(<extendedcrafting:material:7>, [[<erebus:materials:12>, <enderio:block_holy_fog>, null],[<minecraft:redstone>, <minecraft:gunpowder>, null], [null, null, null]]);
+recipes.addShaped(<extendedcrafting:material:7>, [[<erebus:materials:12>, <enderio:block_holier_fog>, null],[<minecraft:redstone>, <minecraft:gunpowder>, null], [null, null, null]]);
+
+#Black Iron Nugget
+recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_to");
+recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_from");
 
 print("- ExtendedCrafting.zs initialized");
