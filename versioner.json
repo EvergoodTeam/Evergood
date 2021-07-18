@@ -1,36 +1,5 @@
 {
 	"versionName": "0.2.95",         
 	"versionCode": "0",              
-	"versionFormat": "%versionName%",
-	"sponsors": [{
-	}],
-	"sponsorMessage": ["", {            	
-	}],
-	"changelogs": {
-		"0.2.95": [
-			"Fixed some more bugs",
-			"Removed Herobrine",
-			"Fixed the version number being too low"
-		]
-	},
-	"variables": {           
-	},
-	"welcomeMessage": ["", {
-		"text": "Hello, welcome to play ",
-		"color": "gold"
-	}, {
-		"text": "TestPack!",
-		"color": "aqua"
-	}, {
-		"text": "\n"
-	}, {
-		"text": "Join our discord server!",
-		"bold": true,
-		"underlined": true,
-		"color": "blue",
-		"clickEvent": {
-			"action": "open_url",
-			"value": "https://discord.gg/WbrB4VaUsz"
-		}
-	}]
+	"versionFormat": "%versionName%"
 }
