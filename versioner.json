@@ -1,5 +1,8 @@
 {
 	"versionName": "0.2.95",         
 	"versionCode": "0",              
-	"versionFormat": "%versionName%"
+	"versionFormat": "%versionName%",
+	"updateMessage": ["", {
+		"color": "white"
+		}]
 }
