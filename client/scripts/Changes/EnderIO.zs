@@ -107,4 +107,8 @@ mods.jei.JEI.hideCategory("Painter");
 recipes.remove(<enderio:block_cap_bank:1>);
 recipes.addShaped(<enderio:block_cap_bank:1>, [[<enderio:item_alloy_ingot>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot>],[<enderio:item_basic_capacitor>, <ore:blockRedstone>, <enderio:item_basic_capacitor>], [<enderio:item_alloy_ingot>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot>]]);
 
+#Fluid Conduits
+recipes.removeByRecipeName("enderio:conduit_liquid_advanced");
+recipes.removeByRecipeName("enderio:conduit_liquid_ender");
+
 print("- EnderIO.zs initialized");

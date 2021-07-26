@@ -21,12 +21,12 @@ recipes.remove(<mekanism:machineblock2:4>);
 recipes.addShaped(<mekanism:machineblock2:4>, [[<minecraft:iron_ingot>, <enderio:item_alloy_ingot:3>, <minecraft:iron_ingot>],[<mekanism:controlcircuit:1>, <mekanism:basicblock:8>, <mekanism:controlcircuit:1>], [<minecraft:iron_ingot>, <mekanism:electrolyticcore>, <minecraft:iron_ingot>]]);
 
 #Basic Fluid Tank
-recipes.remove(<mekanism:machineblock2:11>);
-recipes.addShaped(<mekanism:machineblock2:11>, [[<enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:3>],[<enderio:item_alloy_ingot:9>, <ore:blockGlass>, <enderio:item_alloy_ingot:9>], [<enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:3>]]);
+recipes.remove(<mekanism:machineblock2:11>.withTag({tier: 0}));
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 0}), [[<enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:3>],[<enderio:item_alloy_ingot:9>, <ore:blockGlass>, <enderio:item_alloy_ingot:9>], [<enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_ingot:3>]]);
 
 #Basic Gas Tank
-recipes.remove(<mekanism:gastank>);
-recipes.addShaped(<mekanism:gastank>, [[<enderio:item_alloy_ingot:3>, <mekanism:ingot:1>, <enderio:item_alloy_ingot:3>],[<mekanism:ingot:1>, <ore:blockGlass>, <mekanism:ingot:1>], [<enderio:item_alloy_ingot:3>, <mekanism:ingot:1>, <enderio:item_alloy_ingot:3>]]);
+recipes.remove(<mekanism:gastank>.withTag({tier: 0}));
+recipes.addShaped(<mekanism:gastank>.withTag({tier: 0}), [[<enderio:item_alloy_ingot:3>, <mekanism:ingot:1>, <enderio:item_alloy_ingot:3>],[<mekanism:ingot:1>, <ore:blockGlass>, <mekanism:ingot:1>], [<enderio:item_alloy_ingot:3>, <mekanism:ingot:1>, <enderio:item_alloy_ingot:3>]]);
 
 #Enrichment Chamber
 recipes.replaceAllOccurences(<minecraft:redstone>, <enderio:item_alloy_ingot:3>, <mekanism:machineblock>);
@@ -66,5 +66,8 @@ recipes.replaceAllOccurences(<minecraft:redstone>, <enderio:item_alloy_ingot:3>,
 #Energy Tablet
 recipes.remove(<mekanism:energytablet>);
 recipes.addShaped(<mekanism:energytablet>, [[null, <nuclearcraft:ingot:6>, null],[<mekanism:enrichedalloy>, <actuallyadditions:item_battery_double>, <mekanism:enrichedalloy>], [<enderio:item_alloy_ingot>, <mekanism:controlcircuit>, <enderio:item_alloy_ingot>]]);
+
+#Mercury
+mods.mekanism.purification.addRecipe(<thaumcraft:ore_cinnabar>, <gas:oxygen>, <jaopca:item_clumpmercury>);
 
 print("- Mekanism.zs initialized");

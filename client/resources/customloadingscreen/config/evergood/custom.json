@@ -17,7 +17,7 @@
     ],
     "variables": {
         "mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
-        "mem_color": "(mem_percent < 0.6) ? 0x5fea07 : ((mem_percent < 0.7) ? 0xffeb3b : ((mem_percent < 0.8) ? 0xffc400 : 0xff5252))"
+        "mem_color": "(mem_percent < 0.6) ? 0x55ff55 : ((mem_percent < 0.75) ? 0xffff55 : ((mem_percent < 0.9) ? 0xffaa00 : ((mem_percent < 1.0) ? 0xff5555 : 0xff5555)))"
     },
     "functions": [],
     "factories": [

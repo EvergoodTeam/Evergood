@@ -6,7 +6,7 @@
     "position": {
         "x": "-screen_width * 0.4 + percentage * screen_width * 0.4",
         "y": "screen_height * 0.3 - 10",
-        "width": "percentage * screen_width * 0.8",
+        "width": "percentage * screen_width * 0.8 - 1",
         "height": "4"
     },
     "texture": {

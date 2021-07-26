@@ -1,5 +1,5 @@
 #modloaded avaritia extendedcrafting
-#priority 1
+#priority 2
 
 import mods.extendedcrafting.CompressionCrafting.remove;
 import mods.extendedcrafting.CompressionCrafting.addRecipe;
@@ -22,7 +22,6 @@ mods.avaritia.Compressor.remove(<avaritia:singularity:14>);
 
 #Blocks
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutronium_compressor>);
-mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 recipes.remove(<avaritia:extreme_crafting_table>);
 
 #Tools
@@ -43,22 +42,25 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);   //Ultimate ste
 mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);   //Cosmic meatballs
 mods.avaritia.ExtremeCrafting.remove(<avaritia:endest_pearl>);   //Endest Pearl
 
-#Avaritia entries converted to ExtendedCrafting
+###Avaritia entries converted to ExtendedCrafting
 
-#Blocks
+##Blocks
 
 #Neutron collector
+mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:neutron_collector>, [
-	[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:ingotCrystaltine>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>], 
-	[<ore:blockIron>, null, null, <extendedcrafting:material:2>, null, null, <ore:blockIron>], 
-	[<ore:blockIron>, null, <extendedcrafting:material:18>, <ore:ingotCrystalMatrix>, <extendedcrafting:material:18>, null, <ore:blockIron>], 
-	[<ore:ingotCrystaltine>, <extendedcrafting:material:2>, <ore:ingotCrystalMatrix>, <mekanism:machineblock3:1>, <ore:ingotCrystalMatrix>, <extendedcrafting:material:2>, <ore:ingotCrystaltine>], 
-	[<ore:blockIron>, null, <extendedcrafting:material:2>, <extendedcrafting:material:18>, <extendedcrafting:material:2>, null, <ore:blockIron>], 
-	[<ore:blockIron>, null, null, <extendedcrafting:material:2>, null, null, <ore:blockIron>], 
-	[<ore:blockIron>, <ore:blockIron>, <ore:ingotCrystaltine>, <ore:blockIron>, <ore:ingotCrystaltine>, <ore:blockIron>, <ore:blockIron>]
+	[<minecraft:iron_block>, <minecraft:iron_block>, <extendedcrafting:material:24>, <enderio:block_alloy:9>, <extendedcrafting:material:24>, <enderio:block_alloy:9>, <extendedcrafting:material:24>, <minecraft:iron_block>, <minecraft:iron_block>], 
+	[<minecraft:iron_block>, <nuclearcraft:alloy:11>, <nuclearcraft:part:3>, <solarflux:solar_panel_draconic>, <solarflux:solar_panel_draconic>, <solarflux:solar_panel_draconic>, <nuclearcraft:part:3>, <nuclearcraft:alloy:11>, <minecraft:iron_block>], 
+	[<minecraft:iron_block>, <nuclearcraft:part:3>, <extendedcrafting:material:24>, <extendedcrafting:material:2>, <mekanism:controlcircuit:3>, <extendedcrafting:material:2>, <extendedcrafting:material:24>, <nuclearcraft:part:3>, <minecraft:iron_block>], 
+	[<enderio:block_alloy:9>, <enderio:item_alloy_endergy_ingot:3>, <extendedcrafting:material:2>, <extendedcrafting:material:12>, <nuclearcraft:part:3>, <extendedcrafting:material:12>, <extendedcrafting:material:2>, <enderio:item_alloy_endergy_ingot:3>, <enderio:block_alloy:9>], 
+	[<extendedcrafting:material:24>, <extendedcrafting:material:32>, <mekanism:controlcircuit:3>, <nuclearcraft:part:3>, <mekanism:machineblock3:1>, <nuclearcraft:part:3>, <mekanism:controlcircuit:3>, <extendedcrafting:material:32>, <extendedcrafting:material:24>], 
+	[<enderio:block_alloy:9>, <enderio:item_alloy_endergy_ingot:3>, <extendedcrafting:material:2>, <extendedcrafting:material:12>, <nuclearcraft:part:3>, <extendedcrafting:material:12>, <extendedcrafting:material:2>, <enderio:item_alloy_endergy_ingot:3>, <enderio:block_alloy:9>], 
+	[<minecraft:iron_block>, <nuclearcraft:part:3>, <extendedcrafting:material:24>, <extendedcrafting:material:2>, <mekanism:controlcircuit:3>, <extendedcrafting:material:2>, <extendedcrafting:material:24>, <nuclearcraft:part:3>, <minecraft:iron_block>], 
+	[<minecraft:iron_block>, <nuclearcraft:alloy:11>, <nuclearcraft:part:3>, <enderio:item_alloy_endergy_ingot:3>, <enderio:item_material:18>, <enderio:item_alloy_endergy_ingot:3>, <nuclearcraft:part:3>, <nuclearcraft:alloy:11>, <minecraft:iron_block>], 
+	[<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <enderio:block_alloy:9>, <extendedcrafting:material:24>, <enderio:block_alloy:9>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]
 ]);
 
-#Armor
+##Armor
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_helmet>, [
 	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null], 
@@ -108,7 +110,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_boots>, [
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
-#Tools
+##Tools
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_sword>, [
 	[null, null, null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>], 
@@ -194,22 +196,22 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:skullfire_sword>, [
 	[<ore:netherStar>, null, null, null, null, null, null, null, null]
 ]);
 
-#Resources
+##Resources
 
-#Infinity ingot
+#Infinity Ingot
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:resource:6>, [
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <projectex:matter:10>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotUltimate>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotUltimate>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotUltimate>, <ore:ingotCosmicNeutronium>], 
-	[<projectex:matter:10>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <projectex:matter:10>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotUltimate>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotUltimate>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotUltimate>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <projectex:matter:10>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
 	[null, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null], 
+	[<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <projectex:matter:10>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>], 
+	[<avaritia:resource:4>, <extendedcrafting:material:32>, <avaritia:resource:5>, <avaritia:resource:5>, <extendedcrafting:material:32>, <avaritia:resource:5>, <avaritia:resource:5>, <extendedcrafting:material:32>, <avaritia:resource:4>], 
+	[<projectex:matter:10>, <avaritia:resource:5>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:5>, <avaritia:resource:1>, <avaritia:resource:1>, <avaritia:resource:5>, <projectex:matter:10>], 
+	[<avaritia:resource:4>, <extendedcrafting:material:32>, <avaritia:resource:5>, <avaritia:resource:5>, <extendedcrafting:material:32>, <avaritia:resource:5>, <avaritia:resource:5>, <extendedcrafting:material:32>, <avaritia:resource:4>], 
+	[<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <projectex:matter:10>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>], 
 	[null, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
-#Endest pearl
+#Endest Pearl
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
 	[null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null], 
 	[null, <ore:endstone>, <ore:endstone>, <ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>, <ore:endstone>, <ore:endstone>, null], 
@@ -222,7 +224,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
 	[null, null, null, <ore:endstone>, <ore:endstone>, <ore:endstone>, null, null, null]
 ]);
 
-#Enhancement crystal
+#Enhancement Crystal
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritiatweaks:enhancement_crystal>, [
 	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
 	[null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null, null], 
@@ -248,20 +250,20 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <botania:specialflower>.withTag
 	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null]
 ]);
 
-#Infinity catalyst
+#Infinity Catalyst
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:resource:5>, [
-	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null], 
-	[null, <ore:nuggetCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <avaritia:resource:7>, <ore:ingotCosmicNeutronium>, <avaritia:resource:7>, <ore:ingotCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null], 
-	[null, null, <avaritia:resource:7>, <avaritia:ultimate_stew>, <ore:ingotUltimate>, <avaritia:endest_pearl>, <avaritia:resource:7>, null, null], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotUltimate>, <extendedcrafting:singularity_ultimate>, <ore:ingotUltimate>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[null, null, <avaritia:resource:7>, <ore:ingotCrystalMatrix>, <ore:ingotUltimate>, <avaritia:cosmic_meatballs>, <avaritia:resource:7>, null, null], 
-	[null, <ore:nuggetCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <avaritia:resource:7>, <ore:ingotCosmicNeutronium>, <avaritia:resource:7>, <ore:ingotCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:nuggetCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, null, <ore:nuggetCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null], 
-	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null]
+	[null, null, null, null, <avaritia:resource:4>, null, null, null, null], 
+	[null, <avaritia:resource:4>, <avaritia:resource:3>, null, <avaritia:resource:4>, null, <avaritia:resource:3>, <avaritia:resource:4>, null], 
+	[null, <avaritia:resource:3>, <avaritia:resource:4>, <extendedcrafting:material:33>, <avaritia:resource:4>, <extendedcrafting:material:33>, <avaritia:resource:4>, <avaritia:resource:3>, null], 
+	[null, null, <extendedcrafting:material:33>, <avaritia:ultimate_stew>, <extendedcrafting:material:13>, <avaritia:cosmic_meatballs>, <extendedcrafting:material:33>, null, null], 
+	[<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>, <extendedcrafting:material:13>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:material:13>, <avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>], 
+	[null, null, <extendedcrafting:material:33>, <avaritia:resource:7>, <extendedcrafting:material:13>, <avaritia:endest_pearl>, <extendedcrafting:material:33>, null, null], 
+	[null, <avaritia:resource:3>, <avaritia:resource:4>, <extendedcrafting:material:33>, <avaritia:resource:4>, <extendedcrafting:material:33>, <avaritia:resource:4>, <avaritia:resource:3>, null], 
+	[null, <avaritia:resource:4>, <avaritia:resource:3>, null, <avaritia:resource:4>, null, <avaritia:resource:3>, <avaritia:resource:4>, null], 
+	[null, null, null, null, <avaritia:resource:4>, null, null, null, null]
 ]);
 
-#Cosmic meatballs
+#Cosmic Meatballs
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:cosmic_meatballs>, [
 	[<avaritia:resource:2>, <minecraft:beef>, <minecraft:beef>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:porkchop>, <minecraft:rabbit>, <minecraft:rabbit>], 
 	[<minecraft:fish>, <minecraft:fish>, <harvestcraft:turkeyrawitem>, <harvestcraft:turkeyrawitem>, <minecraft:mutton>, <minecraft:mutton>, <harvestcraft:duckrawitem>, <harvestcraft:duckrawitem>, <natura:edibles>], 
@@ -274,7 +276,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:cosmic_meatballs>, [
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
-#Ultimate stew
+#Ultimate Stew
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:ultimate_stew>, [
 	[<avaritia:resource:2>, <minecraft:wheat>, <minecraft:carrot>, <minecraft:beetroot>, <minecraft:potato>, <minecraft:apple>, <minecraft:melon_block>, <minecraft:pumpkin>, <minecraft:cactus>], 
 	[<minecraft:red_mushroom>, <minecraft:brown_mushroom>, <harvestcraft:cherryitem>, <harvestcraft:peachitem>, <harvestcraft:orangeitem>, <harvestcraft:blackberryitem>, <harvestcraft:limeitem>, <harvestcraft:blueberryitem>, <harvestcraft:raspberryitem>], 
@@ -287,7 +289,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:ultimate_stew>, [
 	[<actuallyadditions:item_misc:13>, <extratrees:food:33>, <harvestcraft:brusselsproutitem>, <extratrees:food:56>, <extratrees:food:5>, <extratrees:food:7>, <extratrees:food:25>, <harvestcraft:celeryitem>, <extratrees:food:30>]
 ]);
 
-#Ultimate ingot
+#Ultimate Ingot
 recipes.remove(<extendedcrafting:material:32>);
 recipes.removeShapeless(<extendedcrafting:material:33>, [<extendedcrafting:material:32>]);
 
@@ -352,11 +354,11 @@ recipes.removeByRecipeName("extendedcrafting:crystaltine_nugget_from");
 recipes.removeByRecipeName("extendedcrafting:crystaltine_nugget_to");
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>, [
-	[<ore:manaDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:manaDiamond>], 
-	[<ore:manaDiamond>, <ore:nuggetNetherStar>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, <ore:nuggetNetherStar>, <ore:manaDiamond>], 
-	[<ore:manaDiamond>, <ore:nuggetNetherStar>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, <ore:nuggetNetherStar>, <ore:manaDiamond>], 
-	[<ore:manaDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:manaDiamond>], 
 	[null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null], 
+	[<psi:material:1>, <psi:material:1>, <mekanism:compresseddiamond>, <mekanism:crystal:2>, <mekanism:compresseddiamond>, <psi:material:1>, <psi:material:1>], 
+	[<astralsorcery:itemcraftingcomponent:4>, <mekanism:compresseddiamond>, <botania:manaresource>, <enderio:item_alloy_endergy_ingot:1>, <botania:manaresource>, <mekanism:compresseddiamond>, <astralsorcery:itemcraftingcomponent:4>], 
+	[<psi:material:1>, <psi:material:1>, <mekanism:compresseddiamond>, <mekanism:crystal:2>, <mekanism:compresseddiamond>, <psi:material:1>, <psi:material:1>], 
 	[null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null]
 ]);
@@ -448,5 +450,12 @@ recipes.addShaped(<extendedcrafting:material:7>, [[<erebus:materials:12>, <ender
 #Black Iron Nugget
 recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_to");
 recipes.removeByRecipeName("extendedcrafting:black_iron_ingot_from");
+
+#Black Iron Frame
+recipes.remove(<extendedcrafting:frame>);
+recipes.addShaped(<extendedcrafting:frame>, [[<extendedcrafting:material>, <ore:paneGlass>, <extendedcrafting:material>],[<ore:paneGlass>, <nuclearcraft:part:10>, <ore:paneGlass>], [<extendedcrafting:material>, <ore:paneGlass>, <extendedcrafting:material>]]);
+
+#Black Iron
+recipes.remove(<extendedcrafting:material>);
 
 print("- ExtendedCrafting.zs initialized");

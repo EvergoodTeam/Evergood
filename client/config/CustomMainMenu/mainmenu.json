@@ -168,7 +168,7 @@
 	        {
 	            "images" : 
 		        [
-		        "custommainmenu:background/1.png","custommainmenu:background/2.png","custommainmenu:background/3.png","custommainmenu:background/4.png","custommainmenu:background/5.png","custommainmenu:background/6.png","custommainmenu:background/7.png"
+		        "custommainmenu:background/1.png","custommainmenu:background/2.png","custommainmenu:background/3.png","custommainmenu:background/4.png","custommainmenu:background/5.png","custommainmenu:background/6.png","custommainmenu:background/7.png","custommainmenu:background/8.png"
 		        ],
                 "displayDuration" : 250,
                 "fadeDuration" : 100,

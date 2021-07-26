@@ -14,7 +14,7 @@ recipes.addShaped(<quantumstorage:quantum_tank>, [[<ore:paneGlass>, <quantumflux
 
 #Quantum battery
 recipes.remove(<quantumstorage:quantum_battery>);
-recipes.addShaped(<quantumstorage:quantum_battery>, [[null, <actuallyadditions:block_crystal_empowered:2>, null],[<enderio:block_alloy:9>, <actuallyadditions:item_battery_quintuple>, <enderio:block_alloy:9>], [<enderio:block_alloy:9>, <actuallyadditions:block_crystal_empowered:3>, <enderio:block_alloy:9>]]);
+recipes.addShaped(<quantumstorage:quantum_battery>, [[null, <nuclearcraft:alloy:4>, null],[<quantumflux:craftingpiece:2>, <nuclearcraft:lithium_ion_battery_elite>, <quantumflux:craftingpiece:2>], [<nuclearcraft:part:3>, <nuclearcraft:part:5>, <nuclearcraft:part:3>]]);
 
 #Gold Casing
 recipes.remove(<quantumflux:craftingpiece:1>);

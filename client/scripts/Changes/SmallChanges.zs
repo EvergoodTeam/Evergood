@@ -1,9 +1,11 @@
+#priority 1
+
 #Sink
 recipes.remove(<cookingforblockheads:sink>);
 recipes.addShaped(<cookingforblockheads:sink>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:hardened_clay>, <magneticraft:water_generator>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 
 #Compacter
-//recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedAlloy>, <compacter:compacter>);
+recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedAlloy>, <compacter:compacter>);
 //recipes.replaceAllOccurences(<minecraft:crafting_table>, <avaritia:compressed_crafting_table>, <compacter:compacter>);
 
 #Machine chassis
@@ -66,10 +68,6 @@ nucleardisc4.maxStackSize = 64;
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
 recipes.addShaped(<mob_grinding_utils:absorption_hopper>, [[null, <minecraft:ender_eye>, null],[null, <openblocks:vacuum_hopper>, null], [<ore:obsidian>, <minecraft:hopper>, <ore:obsidian>]]);
 
-#Offering altar
-recipes.remove(<erebus:altar_offering>);
-recipes.addShaped(<erebus:altar_offering>, [[<ore:stone>, <thermalfoundation:material:353>, <ore:stone>],[<minecraft:stonebrick>, <botania:elfglass>, <minecraft:stonebrick>], [<ore:stone>, <minecraft:stonebrick>, <ore:stone>]]);
-
 #Tree Fluid extractor
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [[<ore:craftingPiston>, <thermalfoundation:material:25>, <ore:craftingPiston>],[<minecraft:iron_bars>, <teslacorelib:machine_case>, <minecraft:iron_bars>], [<thermalfoundation:material:24>, <minecraft:redstone>, <thermalfoundation:material:24>]]);
@@ -84,5 +82,20 @@ recipes.addShaped(<solarflux:mirror>, [[null, null, null],[<ore:paneGlass>, <ore
 #SolarFlux Tier 1
 recipes.remove(<solarflux:solar_panel_1>);
 recipes.addShaped(<solarflux:solar_panel_1>, [[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],[<thermalfoundation:material:352>, <thermalfoundation:material:512>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <thermalfoundation:material:324>, <thermalfoundation:material:352>]]);
+
+#Uncrafting Table
+recipes.remove(<twilightforest:uncrafting_table>);
+
+#Logistics Block Frame
+recipes.remove(<logisticspipes:frame>);
+recipes.addShaped(<logisticspipes:frame>, [[null, <thermalfoundation:material:514>, null],[<thermalfoundation:material:352>, <thermalexpansion:frame:64>, <thermalfoundation:material:352>], [<thermalfoundation:material:24>, <thermalfoundation:material:512>, <thermalfoundation:material:24>]]);
+
+#Endest Furnace
+recipes.remove(<furnaceoverhaul:end_furnace>);
+recipes.addShaped(<furnaceoverhaul:end_furnace>, [[<minecraft:ender_pearl>, <ore:endstone>, <minecraft:ender_pearl>],[<ore:endstone>, <furnaceoverhaul:emerald_furnace>, <ore:endstone>], [<minecraft:ender_pearl>, <ore:endstone>, <minecraft:ender_pearl>]]);
+
+#Zenith furnace
+recipes.remove(<furnaceoverhaul:zenith_furnace>);
+recipes.addShaped(<furnaceoverhaul:zenith_furnace>, [[<ore:blockBlaze>, <mysticalagradditions:special>, <ore:blockBlaze>],[<minecraft:nether_brick>, <furnaceoverhaul:end_furnace>, <minecraft:nether_brick>], [<ore:blockBlaze>, <mysticalagriculture:coal_block:4>, <ore:blockBlaze>]]);
 
 print("- SmallChanges.zs initialized");

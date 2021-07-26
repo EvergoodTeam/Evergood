@@ -12,7 +12,7 @@ mods.chisel.Carving.addGroup("guides");
     addVariation("guides", <opencomputers:tool:4>);
     addVariation("guides", <openblocks:info_book>);
     addVariation("guides", <guideapi:cyclicmagic-guide>);
-    addVariation("guides", <extendedcrafting:guide>.withTag({TopicsPage: 0, EntryId: 1, EntryPage: 1}));
+    //addVariation("guides", <extendedcrafting:guide>.withTag({TopicsPage: 0, EntryId: 1, EntryPage: 1}));
     addVariation("guides", <actuallyadditions:item_booklet>);
     addVariation("guides", <extrautils2:book>);
     addVariation("guides", <immersiveengineering:tool:3>);
@@ -25,6 +25,7 @@ mods.chisel.Carving.addGroup("guides");
     addVariation("guides", <rftoolscontrol:rftoolscontrol_manual>);
     addVariation("guides", <rftoolsdim:rftoolsdim_manual>);
     addVariation("guides", <xnet:xnet_manual>);
+    addVariation("guides", <logisticspipes:guide_book>);
 
 recipes.removeByRecipeName("solcarrot:food_book 2");
 

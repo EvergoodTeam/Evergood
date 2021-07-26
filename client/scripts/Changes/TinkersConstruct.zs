@@ -41,4 +41,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 1296,<bigreactors:blockye
 mods.tconstruct.Casting.addTableRecipe(<bigreactors:ingotyellorium>, <tconstruct:cast_custom>, <liquid:yellorium>, 140);
 mods.tconstruct.Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liquid:yellorium>, 1296);
 
+mods.tconstruct.Melting.removeRecipe(<liquid:yellorium>, <exnihilocreatio:item_ore_yellorium:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 280,<exnihilocreatio:item_ore_yellorium:1>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 140,<bigreactors:dustyellorium>);
+
 print("- TinkersConstruct.zs initialized");

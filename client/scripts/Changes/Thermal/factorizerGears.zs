@@ -1,24 +1,6 @@
 #modloaded thermalexpansion
 
 #Removed crafting table gear recipes
-recipes.remove(<jaopca:item_gearardite>);
-recipes.remove(<jaopca:item_gearastralstarmetal>);
-recipes.remove(<jaopca:item_gearboron>);
-recipes.remove(<jaopca:item_gearcobalt>);
-recipes.remove(<jaopca:item_geardraconium>);
-recipes.remove(<jaopca:item_gearlithium>);
-recipes.remove(<jaopca:item_gearosmium>);
-recipes.remove(<jaopca:item_gearthorium>);
-recipes.remove(<jaopca:item_geartungsten>);
-recipes.remove(<jaopca:item_gearuranium>);
-recipes.remove(<jaopca:item_gearyellorium>);
-recipes.remove(<jaopca:item_gearaquamarine>);
-recipes.remove(<jaopca:item_gearcoal>);
-recipes.remove(<jaopca:item_gearjade>);
-recipes.remove(<jaopca:item_gearlapis>);
-recipes.remove(<jaopca:item_gearperidot>);
-recipes.remove(<jaopca:item_gearquartz>);
-recipes.remove(<jaopca:item_gearquartzblack>);
 recipes.remove(<pneumaticcraft:compressed_iron_gear>);
 recipes.remove(<redstonearsenal:material:96>);
 recipes.remove(<thermalfoundation:material:24>);

@@ -1,5 +1,6 @@
 [
   "explosive",
+  "psicological",
   "synergy",
   "indomitable_armor",
   "natureswrath",
