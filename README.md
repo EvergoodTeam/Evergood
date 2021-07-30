@@ -19,7 +19,7 @@ https://discord.gg/k2P68Y8
 
 - Files provided in the "Server" folder are only used by the Serverpack
 
-- The "Server" and "Client" folder do **NOT** provide the "mods" folder, since that would just be distribution without permission on a third party.
+- The "Server" and "Client" folder do **NOT** provide the "mods" folder, since that would just be distribution of someone else's property without permission on a third party.
 
 You can obtain a copy of the "mods" folder either by downloading the Modpack or the Server Pack from [Curseforge](https://www.curseforge.com/minecraft/modpacks/evergood/files).
 The latter will contain no client mods.
