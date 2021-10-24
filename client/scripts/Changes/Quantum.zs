@@ -1,5 +1,3 @@
-#modloaded quantumstorage
-
 #Iron tier
 recipes.remove(<quantumstorage:chest_iron>);
 recipes.addShaped(<quantumstorage:chest_iron>, [[<ore:plankWood>, <ore:chest>, <ore:plankWood>],[<minecraft:iron_ingot>, <ore:drawerBasic>, <minecraft:iron_ingot>], [<ore:plankWood>, <ore:chest>, <ore:plankWood>]]);
@@ -37,4 +35,5 @@ recipes.remove(<quantumflux:craftingpiece:3>);
 mods.mekanism.enrichment.addRecipe(<minecraft:ender_pearl>, <quantumflux:craftingpiece:3>);
 recipes.removeByRecipeName("quantumflux:ender_pearl");
 
-print("- Quantum.zs initialized");
+
+print("- Quantum.zs Initialized");

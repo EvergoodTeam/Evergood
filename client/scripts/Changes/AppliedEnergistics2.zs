@@ -20,4 +20,5 @@ recipes.addShaped(<appliedenergistics2:part:380>, [[<appliedenergistics2:materia
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:7>, <appliedenergistics2:smooth_sky_stone_block>],[<minecraft:sticky_piston>, <ore:paneGlass>, <minecraft:sticky_piston>], [<appliedenergistics2:smooth_sky_stone_block>, <mekanism:controlcircuit>, <appliedenergistics2:smooth_sky_stone_block>]]);
 
-print("- AppliedEnergistics2.zs initialized");
+
+print("- AppliedEnergistics2.zs Initialized");

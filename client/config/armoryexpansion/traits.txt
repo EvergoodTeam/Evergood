@@ -97,7 +97,6 @@
   "aridiculous",
   "vindictive",
   "naturespower",
-  "im_a_superstar",
   "morganlefay",
   "shielding_armor",
   "aridiculous_armor",

@@ -1,5 +1,3 @@
-#modloaded tconstruct
-
 #Controller
 recipes.remove(<tconstruct:smeltery_controller>);
 recipes.addShaped(<tconstruct:smeltery_controller>, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <tcomplement:porcelain_melter>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
@@ -34,7 +32,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 #Seared bricks
 furnace.remove(<tconstruct:materials>, <tconstruct:soil>);
 
-#Yellorium
+//Yellorium
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 140,<bigreactors:ingotyellorium>);
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 1296,<bigreactors:blockyellorium>);
 
@@ -45,4 +43,5 @@ mods.tconstruct.Melting.removeRecipe(<liquid:yellorium>, <exnihilocreatio:item_o
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 280,<exnihilocreatio:item_ore_yellorium:1>);
 mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 140,<bigreactors:dustyellorium>);
 
-print("- TinkersConstruct.zs initialized");
+
+print("- TinkersConstruct.zs Initialized");

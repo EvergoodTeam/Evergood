@@ -1,5 +1,3 @@
-#modloaded thermalexpansion
-
 #Coal block
 recipes.remove(<minecraft:coal_block>);
 recipes.removeShaped(<minecraft:coal> *9, [[<minecraft:coal_block>]]);
@@ -195,15 +193,15 @@ recipes.remove(<extendedcrafting:storage:3>);
 recipes.removeShapeless(<extendedcrafting:material:24>, [<extendedcrafting:storage:3>]);
 
 #Starmetal block
-recipes.remove(<jaopca:block_blockastralstarmetal>);
-recipes.removeShapeless(<astralsorcery:itemcraftingcomponent:1>, [<jaopca:block_blockastralstarmetal>]);
+recipes.remove(<evergoodutilities:block_astralstarmetal>);
+recipes.removeShapeless(<astralsorcery:itemcraftingcomponent:1>, [<evergoodutilities:block_astralstarmetal>]);
 
 #Aquamarine block
-recipes.remove(<jaopca:block_blockaquamarine>);
-recipes.removeShapeless(<astralsorcery:itemcraftingcomponent>, [<jaopca:block_blockaquamarine>]);
+recipes.remove(<evergoodutilities:block_aquamarine>);
+recipes.removeShapeless(<astralsorcery:itemcraftingcomponent>, [<evergoodutilities:block_aquamarine>]);
 
-mods.thermalexpansion.Factorizer.addRecipeCombine(<astralsorcery:itemcraftingcomponent> * 9, <jaopca:block_blockaquamarine>);
-mods.thermalexpansion.Factorizer.addRecipeSplit(<jaopca:block_blockaquamarine>, <astralsorcery:itemcraftingcomponent> * 9);
+mods.thermalexpansion.Factorizer.addRecipeCombine(<astralsorcery:itemcraftingcomponent> * 9, <evergoodutilities:block_aquamarine>);
+mods.thermalexpansion.Factorizer.addRecipeSplit(<evergoodutilities:block_aquamarine>, <astralsorcery:itemcraftingcomponent> * 9);
 
 #Knightmetal block
 recipes.remove(<twilightforest:knightmetal_block>);
@@ -378,6 +376,14 @@ recipes.removeShapeless(<erebus:materials:1>, [<erebus:jade_block>]);
 mods.thermalexpansion.Factorizer.addRecipeCombine(<erebus:materials:1> * 9, <erebus:jade_block>);
 mods.thermalexpansion.Factorizer.addRecipeSplit(<erebus:jade_block>, <erebus:materials:1> * 9);
 
+#Palladium block
+recipes.remove(<ore:blockPalladium>);
+recipes.removeShapeless(<ore:ingotPalladium>, [<ore:blockPalladium>]);
+
+#Mercury block
+recipes.remove(<ore:blockMercury>);
+recipes.remove(<ore:ingotMercury>);
+
 #-------------------------------------------------------------------------------------------------
 #Infinity block
 recipes.remove(<avaritia:block_resource:1>);
@@ -514,4 +520,9 @@ recipes.removeByRecipeName("actuallyadditions:recipes216");
 recipes.removeByRecipeName("actuallyadditions:recipes217");
 mods.thermalexpansion.Factorizer.addRecipeBoth(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5> * 9);
 
-print("- factorizerBlocks.zs from ThermalExpansion initialized");
+#Blaze Mesh
+recipes.remove(<botania:blazeblock>);
+recipes.removeShapeless(<minecraft:blaze_rod>, [<botania:blazeblock>]);
+mods.thermalexpansion.Factorizer.addRecipeBoth(<botania:blazeblock>, <minecraft:blaze_rod> * 9);
+
+print("- FactorizerBlocks.zs from ThermalExpansion initialized");

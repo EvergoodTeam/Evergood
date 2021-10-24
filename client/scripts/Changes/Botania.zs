@@ -82,4 +82,5 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:sky_stone_seeds>, [<applie
 recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:certus_quartz_seeds>, [<appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_block>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
 
-print("- Botania.zs initialized");
+
+print("- Botania.zs Initialized");

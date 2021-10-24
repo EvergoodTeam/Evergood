@@ -6,4 +6,5 @@ recipes.addShaped(<agricraft:clipper>, [[null, <minecraft:iron_ingot>, null],[<i
 recipes.remove(<agricraft:crop_sticks>);
 recipes.addShaped(<agricraft:crop_sticks>, [[<immersiveengineering:material>, <immersiveengineering:material>, null],[<immersiveengineering:material>, <immersiveengineering:material>, null], [null, null, null]]);
 
-print("- Agricraft.zs initialized");
+
+print("- Agricraft.zs Initialized");

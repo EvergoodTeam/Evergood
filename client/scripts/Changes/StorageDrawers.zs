@@ -18,4 +18,5 @@ recipes.addShaped(<storagedrawers:upgrade_storage:4>, [[<minecraft:stick>, <mine
 recipes.remove(<storagedrawers:upgrade_status:1>);
 recipes.addShaped(<storagedrawers:upgrade_status:1>, [[<minecraft:comparator>, <minecraft:stick>, <minecraft:comparator>],[<minecraft:stick>, <storagedrawers:upgrade_status>, <minecraft:stick>], [<minecraft:redstone>, <minecraft:stick>, <minecraft:redstone>]]);
 
-print("- StorageDrawers.zs initialized");
+
+print("- StorageDrawers.zs Initialized");

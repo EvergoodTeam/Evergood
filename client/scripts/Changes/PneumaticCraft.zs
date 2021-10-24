@@ -16,4 +16,8 @@ recipes.addShaped(<pneumaticcraft:pressure_chamber_wall> * 2, [[<enderio:item_al
 recipes.remove(<pneumaticcraft:refinery>);
 recipes.addShaped(<pneumaticcraft:refinery>, [[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:pressure_chamber_wall>, <pneumaticcraft:ingot_iron_compressed>],[<ore:paneGlassColorless>, <enderio:block_tank>, <ore:paneGlassColorless>], [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:pressure_chamber_wall>, <pneumaticcraft:ingot_iron_compressed>]]);
 
-print("- PneumaticCraft.zs initialized");
+#PCB Blueprint
+mods.pneumaticcraft.assembly.addLaserRecipe(<pneumaticcraft:plastic:4>, <pneumaticcraft:pcb_blueprint>);
+
+
+print("- PneumaticCraft.zs Initialized");

@@ -7,7 +7,7 @@ recipes.addShaped(<magneticraft:crafting:1>, [[<thermalfoundation:material:352>,
 #Removed plates beacuse of conflict
 mods.magneticraft.CrushingTable.removeRecipe(<thermalfoundation:material:160>);
 
-#Added plates
+//Added plates
 addRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:32>, true);
 addRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:33>, true);
 addRecipe(<thermalfoundation:material:128>, <thermalfoundation:material:320>, true);
@@ -35,4 +35,24 @@ addRecipe(<extendedcrafting:material:0>, <extendedcrafting:material:2>, true);
 addRecipe(<bigreactors:ingotyellorium>, <bigreactors:dustyellorium>, true);
 addRecipe(<bigreactors:ingotgraphite>, <nuclearcraft:dust:8>, true);
 
-print("- Magneticraft.zs initialized");
+/*
+#Zinc
+recipes.remove(<magneticraft:ingots:14>);
+recipes.remove(<magneticraft:dusts:14>);
+
+#SluiceBox
+mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:9>);
+mods.magneticraft.SluiceBox.addRecipe(<magneticraft:rocky_chunks:9>, 1.0, <magneticraft:chunks:9>, 0.15, <mekanism:dust:2>, 0.15, <evergoodutilities:dust_zinc>, true);
+
+#Sieve
+mods.magneticraft.Sieve.removeRecipe(<magneticraft:rocky_chunks:9>);
+mods.magneticraft.Sieve.addRecipe(<magneticraft:rocky_chunks:9>, <magneticraft:chunks:9>, 1.0, <mekanism:dust:2>, 0.15, <evergoodutilities:dust_zinc>, 0.15, 50, true);
+
+mods.immersiveengineering.Crusher.removeRecipe(<magneticraft:dusts:14>);
+*/
+
+#Tungsten ore name
+<magneticraft:ores:3>.displayName = "Tungsten Ore";
+
+
+print("- Magneticraft.zs Initialized");

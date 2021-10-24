@@ -1,5 +1,3 @@
-#modloaded mysticalagradditions matc
-
 #Inferium
 recipes.remove(<matc:inferiumcrystal>);
 recipes.addShaped(<matc:inferiumcrystal>, [[<mysticalagriculture:crafting:33>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:33>],[<mysticalagriculture:crafting>, <botania:manaresource:2>, <mysticalagriculture:crafting>], [<mysticalagriculture:crafting:33>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:33>]]);
@@ -64,8 +62,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mysticalagradditions:stuff:69>
 	[<extendedcrafting:material:33>, null, null, null, <extendedcrafting:material:33>], 
 	[<astralsorcery:itemcraftingcomponent:1>, <extendedcrafting:material:33>, <mysticalagradditions:insanium>, <extendedcrafting:material:33>, <astralsorcery:itemcraftingcomponent:1>], 
 	[<thaumcraft:ingot:1>, <mysticalagradditions:insanium>, <mysticalagriculture:master_infusion_crystal>.anyDamage(), <mysticalagradditions:insanium>, <thaumcraft:ingot:1>], 
-	[<astralsorcery:itemcraftingcomponent:1>, <avaritia:resource:4>, <mysticalagradditions:insanium>, <avaritia:resource:4>, <astralsorcery:itemcraftingcomponent:1>], 
+	[<astralsorcery:itemcraftingcomponent:1>, <avaritia:resource:6>, <mysticalagradditions:insanium>, <avaritia:resource:6>, <astralsorcery:itemcraftingcomponent:1>], 
 	[<extendedcrafting:material:33>, <astralsorcery:itemcraftingcomponent:1>, <thaumcraft:ingot:1>, <astralsorcery:itemcraftingcomponent:1>, <extendedcrafting:material:33>]
 ]);
 
-print("- MysticalAgriculture.zs initialized");
+
+print("- MysticalAgriculture.zs Initialized");

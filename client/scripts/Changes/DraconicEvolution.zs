@@ -16,4 +16,5 @@ recipes.addShaped(<draconicevolution:draconic_core>, [[<mekanism:compresseddiamo
 recipes.remove(<draconicevolution:wyvern_energy_core>);
 recipes.addShaped(<draconicevolution:wyvern_energy_core>, [[<draconicevolution:draconium_ingot>, <actuallyadditions:item_battery_quintuple>, <draconicevolution:draconium_ingot>],[<nuclearcraft:part:3>, <draconicevolution:draconic_core>, <nuclearcraft:part:3>], [<draconicevolution:draconium_ingot>, <actuallyadditions:item_battery_quintuple>, <draconicevolution:draconium_ingot>]]);
 
-print("- DraconicEvolution.zs initialized");
+
+print("- DraconicEvolution.zs Initialized");

@@ -1,0 +1,60 @@
+# Tips
+evergood.tips.1=Quest descriptions hold useful information and instructions about the tasks you're asked to complete.
+evergood.tips.2=Don't forget to make some waypoints.
+evergood.tips.3=Playing with friends is 90%% of the time more fun.
+evergood.tips.4=Don't procrastinate on automation.
+evergood.tips.5=When crafting, making more than the required amount of ingredients can help you later on.
+evergood.tips.6=The ME Controller has 32 channels on each side.
+evergood.tips.7=The bigger the smeltery the laggier the experience.
+evergood.tips.8=Many great and useful mods are included other than the ones covered in the quests, make sure to check them out.
+evergood.tips.9=The Modpack already features many mods targeted towards Performance. If you are still experiencing a slow game, Optifine could help.
+evergood.tips.10=The Bloodmoon has a 10%% chance of appearing each night.
+evergood.tips.11=During a Bloodmoon you won't be able to sleep.
+evergood.tips.12=You can find clay underground and in river beds.
+evergood.tips.13=You can only get seared bricks by melting grout in a smeltery.
+evergood.tips.14=Every time you eat 5 consumables you never tried before you will gain a heart.
+evergood.tips.15=When building a mob farm, make sure it's 24 blocks from your base. Cursed Earth does not require this condition.
+evergood.tips.16=Always run the command "/bq_admin default load" after updating the modpack to update the Quest Book.
+evergood.tips.17=Don't forget to read the changelog before updating.
+evergood.tips.18=An organized Base is key to fast progression.
+evergood.tips.19=You can check the consumables you still haven't tried in the Food Book.
+evergood.tips.20=You can convert between different guides and books with a chisel.
+evergood.tips.21=The Ender Dragon and the Wither do not get stronger each time you kill them.
+evergood.tips.22=An automated sieving system early on will provide you with plenty of resources.
+evergood.tips.23=Mystical Agriculture is available as soon as you have a Coke Oven.
+evergood.tips.24=Each seed tier in Mystical Agriculture is locked behind a different Altar.
+evergood.tips.25=You can only grow crops using the Crop Sticks.
+evergood.tips.26=Each quest line has a description that tells you which mods are covered.
+evergood.tips.27=You can change/disable custom sounds in the DynamicSurroundings config.
+evergood.tips.28=Compact Machines offer a room to store anything you want, from small automated systems and storage to magical areas.
+evergood.tips.29=Blood Magic offers many different runes to upgrade different aspects of the Blood Altar/LP generation.
+evergood.tips.30=Mobs can spawn on Vector Plates as long as the block under them are a valid spawning space (like Cursed Earth).
+evergood.tips.31=You can have an operational ME System without the ME Controller or the ME Drive.
+evergood.tips.32=You can automate PneumaticCraft with the use of redstone.
+evergood.tips.33=Lava is a great way of generating power early on.
+evergood.tips.34=JourneyMap uses the world name to save the map, so having two worlds with the same name will override any existing map.
+evergood.tips.35=You can choose between the Biomes O' Plenty world generation or the Biome Bundle O' Plenty one.
+evergood.tips.36=You can filter chat messages using ChatFlow.
+evergood.tips.37=You can convert Sugar Canes and other Flora into their respective Seeds with Crop Sticks or the Seed Analyzer.
+evergood.tips.38=The Pitcher Plant acts as an infinite source of Water.
+evergood.tips.39=Waystones work across Dimensions.
+evergood.tips.40=Sneaking on Vector Plates will block them from moving you.
+evergood.tips.41=The Mega Torch has a 64 block radius.
+evergood.tips.42=The Mega Torch doesn't affect Monster Spawners, Cursed Earth included.
+evergood.tips.43=Clippers allow you to get a copy of any planted Seed.
+evergood.tips.44=Don't forget to delete old Backups.
+
+# Extra Utils 2 fix
+entity.Villager.alchemist=Alchemist
+entity.Villager.red_mechanic=Red Priest
+entity.Villager.shady_merchant=Shady Merchant
+
+# Versioner
+versioner.variables.current_version=§7Current Version:
+versioner.variables.latest_version=§7Latest Version:
+versioner.variables.update_link=§9§nUpdate Link
+versioner.variables.n_versions_newer=
+versioner.variables.update_chat_message_title=§f§oEvergood has an Update Available
+versioner.variables.update_available.true=§a§nUpdate Available!§r §f-§r %s
+versioner.variables.update_available.latest=§fLatest Version: %s
+versioner.variables.update_available.false=§a§nRunning Latest

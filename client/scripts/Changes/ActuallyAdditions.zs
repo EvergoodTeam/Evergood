@@ -60,4 +60,4 @@ recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, <actuallyadditi
 recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, <actuallyadditions:block_crystal:5>, <actuallyadditions:item_boots_crystal_white>);
 
 
-print("- ActuallyAdditions.zs initialized");
+print("- ActuallyAdditions.zs Initialized");

@@ -10,7 +10,7 @@ recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone>, <e
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<thermalfoundation:material:32>, null, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);
 
-#Flint and steel
+#Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<thermalfoundation:material:160>,<minecraft:flint>]);
 
@@ -18,4 +18,5 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<thermalfoundation:material:1
 recipes.remove(<minecraft:end_crystal>);
 recipes.addShaped(<minecraft:end_crystal>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <minecraft:ender_eye>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <minecraft:ghast_tear>, <ore:blockGlassColorless>]]);
 
-print("- Vanilla.zs initialized");
+
+print("- Vanilla.zs Initialized");

@@ -43,4 +43,5 @@ recipes.removeShaped(<danknull:dank_null_4>, [[null, <danknull:dank_null_panel_4
 #Tier 6
 recipes.removeShaped(<danknull:dank_null_5>, [[null, <danknull:dank_null_panel_5>, null],[<danknull:dank_null_panel_5>, <danknull:dank_null_panel_5>, <danknull:dank_null_panel_5>], [null, <danknull:dank_null_panel_5>, null]]);
 
-print("- danknull.zs initialized");
+
+print("- danknull.zs Initialized");

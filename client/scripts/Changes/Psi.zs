@@ -34,4 +34,5 @@ recipes.addShaped(<psi:cad_assembler>, [[<botania:quartztypedark>, <botania:open
 recipes.remove(<psi:programmer>);
 recipes.addShaped(<psi:programmer>, [[<botania:quartztypedark>, <botania:quartztypedark>, <botania:quartztypedark>],[<thermalfoundation:material:160>, <enderio:item_capacitor_crystalline>, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>]]);
 
-print("- Psi.zs initialized");
+
+print("- Psi.zs Initialized");

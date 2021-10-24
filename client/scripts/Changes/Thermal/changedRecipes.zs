@@ -1,5 +1,3 @@
-#modloaded thermalexpansion
-
 #Machine frame
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped(<thermalexpansion:frame>, [[<thermalfoundation:material:160>, <ore:blockGlass>, <thermalfoundation:material:160>],[<ore:blockGlass>, <thermalexpansion:frame:64>, <ore:blockGlass>], [<thermalfoundation:material:160>, <ore:blockGlass>, <thermalfoundation:material:160>]]);
@@ -41,4 +39,9 @@ recipes.addShaped(<thermalexpansion:dynamo:1>, [[null, <thermalfoundation:materi
 recipes.remove(<thermalexpansion:dynamo:0>);
 recipes.addShaped(<thermalexpansion:dynamo:0>, [[null, <thermalfoundation:material:514>, null],[<immersiveengineering:material:9>, <ore:gearCopper>, <immersiveengineering:material:9>], [<immersiveengineering:metal_device0:1>, <immersiveengineering:wirecoil:5>, <immersiveengineering:metal_device0:1>]]);
 
-print("- changedRecipes.zs from ThermalExpansion initialized");
+//OreDict Recipe Fixes
+recipes.removeByRecipeName("thermalfoudnation:gem");
+recipes.addShaped(<netherex:amethyst_crystal> * 2, [[<netherex:amethyst_ore>, <thermalfoundation:material:1027>, null],[null, null, null], [null, null, null]]);
+
+
+print("- ChangedRecipes.zs from ThermalExpansion Initialized");

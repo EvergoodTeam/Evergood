@@ -67,7 +67,9 @@ recipes.replaceAllOccurences(<minecraft:redstone>, <enderio:item_alloy_ingot:3>,
 recipes.remove(<mekanism:energytablet>);
 recipes.addShaped(<mekanism:energytablet>, [[null, <nuclearcraft:ingot:6>, null],[<mekanism:enrichedalloy>, <actuallyadditions:item_battery_double>, <mekanism:enrichedalloy>], [<enderio:item_alloy_ingot>, <mekanism:controlcircuit>, <enderio:item_alloy_ingot>]]);
 
-#Mercury
-mods.mekanism.purification.addRecipe(<thaumcraft:ore_cinnabar>, <gas:oxygen>, <jaopca:item_clumpmercury>);
+#Black Iron
+recipes.remove(<extendedcrafting:material>);
+mods.mekanism.infuser.addRecipe("CARBON", 20, <nuclearcraft:alloy:1>, <extendedcrafting:material>);
 
-print("- Mekanism.zs initialized");
+
+print("- Mekanism.zs Initialized");

@@ -2,7 +2,7 @@
 
 #Deep dark portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>],[<extrautils2:compressedcobblestone:7>, null, <extrautils2:compressedcobblestone:7>], [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]]);
+recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>],[<extrautils2:compressedcobblestone:7>, <waystones:warp_stone>, <extrautils2:compressedcobblestone:7>], [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]]);
 
 #Transfer node
 recipes.remove(<extrautils2:grocket>);
@@ -32,4 +32,10 @@ recipes.addShaped(<extrautils2:ingredients>, [[null, <minecraft:redstone>, null]
 recipes.remove(<extrautils2:resonator>);
 recipes.addShaped(<extrautils2:resonator>, [[<projectred-core:resource_item:103>, <ore:gemRedstone>, <projectred-core:resource_item:103>],[<minecraft:coal_block>, <actuallyadditions:block_misc:9>, <minecraft:coal_block>], [<minecraft:iron_ingot>, <thermalfoundation:material:24>, <minecraft:iron_ingot>]]);
 
-print("- ExtraUtils2.zs initialized");
+//Unstable Ingot
+recipes.remove(<extrautils2:unstableingots>);
+recipes.addShaped(<extrautils2:unstableingots>, [[null, <draconicevolution:draconic_ingot>, null],[null, <ore:stickWood>, null], [null, <minecraft:diamond>, null]]);
+recipes.replaceAllOccurences(<minecraft:iron_nugget>, <draconicevolution:nugget:1>, <extrautils2:unstableingots:1>);
+
+
+print("- ExtraUtils2.zs Initialized");

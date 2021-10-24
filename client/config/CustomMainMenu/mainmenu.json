@@ -3,11 +3,11 @@
     {
         "title":
         {
-            "image" : "custommainmenu:title/evergood.PNG",
-            "posX" : -166,
-            "posY" : 18,
+            "image" : "customloadingscreen:image/evergood/evergood.PNG",
+            "posX" : -167,
+            "posY" : 27,
             "width" : 335,
-            "height" : 115,
+            "height" : 82,
             "alignment" : "top_center"
         }
     },
@@ -44,11 +44,13 @@
         
         "mods":
         {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "text" : "",
+            "tooltip": "Mods",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
             "height" : 20,
+            "texture" : "custommainmenu:buttons/mods.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -83,39 +85,27 @@
             }
         },
         
-        "language":
+        "folder":
         {
             "text" : "",
-            "posX" : -124,
+            "tooltip": "Open Modpack Folder",
+            "posX" : 104,
             "posY" : 132,
             "width" : 20,
             "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
+            "texture" : "custommainmenu:buttons/folder.png",
+            "action": {
+                "type": "openFolder",
+                "folderName": "/"
             }
         },
         
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 166,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        },
-
 	    "discord":
         {
             "text" : "",
-            "posX" : 104,
-            "posY" : 166,
+            "tooltip": "Evergood Discord Server",
+            "posX" : -124,
+            "posY" : 96,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:buttons/discord.png",
@@ -129,8 +119,9 @@
 	    "github":
         {
             "text" : "",
+            "tooltip": "GitHub Issues Page",
             "posX" : 104,
-            "posY" : 132,
+            "posY" : 96,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:buttons/github.png",
@@ -143,14 +134,13 @@
 
         "partner":
         {
-            "text" : "Rent a Server",
-            "hoverText": "BisectHosting",
+            "text" : "BisectHosting",
+            "hoverText": "Code Libra for 25%% off",
+            "tooltip": "Support Us!",
             "posX" : -100,
-            "posY" : 166,
+            "posY" : 96,
             "width" : 200,
             "height" : 20,
-            "normalTextColor": 16777215,
-            "hoverTextColor": 130000,
             "action" : 
             {
                 "type" : "openLink",

@@ -1,6 +1,8 @@
 #modloaded chisel
 import mods.chisel.Carving.addVariation;
 
+recipes.removeByRecipeName("solcarrot:food_book 2");
+
 mods.chisel.Carving.addGroup("guides");
     addVariation("guides", <questbook:itemquestbook>);
     addVariation("guides", <astralsorcery:itemjournal>);
@@ -27,6 +29,5 @@ mods.chisel.Carving.addGroup("guides");
     addVariation("guides", <xnet:xnet_manual>);
     addVariation("guides", <logisticspipes:guide_book>);
 
-recipes.removeByRecipeName("solcarrot:food_book 2");
 
-print("- Chisel.zs initialized");
+print("- Chisel.zs Initialized");

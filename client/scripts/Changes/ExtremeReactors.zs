@@ -24,4 +24,5 @@ recipes.addShaped(<bigreactors:turbinehousing>, [[<nuclearcraft:part:1>, <nuclea
 recipes.remove(<bigreactors:turbinehousingcores>);
 recipes.addShaped(<bigreactors:turbinehousingcores>, [[<thermalfoundation:material:352>, <ore:ingotGraphite>, <thermalfoundation:material:352>],[<nuclearcraft:alloy:6>, <quantumflux:craftingpiece:5>, <nuclearcraft:alloy:6>], [<thermalfoundation:material:352>, <ore:ingotYellorium>, <thermalfoundation:material:352>]]);
 
-print("- ExtremeReactors.zs initialized");
+
+print("- ExtremeReactors.zs Initialized");

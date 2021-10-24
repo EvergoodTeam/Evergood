@@ -75,6 +75,14 @@
     {
       "item": "thermalfoundation:material|358",
       "emc": 704
+    },
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 4294967296
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 2048
     }
   ]
 }

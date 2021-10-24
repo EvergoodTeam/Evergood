@@ -9,4 +9,5 @@
 #Bacteria Vector name fix
 <genetics:binnie.bacteria.vector>.displayName = "Bacteria Vector";
 
-print("- BinniesMods.zs initialized");
+
+print("- BinniesMods.zs Initialized");

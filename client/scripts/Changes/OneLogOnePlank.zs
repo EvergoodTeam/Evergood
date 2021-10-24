@@ -536,4 +536,5 @@ recipes.addShaped(<twilightforest:canopy_planks>, [[<twilightforest:twilight_log
 recipes.removeShapeless(<twilightforest:twilight_oak_planks> * 4, [<twilightforest:twilight_log>]);
 recipes.addShaped(<twilightforest:twilight_oak_planks>, [[<twilightforest:twilight_log>]]);
 
-print("- OneLogOnePlank.zs initialized");
+
+print("- OneLogOnePlank.zs Initialized");

@@ -1,8 +1,0 @@
-versioner.variables.current_version=§7Current Version:
-versioner.variables.latest_version=§7Latest Version:
-versioner.variables.update_link=§9§nUpdate Link
-versioner.variables.n_versions_newer=
-versioner.variables.update_chat_message_title=§f§oEvergood has an Update Available
-versioner.variables.update_available.true=§a§nUpdate Available!§r §f-§r %s
-versioner.variables.update_available.latest=§fLatest Version: %s
-versioner.variables.update_available.false=§a§nRunning Latest

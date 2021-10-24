@@ -1,5 +1,3 @@
-#modloaded agricraft
-
 #Capacitors
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>],[<immersiveengineering:wirecoil:2>, <immersiveengineering:metal_device0:1>, <immersiveengineering:wirecoil:2>], [<ore:plankTreatedWood>, <magneticraft:crafting:1>, <ore:plankTreatedWood>]]);
@@ -17,7 +15,7 @@ recipes.addShaped(<immersiveengineering:material:9>, [[null, <thermalfoundation:
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShaped(<immersiveengineering:material:8>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <thermalfoundation:material:128>, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);
 
-#Coils
+//Coils
 recipes.remove(<immersiveengineering:wirecoil:5>);
 recipes.remove(<immersiveengineering:wirecoil:4>);
 recipes.remove(<immersiveengineering:wirecoil:3>);
@@ -33,4 +31,5 @@ recipes.addShaped(<immersiveengineering:wirecoil:2> * 2, [[null, <immersiveengin
 recipes.addShaped(<immersiveengineering:wirecoil:1> * 2, [[null, <immersiveengineering:material:21>, null],[<immersiveengineering:material:21>, <ore:stickWood>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil> * 2, [[null, <immersiveengineering:material:20>, null],[<immersiveengineering:material:20>, <ore:stickWood>, <immersiveengineering:material:20>], [null, <immersiveengineering:material:20>, null]]);
 
-print("- ImmersiveEngineering.zs initialized");
+
+print("- ImmersiveEngineering.zs Initialized");

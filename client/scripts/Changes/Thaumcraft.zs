@@ -42,7 +42,7 @@ mods.thaumcraft.Infusion.registerRecipe("refinedobsidian", "", <mysticalagricult
 recipes.remove(<mysticalagriculture:desh_seeds>);
 mods.thaumcraft.Infusion.registerRecipe("desh", "", <mysticalagriculture:desh_seeds>, 10, [<aspect:potentia>, <aspect:ignis>, <aspect:perditio>], <mysticalagriculture:crafting:21>, [<galacticraftplanets:mars:8>, <mysticalagriculture:crafting:4>, <galacticraftplanets:mars:8>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <galacticraftplanets:mars:8>, <mysticalagriculture:crafting:4>, <galacticraftplanets:mars:8>, <thaumcraft:nitor_gray>]);
 recipes.remove(<mysticalagriculture:starmetal_seeds>);
-mods.thaumcraft.Infusion.registerRecipe("starmetal", "", <mysticalagriculture:starmetal_seeds>, 10, [<aspect:metallum>, <aspect:praecantatio>, <aspect:instrumentum>], <mysticalagriculture:crafting:21>, [<jaopca:block_blockastralstarmetal>, <mysticalagriculture:crafting:4>, <jaopca:block_blockastralstarmetal>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]}), <jaopca:block_blockastralstarmetal>, <mysticalagriculture:crafting:4>, <jaopca:block_blockastralstarmetal>, <thaumcraft:nitor_blue>]);
+mods.thaumcraft.Infusion.registerRecipe("starmetal", "", <mysticalagriculture:starmetal_seeds>, 10, [<aspect:metallum>, <aspect:praecantatio>, <aspect:instrumentum>], <mysticalagriculture:crafting:21>, [<evergoodutilities:block_astralstarmetal>, <mysticalagriculture:crafting:4>, <evergoodutilities:block_astralstarmetal>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]}), <evergoodutilities:block_astralstarmetal>, <mysticalagriculture:crafting:4>, <evergoodutilities:block_astralstarmetal>, <thaumcraft:nitor_blue>]);
 recipes.remove(<mysticalagriculture:rock_crystal_seeds>);
 mods.thaumcraft.Infusion.registerRecipe("rockcrystal", "", <mysticalagriculture:rock_crystal_seeds>, 10, [<aspect:terra>, <aspect:vitreus>, <aspect:ordo>], <mysticalagriculture:crafting:21>, [<astralsorcery:blockcustomore>, <mysticalagriculture:crafting:4>, <astralsorcery:blockcustomore>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <astralsorcery:blockcustomore>, <mysticalagriculture:crafting:4>, <astralsorcery:blockcustomore>, <thaumcraft:nitor_white>]);
 recipes.remove(<mysticalagriculture:ender_amethyst_seeds>);
@@ -52,4 +52,9 @@ mods.thaumcraft.Infusion.registerRecipe("draconium", "", <mysticalagriculture:dr
 recipes.remove(<mysticalagriculture:yellorium_seeds>);
 mods.thaumcraft.Infusion.registerRecipe("yellorium", "", <mysticalagriculture:yellorium_seeds>, 10, [<aspect:ignis>, <aspect:fabrico>, <aspect:aer>], <mysticalagriculture:crafting:21>, [<bigreactors:blockyellorium>, <mysticalagriculture:crafting:4>, <bigreactors:blockyellorium>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <bigreactors:blockyellorium>, <mysticalagriculture:crafting:4>, <bigreactors:blockyellorium>, <thaumcraft:nitor_yellow>]);
 
-print("- Thaumcraft.zs initialized");
+#Thaumometer
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("Thaumometer", "First Steps", 20, [<aspect:aer>, <aspect:terra>, <aspect:aqua>, <aspect:ignis>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null, <minecraft:gold_ingot>, null], [<minecraft:gold_ingot>, <astralsorcery:iteminfusedglass>.withTag({astralsorcery: {}}), <minecraft:gold_ingot>], [null, <minecraft:gold_ingot>, null]]);
+
+
+print("- Thaumcraft.zs Initialized");
