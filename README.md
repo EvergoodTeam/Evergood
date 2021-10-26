@@ -17,10 +17,10 @@ Join us on discord for support and updates on upcoming versions:
 https://discord.gg/k2P68Y8
 
 ## Issues
-If you encounter any issue during your playthrough, either with the Modpack itself or the Serverpack, make sure to report it either here on [GitHub](https://github.com/EvergoodTeam/Evergood/issues) or on [Discord](https://discord.gg/k2P68Y8) in the correct channel (#issues)
+If you encounter any issue during your playthrough, either with the Modpack itself or the Server Pack, make sure to report it either here on [GitHub](https://github.com/EvergoodTeam/Evergood/issues) or on [Discord](https://discord.gg/k2P68Y8) in the correct channel (#issues)
 
 ## Notes
-- Files provided in the "Client" folder are to be shared between the Modpack and the Serverpack (except the "Resources" and "Local" folder)
+- Files provided in the "Client" folder are to be shared between the Modpack and the Server Pack (except the "Resources" and "Local" folder)
 
 - Files provided in the "Server" folder are only used by the Serverpack
 
