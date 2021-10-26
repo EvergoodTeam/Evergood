@@ -28,3 +28,6 @@ If you encounter any issue during your playthrough, either with the Modpack itse
 
 You can obtain a copy of the "mods" folder either by downloading the Modpack or the Server Pack from [Curseforge](https://www.curseforge.com/minecraft/modpacks/evergood/files).
 The latter will contain no client mods.
+<br></br>
+### Every Evergood logo, background image, screenshot and asset used in the Modpack, Modpack Page and other Outlets were created by the Curseforge Project Owner, [EccentricLibra1](https://www.curseforge.com/members/eccentriclibra1).
+### You do not have permission to use them unless permission is granted by the Project Owner.
