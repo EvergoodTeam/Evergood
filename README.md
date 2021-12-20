@@ -3,31 +3,32 @@
 # Evergood <a href=https://www.curseforge.com/minecraft/modpacks/evergood> <img src="http://cf.way2muchnoise.eu/398982.svg"> </a>
 Evergood is a 1.12.2 Minecraft modpack featuring relevant mods, quests and complex recipes
 
-You can find more information about it and the Stable Versions only on Curseforge: https://www.curseforge.com/minecraft/modpacks/evergood 
+Here on [**GitHub**](https://github.com/EvergoodTeam/Evergood/releases) you can find the dev Versions and Server Packs
 
-In case you find a reposted version on another site, please report it to us
+You can find more information about it on our [**Wiki**](https://evergoodteam.github.io/modpacks/evergood) and stable versions **only** on [**Curseforge**](https://www.curseforge.com/minecraft/modpacks/evergood)
 
-You can find the dev Versions and dev Serverpacks here on GitHub: https://github.com/EvergoodTeam/Evergood/releases
+If you ever find a reposted version on a site that **ISN'T** Curseforge, please report it to us
 
 ## Support us!
-Want to support us? Make sure to use code "Libra" when renting a server over at BisectHosting! https://www.bisecthosting.com/Libra
+Want to support us? Make sure to use **code ```Libra```** for **25% OFF** your order when renting a server over at [**BisectHosting**](https://www.bisecthosting.com/Libra)
 
 ## Discord
-Join us on discord for support and updates on upcoming versions:
-https://discord.gg/k2P68Y8
+Join us on [**Discord**](https://discord.gg/k2P68Y8) for support and updates on upcoming versions
 
 ## Issues
-If you encounter any issue during your playthrough, either with the Modpack itself or the Server Pack, make sure to report it either here on [GitHub](https://github.com/EvergoodTeam/Evergood/issues) or on [Discord](https://discord.gg/k2P68Y8) in the correct channel (#issues)
+If you encounter any issue during your playthrough, either with the Modpack itself or the Server Pack, make sure to report it either here on [**GitHub**](https://github.com/EvergoodTeam/EvergoodRefabricated/issues) or on [**Discord**](https://discord.gg/k2P68Y8) in the designated ```#issues``` channel
 
 ## Notes
-- Files provided in the "Client" folder are to be shared between the Modpack and the Server Pack (except the "Local" folder)
+- Files provided in the ```client``` folder are to be shared between the Modpack and the Server Pack (except for the ```local``` folder)
 
-- Files provided in the "Server" folder are only used by the Serverpack
+- Files provided in the ```server``` folder are only used by the Server Pack
 
-- The "Server" and "Client" folder do **NOT** provide the "mods" folder, since that would just be redistribution of someone else's property without permission on a third party platform that isn't Curseforge.
+- The ```Server``` and ```client``` folder do **NOT** provide the ```mods``` folder
 
-You can obtain a copy of the "mods" folder either by downloading the Modpack or the Server Pack from [Curseforge](https://www.curseforge.com/minecraft/modpacks/evergood/files).
-The latter will contain no client mods.
-<br></br>
-### Every Evergood logo, background image, screenshot and asset used in the Modpack, Modpack Page and other Outlets were created by the Curseforge Project Owner, [EccentricLibra1](https://www.curseforge.com/members/eccentriclibra1).
-### You do not have permission to use them unless permission is granted by the Project Owner.
+You can obtain a copy of the ```mods``` folder by downloading the Modpack from [**Curseforge**](https://www.curseforge.com/minecraft/modpacks/evergood/files)  
+Note that it will contain Client Mods, which are to be removed  
+
+***
+
+#### Every Evergood logo, image, screenshot and any other asset used in the Modpack, Modpack Page and other Outlets were created by the Curseforge Project Owner, [EccentricLibra1](https://www.curseforge.com/members/eccentriclibra1)
+#### You **DO NOT** have permission to use them unless permission is granted by the Project Owner
