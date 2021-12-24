@@ -26,7 +26,7 @@ If you encounter any issue during your playthrough, either with the Modpack itse
 - The ```Server``` and ```client``` folder do **NOT** provide the ```mods``` folder
 
 You can obtain a copy of the ```mods``` folder by downloading the Modpack from [**Curseforge**](https://www.curseforge.com/minecraft/modpacks/evergood/files)  
-Note that it will contain Client Mods, which are to be removed  
+Note that it will contain Client Mods, which need to be removed  
 
 ***
 
