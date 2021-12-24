@@ -45,15 +45,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
 #Enhancement Crystal
 mods.avaritia.ExtremeCrafting.remove(<avaritiatweaks:enhancement_crystal>); 
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritiatweaks:enhancement_crystal>, [
-	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
-	[null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null, null], 
-	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, null, <ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, null, <ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null, null, null], 
-	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null]
+	[null, null, null, null, <avaritia:resource:4>, null, null, null, null], 
+	[null, null, null, <avaritia:resource:4>, <avaritia:resource:6>, <avaritia:resource:4>, null, null, null], 
+	[null, null, <avaritia:resource:4>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:4>, null, null], 
+	[null, null, <avaritia:resource:4>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:4>, null, null], 
+	[null, null, <avaritia:resource:4>, <avaritia:resource:6>, <mysticalagriculture:master_infusion_crystal>, <avaritia:resource:6>, <avaritia:resource:4>, null, null], 
+	[null, null, <avaritia:resource:4>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:4>, null, null], 
+	[null, null, <avaritia:resource:4>, <avaritia:resource:6>, <avaritia:resource:5>, <avaritia:resource:6>, <avaritia:resource:4>, null, null], 
+	[null, null, null, <avaritia:resource:4>, <avaritia:resource:6>, <avaritia:resource:4>, null, null, null], 
+	[null, null, null, null, <avaritia:resource:4>, null, null, null, null]
 ]);
 
 #Asgardandelion
@@ -202,37 +202,37 @@ recipes.addShaped(<extendedcrafting:table_advanced>, [[<extendedcrafting:materia
 #Elite table
 recipes.remove(<extendedcrafting:table_elite>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_elite>, [
-	[<extendedcrafting:material:16>, <extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:16>], 
-	[<ore:ingotMagnesiumDiboride>, <ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>, <ore:ingotMagnesiumDiboride>], 
-	[<extraplanets:wafer:4>, <extendedcrafting:material:16>, <extendedcrafting:table_advanced>, <extendedcrafting:material:16>, <extraplanets:wafer:4>], 
-	[<ore:ingotMagnesiumDiboride>, <ore:alloyElite>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <ore:alloyElite>, <ore:ingotMagnesiumDiboride>], 
-	[<extendedcrafting:material:16>, <ore:ingotMagnesiumDiboride>, <extraplanets:wafer:4>, <ore:ingotMagnesiumDiboride>, <extendedcrafting:material:16>]
+	[<nuclearcraft:part:1>, <extendedcrafting:material:16>, <enderio:item_capacitor_energetic_silver>, <extendedcrafting:material:16>, <nuclearcraft:part:1>], 
+	[<appliedenergistics2:material:10>, <extendedcrafting:material:2>, <extendedcrafting:material:10>, <extendedcrafting:material:2>, <appliedenergistics2:material:10>], 
+	[<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <mysticalagriculture:crafting:3>, <extendedcrafting:table_advanced>, <mysticalagriculture:crafting:3>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"})], 
+	[<appliedenergistics2:material:10>, <extendedcrafting:material:2>, <extendedcrafting:material:10>, <extendedcrafting:material:2>, <appliedenergistics2:material:10>], 
+	[<nuclearcraft:part:1>, <extendedcrafting:material:16>, <enderio:item_capacitor_energetic_silver>, <extendedcrafting:material:16>, <nuclearcraft:part:1>]
 ]);
 
 #Ultimate table
 recipes.remove(<extendedcrafting:table_ultimate>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_ultimate>, [
-	[<extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:11>, <extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:material:2>], 
-	[<extendedcrafting:material:17>, <ore:alloyUltimate>, <ore:ingotTerrasteel>, <extendedcrafting:material:2>, <ore:gaiaIngot>, <ore:alloyUltimate>, <extendedcrafting:material:17>], 
-	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <extendedcrafting:material:2>, <ore:itemPrecientCrystal>, <extendedcrafting:material:2>, <ore:ingotTerrasteel>, <extendedcrafting:material:2>], 
-	[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}), <extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:table_elite>, <extendedcrafting:material:17>, <extendedcrafting:material:2>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]})], 
-	[<ore:plateElite>, <ore:ingotTerrasteel>, <extendedcrafting:material:2>, <ore:itemPrecientCrystal>, <extendedcrafting:material:2>, <ore:gaiaIngot>, <ore:plateElite>], 
-	[<extendedcrafting:material:17>, <ore:alloyUltimate>, <ore:gaiaIngot>, <ore:plateElite>, <ore:ingotTerrasteel>, <ore:alloyUltimate>, <extendedcrafting:material:17>], 
-	[<ore:plateElite>, <extendedcrafting:material:17>, <ore:plateElite>, <ore:fuelHEU235Oxide>, <ore:plateElite>, <extendedcrafting:material:17>, <ore:plateElite>]
+	[<nuclearcraft:part:2>, <extendedcrafting:material:17>, <enderio:item_alloy_ingot:2>, <botania:manaresource:14>, <enderio:item_alloy_ingot:2>, <extendedcrafting:material:17>, <nuclearcraft:part:2>], 
+	[<extendedcrafting:material:17>, <quantumflux:craftingpiece>, <extendedcrafting:material:2>, <botania:manaresource:18>, <extendedcrafting:material:2>, <quantumflux:craftingpiece>, <extendedcrafting:material:17>], 
+	[<enderio:item_alloy_ingot:2>, <extendedcrafting:material:2>, <nuclearcraft:part:2>, <mekanism:compresseddiamond>, <nuclearcraft:part:2>, <extendedcrafting:material:2>, <enderio:item_alloy_ingot:2>], 
+	[<botania:manaresource:14>, <botania:manaresource:18>, <enderio:item_capacitor_vivid>, <extendedcrafting:table_elite>, <enderio:item_capacitor_vivid>, <botania:manaresource:18>, <botania:manaresource:14>], 
+	[<enderio:item_alloy_ingot:2>, <extendedcrafting:material:2>, <nuclearcraft:part:2>, <mekanism:compresseddiamond>, <nuclearcraft:part:2>, <extendedcrafting:material:2>, <enderio:item_alloy_ingot:2>], 
+	[<extendedcrafting:material:17>, <quantumflux:craftingpiece>, <extendedcrafting:material:2>, <botania:manaresource:18>, <extendedcrafting:material:2>, <quantumflux:craftingpiece>, <extendedcrafting:material:17>], 
+	[<nuclearcraft:part:2>, <extendedcrafting:material:17>, <enderio:item_alloy_ingot:2>, <botania:manaresource:14>, <enderio:item_alloy_ingot:2>, <extendedcrafting:material:17>, <nuclearcraft:part:2>]
 ]);
 
 #Crafting core
 recipes.remove(<extendedcrafting:crafting_core>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:crafting_core>, [
-	[<extendedcrafting:material:2>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:12>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:2>], 
-	[<extendedcrafting:material:18>, <extendedcrafting:material:2>, <ore:ingotBlackIron>, <ore:ingotCrystaltine>, <extendedcrafting:material:18>, <ore:ingotCrystaltine>, <ore:ingotBlackIron>, <extendedcrafting:material:2>, <extendedcrafting:material:18>], 
-	[<extendedcrafting:material:18>, <ore:ingotBlackIron>, <ore:nuggetCrystaltine>, <ore:ingotBlackIron>, <extendedcrafting:material:2>, <ore:ingotBlackIron>, <ore:nuggetCrystaltine>, <ore:ingotBlackIron>, <extendedcrafting:material:18>], 
-	[<extendedcrafting:material:18>, <ore:ingotCrystaltine>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:2>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <ore:ingotCrystaltine>, <extendedcrafting:material:18>], 
-	[<extendedcrafting:material:12>, <extendedcrafting:table_ultimate>, <ore:blockCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:frame>, <ore:blockCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:table_ultimate>, <extendedcrafting:material:12>], 
-	[<extendedcrafting:material:18>, <ore:ingotCrystaltine>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <extendedcrafting:material:2>, <extendedcrafting:material:18>, <extendedcrafting:material:18>, <ore:ingotCrystaltine>, <extendedcrafting:material:18>], 
-	[<extendedcrafting:material:2>, <ore:ingotBlackIron>, <ore:nuggetCrystaltine>, <ore:ingotCrystaltine>, <extendedcrafting:material:2>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:ingotBlackIron>, <extendedcrafting:material:2>], 
-	[<extendedcrafting:material:2>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <extendedcrafting:material:18>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <extendedcrafting:material:2>], 
-	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:18>, <extendedcrafting:material:12>, <extendedcrafting:material:18>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
+	[<nuclearcraft:part:3>, <extendedcrafting:material:2>, <thermalfoundation:material:1025>, <quantumflux:craftingpiece:2>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <quantumflux:craftingpiece:2>, <thermalfoundation:material:1025>, <extendedcrafting:material:2>, <nuclearcraft:part:3>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:19>, <extendedcrafting:material>, <extendedcrafting:material:24>, <nuclearcraft:part:3>, <extendedcrafting:material:24>, <extendedcrafting:material>, <extendedcrafting:material:19>, <extendedcrafting:material:2>], 
+	[<thermalfoundation:material:1025>, <extendedcrafting:material>, <nuclearcraft:part:3>, <extendedcrafting:material:2>, <extendedcrafting:material:12>, <extendedcrafting:material:2>, <nuclearcraft:part:3>, <extendedcrafting:material>, <thermalfoundation:material:1025>], 
+	[<quantumflux:craftingpiece:2>, <extendedcrafting:material:24>, <extendedcrafting:material:2>, <opencomputers:material:9>, <draconicevolution:fusion_crafting_core>, <opencomputers:material:9>, <extendedcrafting:material:2>, <extendedcrafting:material:24>, <quantumflux:craftingpiece:2>], 
+	[<mekanism:controlcircuit:3>, <nuclearcraft:part:3>, <extendedcrafting:material:12>, <enderio:item_capacitor_crystalline>, <extendedcrafting:table_ultimate>, <enderio:item_capacitor_crystalline>, <extendedcrafting:material:12>, <nuclearcraft:part:3>, <mekanism:controlcircuit:3>], 
+	[<quantumflux:craftingpiece:2>, <extendedcrafting:material:24>, <extendedcrafting:material:2>, <opencomputers:material:9>, <extendedcrafting:frame>, <opencomputers:material:9>, <extendedcrafting:material:2>, <extendedcrafting:material:24>, <quantumflux:craftingpiece:2>], 
+	[<thermalfoundation:material:1025>, <extendedcrafting:material>, <nuclearcraft:part:3>, <extendedcrafting:material:2>, <extendedcrafting:material:12>, <extendedcrafting:material:2>, <nuclearcraft:part:3>, <extendedcrafting:material>, <thermalfoundation:material:1025>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:19>, <extendedcrafting:material>, <extendedcrafting:material:24>, <nuclearcraft:part:3>, <extendedcrafting:material:24>, <extendedcrafting:material>, <extendedcrafting:material:19>, <extendedcrafting:material:2>], 
+	[<nuclearcraft:part:3>, <extendedcrafting:material:2>, <thermalfoundation:material:1025>, <quantumflux:craftingpiece:2>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <quantumflux:craftingpiece:2>, <thermalfoundation:material:1025>, <extendedcrafting:material:2>, <nuclearcraft:part:3>]
 ]);
 
 

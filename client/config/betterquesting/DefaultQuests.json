@@ -124,7 +124,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "tp:cooked_apple",
-              "Count:3": 8,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -439,7 +439,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Coming Soon!",
-          "desc:8": "§bBee Integration§f will be coming in a future Update."
+          "desc:8": "Proper §bBee Integration§f will be coming in a future Update."
         }
       },
       "tasks:9": {
@@ -1428,7 +1428,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:chest",
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1537,7 +1537,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:obsidian",
+            "id:8": "minecraft:blaze_powder",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2278,7 +2278,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Celestial Altar",
           "desc:8": "Same deal as before, you can check the exact structure in the §f§bAstral Tome§f."
         }
@@ -2352,7 +2352,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -2542,7 +2542,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Factorizer",
-          "desc:8": ""
+          "desc:8": "§bCompresses§f and §bdecompresses§k§f Items and Blocks."
         }
       },
       "tasks:9": {
@@ -2588,7 +2588,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -3617,7 +3617,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tinkers\u0027 Tools",
+          "name:8": "Tool Casts",
           "desc:8": "§bCasts§f to use when dealing with Molten Materials.\n\nUse them with the §bSmeltery§f to make §bTool Parts§f and combine these in the §bTool Station/Forge§f, depending on the Tool§f."
         }
       },
@@ -3801,7 +3801,7 @@
       "questID:3": 36,
       "preRequisites:11": [
         31,
-        28
+        32
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5553,7 +5553,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -5620,7 +5620,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -5760,7 +5760,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -12305,7 +12305,8 @@
     "159:10": {
       "questID:3": 159,
       "preRequisites:11": [
-        539
+        539,
+        312
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12368,7 +12369,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -12532,7 +12533,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -12708,7 +12709,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Auxiliary Transmission Coil",
-          "desc:8": ""
+          "desc:8": "Increases §b§fa Dynamo\u0027s§b RF generation§f§f."
         }
       },
       "tasks:9": {
@@ -12741,7 +12742,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -13100,7 +13101,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -13636,7 +13637,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -13703,7 +13704,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -13737,7 +13738,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Ultimate ingot",
-          "desc:8": "A rainbow colored butter made out of 81 other different types of butter."
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13808,7 +13809,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "§dInfinity Catalyst",
-          "desc:8": "Combine the ultimate powers you\u0027ve harvested so far into a colorful spike."
+          "desc:8": "Combine the Ultimate Powers you\u0027ve harvested so far into a Colorful Spike, the §bInfinity Catalyst§f."
         }
       },
       "tasks:9": {
@@ -22185,7 +22186,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -23188,7 +23189,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Terrasteel",
           "desc:8": ""
         }
@@ -23233,7 +23234,8 @@
     "320:10": {
       "questID:3": 320,
       "preRequisites:11": [
-        443
+        443,
+        172
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23257,7 +23259,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Energy Condenser",
-          "desc:8": ""
+          "desc:8": "The §bEnergy Condenser§f will transform anything with an §bEMC value§f that is inside it into the Item you put in the §btop-left slot§f.\n\nNote that this Item also needs to have an EMC value."
         }
       },
       "tasks:9": {
@@ -23290,7 +23292,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -23424,7 +23426,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -24977,7 +24979,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25050,7 +25052,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25126,7 +25128,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25199,7 +25201,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25272,7 +25274,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25345,7 +25347,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25434,7 +25436,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25507,7 +25509,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25580,7 +25582,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25653,7 +25655,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -25726,7 +25728,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -25793,7 +25795,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -26023,7 +26025,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -26118,7 +26120,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -26152,7 +26154,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Device Frame",
-          "desc:8": "Your first step into Thermal\u0027s machines."
+          "desc:8": "First step into §bThermal Machines§f."
         }
       },
       "tasks:9": {
@@ -26219,7 +26221,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Diesel Generator",
-          "desc:8": ""
+          "desc:8": "The §bDiesel Generator§f can generate up to §b4096 RF/t§k§f."
         }
       },
       "tasks:9": {
@@ -26357,7 +26359,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Gearworking Die",
-          "desc:8": ""
+          "desc:8": "Allows the §bCompactor§f to make §bGears§k§f."
         }
       },
       "tasks:9": {
@@ -26731,7 +26733,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -26798,7 +26800,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -26865,7 +26867,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -26960,7 +26962,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -27055,7 +27057,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -27150,7 +27152,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -27160,7 +27162,7 @@
     "372:10": {
       "questID:3": 372,
       "preRequisites:11": [
-        496
+        507
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27324,7 +27326,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -27592,7 +27594,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -27624,7 +27626,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Guardian of Gaia",
           "desc:8": "The boss that Botania adds, drops Gaia Spirit on death.\n\nPrepare well for this bossfight, both gearwise and arenawise."
         }
@@ -28854,7 +28856,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -29018,7 +29020,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -29085,7 +29087,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -32687,7 +32689,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -32760,7 +32762,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -32827,7 +32829,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -32894,7 +32896,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -32967,7 +32969,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -33295,7 +33297,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -33368,7 +33370,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -33443,7 +33445,16 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -34796,7 +34807,16 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -35587,7 +35607,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -35603,7 +35623,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "/dank/null/Creative",
           "desc:8": ""
         }
@@ -35641,7 +35661,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -35882,7 +35902,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Magmatic Dynamo",
-          "desc:8": ""
+          "desc:8": "Produces §bRF§f with a hot liquid, like §bLava§f or §bBlazing Pyrotheum§f."
         }
       },
       "tasks:9": {
@@ -35921,7 +35941,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -36814,7 +36834,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Energy Condenser MK2",
-          "desc:8": ""
+          "desc:8": "An improved version of the §bMK1§f, which allows you to separate inside it the §b\"Fuel\"§f from the §bProduct§f."
         }
       },
       "tasks:9": {
@@ -36847,7 +36867,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -36987,7 +37007,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -37219,16 +37239,9 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "forge:bucketfilled",
+            "id:8": "immersivepetroleum:metal_multiblock",
             "Count:3": 1,
-            "tag:10": {
-              "FluidName:8": "oil",
-              "Amount:3": 1000
-            },
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -37335,7 +37348,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersivepetroleum:material",
+            "id:8": "immersivepetroleum:metal_multiblock",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -37347,7 +37360,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Distillation Tower",
-          "desc:8": "Using the §bDistillation Tower§f you will be able to process the §bOil§f you extracted in many biproducts, some of which are §bBitumen§f and §bLubricant§f.\n\nCheck the §bEngineer\u0027s Manual§f for a detailed explanation of how to make the multiblock structure."
+          "desc:8": "Using the §bDistillation Tower§f you will be able to process the §bOil§f you extracted in many biproducts, some of which are §bBitumen§f and §bLubricant§f.\n\nCheck the §bEngineer\u0027s Manual§f for a detailed explanation on how to make the Multiblock Structure."
         }
       },
       "tasks:9": {
@@ -37519,7 +37532,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -37596,7 +37609,7 @@
     "496:10": {
       "questID:3": 496,
       "preRequisites:11": [
-        506
+        28
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37608,7 +37621,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "bloodmagic:blood_rune",
+            "id:8": "minecraft:gravel",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -37619,7 +37632,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tier 2 Blood Altar",
+          "name:8": "§7Flint Mining Level",
           "desc:8": ""
         }
       },
@@ -37629,12 +37642,15 @@
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "bloodmagic:blood_rune",
-              "Count:3": 8,
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "flint"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -37672,7 +37688,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:pool",
@@ -37685,7 +37701,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The Everlasting Guilty Pool",
           "desc:8": "Infinite Mana!"
         }
@@ -37720,7 +37736,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -37806,7 +37822,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "storagedrawers:upgrade_creative",
@@ -37819,7 +37835,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Creative Vending Upgrade",
           "desc:8": ""
         }
@@ -37854,7 +37870,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -38383,7 +38399,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -38844,9 +38860,9 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "appliedenergistics2:controller",
+            "id:8": "chisel:futura",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 4,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -38856,7 +38872,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "ME Controller",
-          "desc:8": "This colorful guy gives you a lot more channels to work with to expand your ME System.\n\nYou\u0027ll need some for sure if you plan on autocrafting.\nAnd trust me, you better plan to."
+          "desc:8": "This colorful guy gives you a lot more channels to work with to expand your ME System.\n\nYou\u0027ll need some for sure if you plan on autocrafting."
         }
       },
       "tasks:9": {
@@ -38889,7 +38905,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 4,
               "OreDict:8": ""
             }
           }
@@ -40073,7 +40089,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Plastic Mixer",
           "desc:8": ""
         }
@@ -40711,7 +40727,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Stars",
-          "desc:8": "A complete §bguide§f for Astral Sorcery.\n\nOther than doing that, it also has some practical uses, like holding your research on constellations.\n\nIt also covers some items and mechanics that aren\u0027t covered by quests, make sure to check them out!\n\nTo quickly navigate it, you can double click on each Chapter."
+          "desc:8": "A complete §bGuide§f for Astral Sorcery.\n\nOther than doing that, it also has some practical uses, like holding your Research on §bConstellations§f.\n\nIt also covers some §bItems and Mechanics§f that aren\u0027t covered by Quests, make sure to check them out!\n\nTo quickly navigate it, you can double click on each Chapter."
         }
       },
       "tasks:9": {
@@ -43679,7 +43695,7 @@
       "questID:3": 579,
       "preRequisites:11": [
         31,
-        71
+        580
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43853,7 +43869,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tinkers\u0027 Armor",
+          "name:8": "Armor Casts",
           "desc:8": "Use them with the §bSmeltery§f to make §bArmor Parts§f and combine these in the §bArmor Forge§f."
         }
       },
@@ -45943,6 +45959,15 @@
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
               "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
@@ -49426,7 +49451,7 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -49641,6 +49666,79 @@
       }
     },
     "663:10": {
+      "questID:3": 663,
+      "preRequisites:11": [
+        45
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "matc:inferiumcrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Inferium Infusion Crystal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "matc:inferiumcrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "664:10": {
       "questID:3": 664,
       "preRequisites:11": [
         510
@@ -49722,7 +49820,80 @@
         }
       }
     },
-    "664:10": {
+    "665:10": {
+      "questID:3": 665,
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "matc:prudentiumcrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Prudentium Infusion Crystal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "matc:prudentiumcrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "666:10": {
       "questID:3": 666,
       "preRequisites:11": [
         656
@@ -49789,7 +49960,7 @@
         }
       }
     },
-    "665:10": {
+    "667:10": {
       "questID:3": 667,
       "preRequisites:11": [
         323
@@ -49856,7 +50027,7 @@
         }
       }
     },
-    "666:10": {
+    "668:10": {
       "questID:3": 668,
       "preRequisites:11": [
         20
@@ -49965,7 +50136,7 @@
         }
       }
     },
-    "667:10": {
+    "669:10": {
       "questID:3": 669,
       "preRequisites:11": [],
       "properties:10": {
@@ -50001,10 +50172,10 @@
       },
       "rewards:9": {}
     },
-    "668:10": {
+    "670:10": {
       "questID:3": 670,
       "preRequisites:11": [
-        671
+        372
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -50080,7 +50251,7 @@
         }
       }
     },
-    "669:10": {
+    "671:10": {
       "questID:3": 671,
       "preRequisites:11": [
         496
@@ -50095,7 +50266,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:glowstone",
+            "id:8": "thermalfoundation:ore",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -50106,7 +50277,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tier 3 Blood Altar",
+          "name:8": "§6Copper Mining Level",
           "desc:8": ""
         }
       },
@@ -50116,26 +50287,17 @@
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "bloodmagic:blood_rune",
-              "Count:3": 20,
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "copper"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:glowstone",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 8,
-              "Damage:2": 0,
-              "OreDict:8": "stone"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -50152,17 +50314,17 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "670:10": {
+    "672:10": {
       "questID:3": 672,
       "preRequisites:11": [
-        673
+        670
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -50238,7 +50400,7 @@
         }
       }
     },
-    "671:10": {
+    "673:10": {
       "questID:3": 673,
       "preRequisites:11": [
         671
@@ -50253,9 +50415,9 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "bloodmagic:decorative_brick",
+            "id:8": "appliedenergistics2:quartz_ore",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -50264,7 +50426,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tier 4 Blood Altar",
+          "name:8": "§bCertus Mining Level",
           "desc:8": ""
         }
       },
@@ -50274,25 +50436,16 @@
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "bloodmagic:blood_rune",
-              "Count:3": 28,
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "certusquartz_plustic"
+              },
               "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 16,
-              "Damage:2": 0,
-              "OreDict:8": "stone"
-            },
-            "2:10": {
-              "id:8": "bloodmagic:decorative_brick",
-              "Count:3": 4,
-              "Damage:2": 1,
               "OreDict:8": ""
             }
           },
@@ -50310,17 +50463,17 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "672:10": {
+    "674:10": {
       "questID:3": 674,
       "preRequisites:11": [
-        676
+        672
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -50396,7 +50549,7 @@
         }
       }
     },
-    "673:10": {
+    "675:10": {
       "questID:3": 675,
       "preRequisites:11": [
         667
@@ -50465,14 +50618,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "674:10": {
+    "676:10": {
       "questID:3": 676,
       "preRequisites:11": [
         673
@@ -50487,7 +50640,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:beacon",
+            "id:8": "minecraft:iron_ore",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -50498,7 +50651,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Tier 5 Blood Altar",
+          "name:8": "Iron Mining Level",
           "desc:8": ""
         }
       },
@@ -50508,18 +50661,15 @@
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "bloodmagic:blood_rune",
-              "Count:3": 52,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:beacon",
-              "Count:3": 4,
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "iron"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -50538,14 +50688,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "675:10": {
+    "677:10": {
       "questID:3": 677,
       "preRequisites:11": [
         680
@@ -50612,7 +50762,7 @@
         }
       }
     },
-    "676:10": {
+    "678:10": {
       "questID:3": 678,
       "preRequisites:11": [
         675
@@ -50685,7 +50835,7 @@
         }
       }
     },
-    "677:10": {
+    "679:10": {
       "questID:3": 679,
       "preRequisites:11": [
         678
@@ -50758,7 +50908,7 @@
         }
       }
     },
-    "678:10": {
+    "680:10": {
       "questID:3": 680,
       "preRequisites:11": [
         562
@@ -50825,7 +50975,7 @@
         }
       }
     },
-    "679:10": {
+    "681:10": {
       "questID:3": 681,
       "preRequisites:11": [
         679
@@ -50891,14 +51041,87 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "680:10": {
+    "682:10": {
+      "questID:3": 682,
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "matc:intermediumcrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Intermedium Infusion Crystal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "matc:intermediumcrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "683:10": {
       "questID:3": 683,
       "preRequisites:11": [
         604
@@ -51018,7 +51241,7 @@
         }
       }
     },
-    "681:10": {
+    "684:10": {
       "questID:3": 684,
       "preRequisites:11": [
         386
@@ -51085,7 +51308,7 @@
         }
       }
     },
-    "682:10": {
+    "685:10": {
       "questID:3": 685,
       "preRequisites:11": [
         376
@@ -51152,7 +51375,7 @@
         }
       }
     },
-    "683:10": {
+    "686:10": {
       "questID:3": 686,
       "preRequisites:11": [
         436
@@ -51212,14 +51435,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "684:10": {
+    "687:10": {
       "questID:3": 687,
       "preRequisites:11": [
         437
@@ -51293,14 +51516,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "685:10": {
+    "688:10": {
       "questID:3": 688,
       "preRequisites:11": [
         437
@@ -51366,14 +51589,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "686:10": {
+    "689:10": {
       "questID:3": 689,
       "preRequisites:11": [
         688
@@ -51422,7 +51645,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -51461,14 +51684,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "687:10": {
+    "690:10": {
       "questID:3": 690,
       "preRequisites:11": [
         436
@@ -51564,14 +51787,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "688:10": {
+    "691:10": {
       "questID:3": 691,
       "preRequisites:11": [
         690
@@ -51661,14 +51884,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "689:10": {
+    "692:10": {
       "questID:3": 692,
       "preRequisites:11": [
         18
@@ -51777,14 +52000,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "690:10": {
+    "693:10": {
       "questID:3": 693,
       "preRequisites:11": [
         494
@@ -51844,14 +52067,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "691:10": {
+    "694:10": {
       "questID:3": 694,
       "preRequisites:11": [
         669
@@ -51902,7 +52125,7 @@
       },
       "rewards:9": {}
     },
-    "692:10": {
+    "695:10": {
       "questID:3": 695,
       "preRequisites:11": [
         696
@@ -51975,7 +52198,7 @@
         }
       }
     },
-    "693:10": {
+    "696:10": {
       "questID:3": 696,
       "preRequisites:11": [
         12
@@ -52042,7 +52265,7 @@
         }
       }
     },
-    "694:10": {
+    "697:10": {
       "questID:3": 697,
       "preRequisites:11": [
         662
@@ -52069,7 +52292,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Core Sample Drill",
-          "desc:8": "The §d§bCore Sample Drill§f will extract a sample from the chunk it was placed in with information about the present §f§bMinerals §fand §bFluids§f.\n\nThese can later be extracted by an §bExcavator §fand a §bPumpjack §frespectively.\n\nYou can place down the §f§bCore Sample§f by Shift Right Clicking on the ground."
+          "desc:8": "The §d§bCore Sample Drill§f will extract a sample from the chunk it was placed in with information about the present §f§bMinerals §fand §bFluids§f.\n\nThese can later be extracted by an §bExcavator §fand a §bPumpjack §frespectively.\n\nYou can place down the §f§bCore Sample§f by Shift Right-Clicking on the ground."
         }
       },
       "tasks:9": {
@@ -52109,7 +52332,7 @@
         }
       }
     },
-    "695:10": {
+    "698:10": {
       "questID:3": 698,
       "preRequisites:11": [
         696
@@ -52176,7 +52399,7 @@
         }
       }
     },
-    "696:10": {
+    "699:10": {
       "questID:3": 699,
       "preRequisites:11": [],
       "properties:10": {
@@ -52212,7 +52435,7 @@
       },
       "rewards:9": {}
     },
-    "697:10": {
+    "700:10": {
       "questID:3": 700,
       "preRequisites:11": [
         3
@@ -52279,7 +52502,7 @@
         }
       }
     },
-    "698:10": {
+    "701:10": {
       "questID:3": 701,
       "preRequisites:11": [
         703,
@@ -52340,14 +52563,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "699:10": {
+    "702:10": {
       "questID:3": 702,
       "preRequisites:11": [
         701,
@@ -52408,14 +52631,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "700:10": {
+    "703:10": {
       "questID:3": 703,
       "preRequisites:11": [
         661
@@ -52482,7 +52705,7 @@
         }
       }
     },
-    "701:10": {
+    "704:10": {
       "questID:3": 704,
       "preRequisites:11": [
         357
@@ -52549,7 +52772,7 @@
         }
       }
     },
-    "702:10": {
+    "705:10": {
       "questID:3": 705,
       "preRequisites:11": [
         358
@@ -52576,7 +52799,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Flux Anodizers",
-          "desc:8": ""
+          "desc:8": "§bDoubles§f output when smelting §bOres§f."
         }
       },
       "tasks:9": {
@@ -52616,7 +52839,7 @@
         }
       }
     },
-    "703:10": {
+    "706:10": {
       "questID:3": 706,
       "preRequisites:11": [
         16
@@ -52683,7 +52906,7 @@
         }
       }
     },
-    "704:10": {
+    "707:10": {
       "questID:3": 707,
       "preRequisites:11": [
         604
@@ -52750,7 +52973,7 @@
         }
       }
     },
-    "705:10": {
+    "708:10": {
       "questID:3": 708,
       "preRequisites:11": [
         305
@@ -52817,7 +53040,7 @@
         }
       }
     },
-    "706:10": {
+    "709:10": {
       "questID:3": 709,
       "preRequisites:11": [
         305
@@ -52884,7 +53107,7 @@
         }
       }
     },
-    "707:10": {
+    "710:10": {
       "questID:3": 710,
       "preRequisites:11": [
         305,
@@ -52952,7 +53175,7 @@
         }
       }
     },
-    "708:10": {
+    "711:10": {
       "questID:3": 711,
       "preRequisites:11": [
         305,
@@ -53020,7 +53243,7 @@
         }
       }
     },
-    "709:10": {
+    "712:10": {
       "questID:3": 712,
       "preRequisites:11": [
         11
@@ -53093,7 +53316,7 @@
         }
       }
     },
-    "710:10": {
+    "713:10": {
       "questID:3": 713,
       "preRequisites:11": [
         656
@@ -53160,7 +53383,7 @@
         }
       }
     },
-    "711:10": {
+    "714:10": {
       "questID:3": 714,
       "preRequisites:11": [
         11
@@ -53227,7 +53450,7 @@
         }
       }
     },
-    "712:10": {
+    "715:10": {
       "questID:3": 715,
       "preRequisites:11": [
         714
@@ -53300,7 +53523,7 @@
         }
       }
     },
-    "713:10": {
+    "716:10": {
       "questID:3": 716,
       "preRequisites:11": [
         714
@@ -53373,7 +53596,7 @@
         }
       }
     },
-    "714:10": {
+    "717:10": {
       "questID:3": 717,
       "preRequisites:11": [
         24
@@ -53440,7 +53663,7 @@
         }
       }
     },
-    "715:10": {
+    "718:10": {
       "questID:3": 718,
       "preRequisites:11": [
         24
@@ -53507,7 +53730,7 @@
         }
       }
     },
-    "716:10": {
+    "719:10": {
       "questID:3": 719,
       "preRequisites:11": [
         24
@@ -53574,7 +53797,7 @@
         }
       }
     },
-    "717:10": {
+    "720:10": {
       "questID:3": 720,
       "preRequisites:11": [
         725
@@ -53641,7 +53864,7 @@
         }
       }
     },
-    "718:10": {
+    "721:10": {
       "questID:3": 721,
       "preRequisites:11": [
         720,
@@ -53709,7 +53932,7 @@
         }
       }
     },
-    "719:10": {
+    "722:10": {
       "questID:3": 722,
       "preRequisites:11": [
         721,
@@ -53777,7 +54000,7 @@
         }
       }
     },
-    "720:10": {
+    "723:10": {
       "questID:3": 723,
       "preRequisites:11": [
         473
@@ -53804,7 +54027,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Fuel Catalizer",
-          "desc:8": ""
+          "desc:8": "Increases the amount of §bRF§f produced from Fuels."
         }
       },
       "tasks:9": {
@@ -53837,14 +54060,14 @@
               },
               "id:8": "lootbags:itemlootbag",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
         }
       }
     },
-    "721:10": {
+    "724:10": {
       "questID:3": 724,
       "preRequisites:11": [
         662
@@ -53911,7 +54134,7 @@
         }
       }
     },
-    "722:10": {
+    "725:10": {
       "questID:3": 725,
       "preRequisites:11": [
         374
@@ -53978,7 +54201,7 @@
         }
       }
     },
-    "723:10": {
+    "726:10": {
       "questID:3": 726,
       "preRequisites:11": [
         374
@@ -54045,7 +54268,7 @@
         }
       }
     },
-    "724:10": {
+    "727:10": {
       "questID:3": 727,
       "preRequisites:11": [
         726
@@ -54112,7 +54335,7 @@
         }
       }
     },
-    "725:10": {
+    "728:10": {
       "questID:3": 728,
       "preRequisites:11": [
         724
@@ -54179,7 +54402,7 @@
         }
       }
     },
-    "726:10": {
+    "729:10": {
       "questID:3": 729,
       "preRequisites:11": [
         728
@@ -54246,7 +54469,7 @@
         }
       }
     },
-    "727:10": {
+    "730:10": {
       "questID:3": 730,
       "preRequisites:11": [
         729
@@ -54313,7 +54536,7 @@
         }
       }
     },
-    "728:10": {
+    "731:10": {
       "questID:3": 731,
       "preRequisites:11": [
         724
@@ -54380,7 +54603,7 @@
         }
       }
     },
-    "729:10": {
+    "732:10": {
       "questID:3": 732,
       "preRequisites:11": [
         731
@@ -54447,7 +54670,7 @@
         }
       }
     },
-    "730:10": {
+    "733:10": {
       "questID:3": 733,
       "preRequisites:11": [
         732
@@ -54514,7 +54737,7 @@
         }
       }
     },
-    "731:10": {
+    "734:10": {
       "questID:3": 734,
       "preRequisites:11": [
         733
@@ -54581,7 +54804,7 @@
         }
       }
     },
-    "732:10": {
+    "735:10": {
       "questID:3": 735,
       "preRequisites:11": [
         734
@@ -54648,7 +54871,7 @@
         }
       }
     },
-    "733:10": {
+    "736:10": {
       "questID:3": 736,
       "preRequisites:11": [
         738
@@ -54715,7 +54938,7 @@
         }
       }
     },
-    "734:10": {
+    "737:10": {
       "questID:3": 737,
       "preRequisites:11": [
         736
@@ -54782,7 +55005,7 @@
         }
       }
     },
-    "735:10": {
+    "738:10": {
       "questID:3": 738,
       "preRequisites:11": [
         528
@@ -54849,7 +55072,7 @@
         }
       }
     },
-    "736:10": {
+    "739:10": {
       "questID:3": 739,
       "preRequisites:11": [
         528
@@ -54916,7 +55139,7 @@
         }
       }
     },
-    "737:10": {
+    "740:10": {
       "questID:3": 740,
       "preRequisites:11": [
         739,
@@ -54984,7 +55207,7 @@
         }
       }
     },
-    "738:10": {
+    "741:10": {
       "questID:3": 741,
       "preRequisites:11": [
         740
@@ -55051,7 +55274,7 @@
         }
       }
     },
-    "739:10": {
+    "742:10": {
       "questID:3": 742,
       "preRequisites:11": [
         741
@@ -55118,7 +55341,7 @@
         }
       }
     },
-    "740:10": {
+    "743:10": {
       "questID:3": 743,
       "preRequisites:11": [
         742
@@ -55185,7 +55408,7 @@
         }
       }
     },
-    "741:10": {
+    "744:10": {
       "questID:3": 744,
       "preRequisites:11": [
         738,
@@ -55253,7 +55476,7 @@
         }
       }
     },
-    "742:10": {
+    "745:10": {
       "questID:3": 745,
       "preRequisites:11": [
         742
@@ -55326,7 +55549,7 @@
         }
       }
     },
-    "743:10": {
+    "746:10": {
       "questID:3": 746,
       "preRequisites:11": [
         744
@@ -55393,7 +55616,7 @@
         }
       }
     },
-    "744:10": {
+    "747:10": {
       "questID:3": 747,
       "preRequisites:11": [
         566
@@ -55460,7 +55683,7 @@
         }
       }
     },
-    "745:10": {
+    "748:10": {
       "questID:3": 748,
       "preRequisites:11": [
         311
@@ -55527,7 +55750,7 @@
         }
       }
     },
-    "746:10": {
+    "749:10": {
       "questID:3": 749,
       "preRequisites:11": [
         748
@@ -55666,7 +55889,7 @@
         }
       }
     },
-    "747:10": {
+    "750:10": {
       "questID:3": 750,
       "preRequisites:11": [
         749
@@ -55739,7 +55962,7 @@
         }
       }
     },
-    "748:10": {
+    "751:10": {
       "questID:3": 751,
       "preRequisites:11": [
         746
@@ -55806,7 +56029,7 @@
         }
       }
     },
-    "749:10": {
+    "752:10": {
       "questID:3": 752,
       "preRequisites:11": [
         751
@@ -55873,7 +56096,153 @@
         }
       }
     },
-    "750:10": {
+    "753:10": {
+      "questID:3": 753,
+      "preRequisites:11": [
+        54
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "matc:superiumcrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Superium Infusion Crystal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "matc:superiumcrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "754:10": {
+      "questID:3": 754,
+      "preRequisites:11": [
+        55
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "matc:supremiumcrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Supremium Infusion Crystal",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "matc:supremiumcrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "755:10": {
       "questID:3": 755,
       "preRequisites:11": [
         758
@@ -55940,7 +56309,7 @@
         }
       }
     },
-    "751:10": {
+    "756:10": {
       "questID:3": 756,
       "preRequisites:11": [
         755
@@ -56007,7 +56376,7 @@
         }
       }
     },
-    "752:10": {
+    "757:10": {
       "questID:3": 757,
       "preRequisites:11": [
         755
@@ -56080,7 +56449,7 @@
         }
       }
     },
-    "753:10": {
+    "758:10": {
       "questID:3": 758,
       "preRequisites:11": [
         582
@@ -56153,7 +56522,7 @@
         }
       }
     },
-    "754:10": {
+    "759:10": {
       "questID:3": 759,
       "preRequisites:11": [
         755
@@ -56220,7 +56589,7 @@
         }
       }
     },
-    "755:10": {
+    "760:10": {
       "questID:3": 760,
       "preRequisites:11": [
         755
@@ -56287,7 +56656,7 @@
         }
       }
     },
-    "756:10": {
+    "761:10": {
       "questID:3": 761,
       "preRequisites:11": [
         759,
@@ -56355,7 +56724,7 @@
         }
       }
     },
-    "757:10": {
+    "762:10": {
       "questID:3": 762,
       "preRequisites:11": [
         360
@@ -56428,7 +56797,7 @@
         }
       }
     },
-    "758:10": {
+    "763:10": {
       "questID:3": 763,
       "preRequisites:11": [
         491
@@ -56495,7 +56864,7 @@
         }
       }
     },
-    "759:10": {
+    "764:10": {
       "questID:3": 764,
       "preRequisites:11": [
         7
@@ -56592,7 +56961,7 @@
         }
       }
     },
-    "760:10": {
+    "765:10": {
       "questID:3": 765,
       "preRequisites:11": [
         580
@@ -56679,7 +57048,7 @@
         }
       }
     },
-    "761:10": {
+    "766:10": {
       "questID:3": 766,
       "preRequisites:11": [
         32
@@ -56752,7 +57121,7 @@
         }
       }
     },
-    "762:10": {
+    "767:10": {
       "questID:3": 767,
       "preRequisites:11": [
         659
@@ -56840,7 +57209,7 @@
         }
       }
     },
-    "763:10": {
+    "768:10": {
       "questID:3": 768,
       "preRequisites:11": [
         321
@@ -56916,7 +57285,7 @@
         }
       }
     },
-    "764:10": {
+    "769:10": {
       "questID:3": 769,
       "preRequisites:11": [
         374
@@ -56983,7 +57352,7 @@
         }
       }
     },
-    "765:10": {
+    "770:10": {
       "questID:3": 770,
       "preRequisites:11": [
         374
@@ -57050,7 +57419,7 @@
         }
       }
     },
-    "766:10": {
+    "771:10": {
       "questID:3": 771,
       "preRequisites:11": [
         374
@@ -57117,7 +57486,7 @@
         }
       }
     },
-    "767:10": {
+    "772:10": {
       "questID:3": 772,
       "preRequisites:11": [
         374
@@ -57184,7 +57553,7 @@
         }
       }
     },
-    "768:10": {
+    "773:10": {
       "questID:3": 773,
       "preRequisites:11": [
         374
@@ -57251,7 +57620,7 @@
         }
       }
     },
-    "769:10": {
+    "774:10": {
       "questID:3": 774,
       "preRequisites:11": [
         374
@@ -57318,7 +57687,7 @@
         }
       }
     },
-    "770:10": {
+    "775:10": {
       "questID:3": 775,
       "preRequisites:11": [
         772
@@ -57385,7 +57754,7 @@
         }
       }
     },
-    "771:10": {
+    "776:10": {
       "questID:3": 776,
       "preRequisites:11": [
         343
@@ -57452,7 +57821,7 @@
         }
       }
     },
-    "772:10": {
+    "777:10": {
       "questID:3": 777,
       "preRequisites:11": [
         305
@@ -57525,7 +57894,7 @@
         }
       }
     },
-    "773:10": {
+    "778:10": {
       "questID:3": 778,
       "preRequisites:11": [
         777
@@ -57592,7 +57961,7 @@
         }
       }
     },
-    "774:10": {
+    "779:10": {
       "questID:3": 779,
       "preRequisites:11": [
         778
@@ -57680,7 +58049,7 @@
         }
       }
     },
-    "775:10": {
+    "780:10": {
       "questID:3": 780,
       "preRequisites:11": [
         374
@@ -57747,7 +58116,7 @@
         }
       }
     },
-    "776:10": {
+    "781:10": {
       "questID:3": 781,
       "preRequisites:11": [
         771,
@@ -57815,7 +58184,7 @@
         }
       }
     },
-    "777:10": {
+    "782:10": {
       "questID:3": 782,
       "preRequisites:11": [
         798
@@ -57882,7 +58251,7 @@
         }
       }
     },
-    "778:10": {
+    "783:10": {
       "questID:3": 783,
       "preRequisites:11": [
         784
@@ -57949,7 +58318,7 @@
         }
       }
     },
-    "779:10": {
+    "784:10": {
       "questID:3": 784,
       "preRequisites:11": [
         785
@@ -58016,7 +58385,7 @@
         }
       }
     },
-    "780:10": {
+    "785:10": {
       "questID:3": 785,
       "preRequisites:11": [
         780
@@ -58083,7 +58452,7 @@
         }
       }
     },
-    "781:10": {
+    "786:10": {
       "questID:3": 786,
       "preRequisites:11": [
         794
@@ -58150,7 +58519,7 @@
         }
       }
     },
-    "782:10": {
+    "787:10": {
       "questID:3": 787,
       "preRequisites:11": [
         786
@@ -58217,7 +58586,7 @@
         }
       }
     },
-    "783:10": {
+    "788:10": {
       "questID:3": 788,
       "preRequisites:11": [
         787
@@ -58284,7 +58653,7 @@
         }
       }
     },
-    "784:10": {
+    "789:10": {
       "questID:3": 789,
       "preRequisites:11": [
         790
@@ -58351,7 +58720,7 @@
         }
       }
     },
-    "785:10": {
+    "790:10": {
       "questID:3": 790,
       "preRequisites:11": [
         791
@@ -58418,7 +58787,7 @@
         }
       }
     },
-    "786:10": {
+    "791:10": {
       "questID:3": 791,
       "preRequisites:11": [
         795
@@ -58485,7 +58854,7 @@
         }
       }
     },
-    "787:10": {
+    "792:10": {
       "questID:3": 792,
       "preRequisites:11": [
         782
@@ -58552,7 +58921,7 @@
         }
       }
     },
-    "788:10": {
+    "793:10": {
       "questID:3": 793,
       "preRequisites:11": [
         788
@@ -58619,7 +58988,7 @@
         }
       }
     },
-    "789:10": {
+    "794:10": {
       "questID:3": 794,
       "preRequisites:11": [
         797
@@ -58686,7 +59055,7 @@
         }
       }
     },
-    "790:10": {
+    "795:10": {
       "questID:3": 795,
       "preRequisites:11": [
         793
@@ -58753,7 +59122,7 @@
         }
       }
     },
-    "791:10": {
+    "796:10": {
       "questID:3": 796,
       "preRequisites:11": [
         789
@@ -58820,7 +59189,7 @@
         }
       }
     },
-    "792:10": {
+    "797:10": {
       "questID:3": 797,
       "preRequisites:11": [
         783
@@ -58887,7 +59256,7 @@
         }
       }
     },
-    "793:10": {
+    "798:10": {
       "questID:3": 798,
       "preRequisites:11": [
         780
@@ -58954,7 +59323,7 @@
         }
       }
     },
-    "794:10": {
+    "799:10": {
       "questID:3": 799,
       "preRequisites:11": [
         796
@@ -59021,7 +59390,7 @@
         }
       }
     },
-    "795:10": {
+    "800:10": {
       "questID:3": 800,
       "preRequisites:11": [],
       "properties:10": {
@@ -59046,7 +59415,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Basics",
-          "desc:8": "Welcome to §6Evergood§f!\n\n§6Evergood§f is a modpack that features almost 300 mods, all tweaked to work together and make an interesting progression path for the player.\n\nSome of these tweaks are §brecipe changes§f, which are set in place to give you a bigger challenge.\n\nWith this §bQuest Book§f you, the player, are guided through many different mods thanks to lots of hand-crafted §a§bquests§f that each hold information and guides on the tasks you\u0027re required to do.\n\nYou\u0027re probably wondering why some words are colored.\n\nWords marked in §bAqua§f are to be considered §bkey words§f, meaning that you should get a rough idea by simply reading only them.\n\nAs you probably noticed, there are a couple of quest lines with the same icon and with a pretty long name.\n\nThese are to be considered §bIntroductions§f to the group of quests ahead of them, meaning that they should give you a general idea and explanation on what is going on.\n\nNote that you will need to jump back and forth quite a bit between quests, since some contents are locked by other quests ahead of them.\n\n\nSo, what are the next few quests about?\n\nYour usual stuff, §bWood§f, getting §e§bTools§f good enough to mine some blocks and the first steps into §bMachinery§f."
+          "desc:8": "Welcome to §6Evergood§f!\n\n§6Evergood§f is a modpack that features almost 300 mods, all tweaked to work together and make an interesting progression path for the player.\n\nSome of these tweaks are §brecipe changes§f, which are set in place to give you a bigger challenge.\n\nWith this §bQuest Book§f you, the player, are guided through many different mods thanks to lots of hand-crafted §a§bquests§f that each hold information and guides on the tasks you\u0027re required to do.\n\nYou\u0027re probably wondering why some words are colored.\n\nWords marked in §bAqua§f are to be considered §bkey words§f, meaning that you should get a rough idea by simply reading only them.\n\nAs you probably noticed, there are a couple of quest lines with the same icon and with a pretty long name.\n\nThese are to be considered §bIntroductions§f to the group of quests ahead of them, meaning that they should give you a general idea and explanation on what is going on.\n\nNote that you will need to jump back and forth quite a bit between quests, since some content is locked by other quests ahead of them.\n\n\nSo, what are the next few quests about?\n\nYour usual stuff, §bWood§f, getting §e§bTools§f good enough to mine some blocks and a bit of early §bMachinery§f."
         }
       },
       "tasks:9": {
@@ -59057,7 +59426,7 @@
       },
       "rewards:9": {}
     },
-    "796:10": {
+    "801:10": {
       "questID:3": 801,
       "preRequisites:11": [
         806
@@ -59138,7 +59507,7 @@
         }
       }
     },
-    "797:10": {
+    "802:10": {
       "questID:3": 802,
       "preRequisites:11": [
         804
@@ -59219,7 +59588,7 @@
         }
       }
     },
-    "798:10": {
+    "803:10": {
       "questID:3": 803,
       "preRequisites:11": [
         800
@@ -59257,7 +59626,7 @@
       },
       "rewards:9": {}
     },
-    "799:10": {
+    "804:10": {
       "questID:3": 804,
       "preRequisites:11": [
         801
@@ -59338,7 +59707,7 @@
         }
       }
     },
-    "800:10": {
+    "805:10": {
       "questID:3": 805,
       "preRequisites:11": [
         803
@@ -59376,7 +59745,7 @@
       },
       "rewards:9": {}
     },
-    "801:10": {
+    "806:10": {
       "questID:3": 806,
       "preRequisites:11": [
         701
@@ -59457,7 +59826,7 @@
         }
       }
     },
-    "802:10": {
+    "807:10": {
       "questID:3": 807,
       "preRequisites:11": [
         805
@@ -59492,7 +59861,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "What Does OP Stand For?",
-          "desc:8": "It stands for §bOverpowered§f, something that you\u0027ll achieve with the quests ahead.\n\nObviously you\u0027ll have to work quite a lot to get there: \nyou\u0027ll need a lot of those shiny §bMinerals§f we talked about before in order to get access to what §bDraconic Evolution§f has to offer.\n\nFrom there you\u0027ll get into the last bit of \"Magic\", consisting in §bProjectE§f and its addons.\n\nWith those, you\u0027ll get to farming millions of Resources in order to achieve §dCreativeness§f."
+          "desc:8": "It stands for §bOverpowered§f, something that you\u0027ll achieve with the quests ahead.\n\nObviously you\u0027ll have to work quite a lot to get there: \nyou\u0027ll need a lot of those shiny §bMinerals§f we talked about before in order to get access to what §bDraconic Evolution§f has to offer.\n\nFrom there you\u0027ll get into the last bit of \"Magic\", consisting in §bProjectE§f and its addons.\n\nWith those, you\u0027ll get to the last stages to achieve §dCreativeness§f."
         }
       },
       "tasks:9": {
@@ -59503,7 +59872,7 @@
       },
       "rewards:9": {}
     },
-    "803:10": {
+    "808:10": {
       "questID:3": 808,
       "preRequisites:11": [
         416
@@ -59570,7 +59939,7 @@
         }
       }
     },
-    "804:10": {
+    "809:10": {
       "questID:3": 809,
       "preRequisites:11": [
         417
@@ -59637,7 +60006,7 @@
         }
       }
     },
-    "805:10": {
+    "810:10": {
       "questID:3": 810,
       "preRequisites:11": [
         418
@@ -59704,7 +60073,7 @@
         }
       }
     },
-    "806:10": {
+    "811:10": {
       "questID:3": 811,
       "preRequisites:11": [
         419
@@ -59771,7 +60140,7 @@
         }
       }
     },
-    "807:10": {
+    "812:10": {
       "questID:3": 812,
       "preRequisites:11": [
         420
@@ -59838,7 +60207,7 @@
         }
       }
     },
-    "808:10": {
+    "813:10": {
       "questID:3": 813,
       "preRequisites:11": [
         421
@@ -59905,7 +60274,7 @@
         }
       }
     },
-    "809:10": {
+    "814:10": {
       "questID:3": 814,
       "preRequisites:11": [
         422
@@ -59972,7 +60341,7 @@
         }
       }
     },
-    "810:10": {
+    "815:10": {
       "questID:3": 815,
       "preRequisites:11": [
         423
@@ -60039,7 +60408,7 @@
         }
       }
     },
-    "811:10": {
+    "816:10": {
       "questID:3": 816,
       "preRequisites:11": [
         424
@@ -60106,7 +60475,7 @@
         }
       }
     },
-    "812:10": {
+    "817:10": {
       "questID:3": 817,
       "preRequisites:11": [
         781
@@ -60173,7 +60542,7 @@
         }
       }
     },
-    "813:10": {
+    "818:10": {
       "questID:3": 818,
       "preRequisites:11": [
         639
@@ -60246,7 +60615,7 @@
         }
       }
     },
-    "814:10": {
+    "819:10": {
       "questID:3": 819,
       "preRequisites:11": [
         640
@@ -60319,7 +60688,7 @@
         }
       }
     },
-    "815:10": {
+    "820:10": {
       "questID:3": 820,
       "preRequisites:11": [
         641
@@ -60392,7 +60761,7 @@
         }
       }
     },
-    "816:10": {
+    "821:10": {
       "questID:3": 821,
       "preRequisites:11": [
         638
@@ -60465,7 +60834,7 @@
         }
       }
     },
-    "817:10": {
+    "822:10": {
       "questID:3": 822,
       "preRequisites:11": [
         638
@@ -60538,7 +60907,7 @@
         }
       }
     },
-    "818:10": {
+    "823:10": {
       "questID:3": 823,
       "preRequisites:11": [
         328
@@ -60613,7 +60982,7 @@
         }
       }
     },
-    "819:10": {
+    "824:10": {
       "questID:3": 824,
       "preRequisites:11": [
         559
@@ -60680,7 +61049,7 @@
         }
       }
     },
-    "820:10": {
+    "825:10": {
       "questID:3": 825,
       "preRequisites:11": [
         824
@@ -60747,7 +61116,7 @@
         }
       }
     },
-    "821:10": {
+    "826:10": {
       "questID:3": 826,
       "preRequisites:11": [
         825
@@ -60814,7 +61183,7 @@
         }
       }
     },
-    "822:10": {
+    "827:10": {
       "questID:3": 827,
       "preRequisites:11": [
         825
@@ -60887,7 +61256,7 @@
         }
       }
     },
-    "823:10": {
+    "828:10": {
       "questID:3": 828,
       "preRequisites:11": [
         328
@@ -60960,7 +61329,7 @@
         }
       }
     },
-    "824:10": {
+    "829:10": {
       "questID:3": 829,
       "preRequisites:11": [
         370
@@ -61027,7 +61396,7 @@
         }
       }
     },
-    "825:10": {
+    "830:10": {
       "questID:3": 830,
       "preRequisites:11": [
         829
@@ -61094,7 +61463,7 @@
         }
       }
     },
-    "826:10": {
+    "831:10": {
       "questID:3": 831,
       "preRequisites:11": [
         10
@@ -61181,7 +61550,7 @@
         }
       }
     },
-    "827:10": {
+    "832:10": {
       "questID:3": 832,
       "preRequisites:11": [
         831
@@ -61268,7 +61637,7 @@
         }
       }
     },
-    "828:10": {
+    "833:10": {
       "questID:3": 833,
       "preRequisites:11": [
         832
@@ -61355,7 +61724,7 @@
         }
       }
     },
-    "829:10": {
+    "834:10": {
       "questID:3": 834,
       "preRequisites:11": [
         833
@@ -61442,7 +61811,7 @@
         }
       }
     },
-    "830:10": {
+    "835:10": {
       "questID:3": 835,
       "preRequisites:11": [
         5
@@ -61515,7 +61884,7 @@
         }
       }
     },
-    "831:10": {
+    "836:10": {
       "questID:3": 836,
       "preRequisites:11": [
         5
@@ -61582,7 +61951,7 @@
         }
       }
     },
-    "832:10": {
+    "837:10": {
       "questID:3": 837,
       "preRequisites:11": [
         836
@@ -61649,7 +62018,7 @@
         }
       }
     },
-    "833:10": {
+    "838:10": {
       "questID:3": 838,
       "preRequisites:11": [
         662,
@@ -61776,7 +62145,77 @@
         }
       }
     },
-    "834:10": {
+    "839:10": {
+      "questID:3": 839,
+      "preRequisites:11": [
+        676
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:ore",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§8Lead Mining Level",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "lead"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "840:10": {
       "questID:3": 840,
       "preRequisites:11": [
         173
@@ -61849,7 +62288,7 @@
         }
       }
     },
-    "835:10": {
+    "841:10": {
       "questID:3": 841,
       "preRequisites:11": [
         566
@@ -61916,7 +62355,7 @@
         }
       }
     },
-    "836:10": {
+    "842:10": {
       "questID:3": 842,
       "preRequisites:11": [
         565
@@ -61989,7 +62428,7 @@
         }
       }
     },
-    "837:10": {
+    "843:10": {
       "questID:3": 843,
       "preRequisites:11": [],
       "properties:10": {
@@ -62025,7 +62464,7 @@
       },
       "rewards:9": {}
     },
-    "838:10": {
+    "844:10": {
       "questID:3": 844,
       "preRequisites:11": [],
       "properties:10": {
@@ -62060,6 +62499,216 @@
         }
       },
       "rewards:9": {}
+    },
+    "845:10": {
+      "questID:3": 845,
+      "preRequisites:11": [
+        839
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanism:oreblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§3Osmium Mining Level",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "osmium"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "846:10": {
+      "questID:3": 846,
+      "preRequisites:11": [
+        845
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:obsidian",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§5Obsidian Mining Level",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "obsidian"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "847:10": {
+      "questID:3": 847,
+      "preRequisites:11": [
+        846
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§9Cobalt Mining Level",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:sharpening_kit",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "cobalt"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "lootbags:itemlootbag",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -62068,14 +62717,14 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": -48,
+          "y:3": -60,
           "id:3": 695,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": -84,
+          "y:3": -90,
           "id:3": 696,
           "sizeY:3": 24
         },
@@ -62088,22 +62737,22 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": -120,
           "id:3": 777,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -84,
+          "x:3": 36,
+          "y:3": -90,
           "id:3": 778,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -48,
+          "x:3": 36,
+          "y:3": -60,
           "id:3": 779,
           "sizeY:3": 24
         },
@@ -62130,64 +62779,64 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 48,
+          "x:3": 66,
+          "y:3": 42,
           "id:3": 783,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 48,
+          "x:3": 42,
+          "y:3": 42,
           "id:3": 784,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 48,
+          "x:3": 18,
+          "y:3": 42,
           "id:3": 785,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 72,
+          "x:3": 114,
+          "y:3": 66,
           "id:3": 786,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 72,
+          "x:3": 90,
+          "y:3": 66,
           "id:3": 787,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 72,
+          "x:3": 66,
+          "y:3": 66,
           "id:3": 788,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 96,
+          "x:3": 66,
+          "y:3": 90,
           "id:3": 789,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 96,
+          "x:3": 42,
+          "y:3": 90,
           "id:3": 790,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 96,
+          "x:3": 18,
+          "y:3": 90,
           "id:3": 791,
           "sizeY:3": 24
         },
@@ -62200,36 +62849,36 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 72,
+          "x:3": 42,
+          "y:3": 66,
           "id:3": 793,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 48,
+          "x:3": 114,
+          "y:3": 42,
           "id:3": 794,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
+          "x:3": 18,
+          "y:3": 66,
           "id:3": 795,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 96,
+          "x:3": 90,
+          "y:3": 90,
           "id:3": 796,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 48,
+          "x:3": 90,
+          "y:3": 42,
           "id:3": 797,
           "sizeY:3": 24
         },
@@ -62242,106 +62891,106 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 96,
+          "x:3": 114,
+          "y:3": 90,
           "id:3": 799,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -126,
           "y:3": 36,
           "id:3": 801,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 108,
+          "x:3": -126,
+          "y:3": 96,
           "id:3": 802,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 72,
+          "x:3": -126,
+          "y:3": 66,
           "id:3": 804,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 0,
+          "x:3": -126,
+          "y:3": 6,
           "id:3": 806,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 54,
           "y:3": 12,
           "id:3": 817,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 84,
           "y:3": -108,
           "id:3": 829,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": -60,
+          "x:3": 84,
+          "y:3": -72,
           "id:3": 830,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 0,
+          "x:3": -78,
+          "y:3": 6,
           "id:3": 831,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": -84,
+          "x:3": -78,
           "y:3": 36,
           "id:3": 832,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 72,
+          "x:3": -78,
+          "y:3": 66,
           "id:3": 833,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 108,
+          "x:3": -78,
+          "y:3": 96,
           "id:3": 834,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -84,
+          "x:3": -108,
+          "y:3": -90,
           "id:3": 835,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": -72,
+          "x:3": -60,
           "y:3": -108,
           "id:3": 836,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -60,
+          "x:3": -60,
+          "y:3": -72,
           "id:3": 837,
           "sizeY:3": 24
         }
@@ -62367,18 +63016,18 @@
     "1:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 36,
-          "x:3": 108,
-          "y:3": -72,
+          "sizeX:3": 30,
+          "x:3": 54,
+          "y:3": -66,
           "id:3": 4,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "1:10": {
-          "sizeX:3": 36,
+          "sizeX:3": 30,
           "x:3": -84,
-          "y:3": -72,
+          "y:3": -66,
           "id:3": 11,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "2:10": {
           "sizeX:3": 24,
@@ -62411,49 +63060,49 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": -120,
-          "y:3": -84,
+          "y:3": -90,
           "id:3": 41,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -96,
+          "x:3": -54,
+          "y:3": -114,
           "id:3": 42,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -108,
+          "x:3": -108,
+          "y:3": -114,
           "id:3": 364,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -96,
+          "x:3": -42,
+          "y:3": -90,
           "id:3": 712,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -24,
+          "x:3": -42,
           "y:3": -60,
           "id:3": 714,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -24,
+          "x:3": -42,
+          "y:3": -30,
           "id:3": 715,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 0,
+          "x:3": -42,
+          "y:3": -6,
           "id:3": 716,
           "sizeY:3": 24
         }
@@ -62515,7 +63164,7 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 108,
           "y:3": 0,
           "id:3": 10,
           "sizeY:3": 24
@@ -62523,21 +63172,21 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 84,
+          "y:3": 90,
           "id:3": 12,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 72,
+          "y:3": 78,
           "id:3": 14,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 96,
+          "y:3": 102,
           "id:3": 15,
           "sizeY:3": 24
         },
@@ -62551,21 +63200,21 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 108,
+          "y:3": 102,
           "id:3": 35,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 48,
+          "y:3": 42,
           "id:3": 158,
-          "sizeY:3": 24
+          "sizeY:3": 36
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 84,
+          "y:3": 78,
           "id:3": 488,
           "sizeY:3": 24
         },
@@ -62586,21 +63235,21 @@
         "15:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": -96,
+          "y:3": -102,
           "id:3": 605,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 108,
           "y:3": 24,
           "id:3": 606,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -72,
+          "x:3": 24,
+          "y:3": -102,
           "id:3": 683,
           "sizeY:3": 24
         },
@@ -62613,7 +63262,7 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 126,
           "y:3": -36,
           "id:3": 763,
           "sizeY:3": 24
@@ -62683,122 +63332,122 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -12,
+          "x:3": 120,
+          "y:3": 48,
           "id:3": 20,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 168,
+          "x:3": 0,
+          "y:3": 84,
           "id:3": 162,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 192,
+          "x:3": 342,
+          "y:3": 168,
           "id:3": 169,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 24,
+          "y:3": 48,
           "id:3": 306,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 24,
+          "x:3": 48,
+          "y:3": 12,
           "id:3": 307,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 72,
+          "y:3": 96,
           "id:3": 308,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 132,
+          "x:3": 36,
+          "y:3": 96,
           "id:3": 309,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 36,
-          "x:3": 108,
-          "y:3": -48,
+          "x:3": 156,
+          "y:3": 36,
           "id:3": 310,
-          "sizeY:3": 36
+          "sizeY:3": 48
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -12,
+          "x:3": 48,
+          "y:3": -24,
           "id:3": 311,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 72,
+          "x:3": 12,
+          "y:3": -24,
           "id:3": 312,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 72,
+          "y:3": 0,
           "id:3": 313,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 132,
+          "x:3": 0,
+          "y:3": 120,
           "id:3": 314,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 156,
+          "x:3": 0,
+          "y:3": 144,
           "id:3": 315,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 180,
+          "x:3": 0,
+          "y:3": 168,
           "id:3": 316,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 72,
+          "y:3": 96,
           "id:3": 317,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 156,
+          "x:3": 36,
+          "y:3": 144,
           "id:3": 318,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 192,
+          "x:3": 36,
+          "y:3": 180,
           "id:3": 319,
-          "sizeY:3": 24
+          "sizeY:3": 30
         },
         "17:10": {
           "sizeX:3": 48,
@@ -62810,42 +63459,42 @@
         "18:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 330,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 24,
+          "y:3": 36,
           "id:3": 378,
-          "sizeY:3": 24
+          "sizeY:3": 30
         },
         "20:10": {
           "sizeX:3": 24,
           "x:3": 264,
-          "y:3": 180,
+          "y:3": 156,
           "id:3": 389,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
           "x:3": 312,
-          "y:3": 204,
+          "y:3": 180,
           "id:3": 392,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
           "x:3": 264,
-          "y:3": 144,
+          "y:3": 126,
           "id:3": 394,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 120,
+          "x:3": 234,
+          "y:3": 108,
           "id:3": 395,
           "sizeY:3": 24
         },
@@ -62865,8 +63514,8 @@
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": 36,
+          "x:3": 294,
+          "y:3": 42,
           "id:3": 400,
           "sizeY:3": 24
         },
@@ -62875,7 +63524,7 @@
           "x:3": 264,
           "y:3": 12,
           "id:3": 428,
-          "sizeY:3": 24
+          "sizeY:3": 30
         },
         "28:10": {
           "sizeX:3": 24,
@@ -62886,43 +63535,43 @@
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": -24,
+          "x:3": 234,
+          "y:3": -6,
           "id:3": 430,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 0,
+          "x:3": 234,
+          "y:3": 24,
           "id:3": 431,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": 108,
+          "x:3": 294,
+          "y:3": 102,
           "id:3": 432,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 132,
+          "x:3": 36,
+          "y:3": 66,
           "id:3": 497,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 500,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 501,
           "sizeY:3": 24
         },
@@ -62936,7 +63585,7 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 120,
-          "y:3": 24,
+          "y:3": 12,
           "id:3": 668,
           "sizeY:3": 24
         },
@@ -62950,42 +63599,42 @@
         "38:10": {
           "sizeX:3": 24,
           "x:3": 360,
-          "y:3": 72,
+          "y:3": 78,
           "id:3": 678,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
           "x:3": 360,
-          "y:3": 144,
+          "y:3": 126,
           "id:3": 679,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
           "x:3": 312,
-          "y:3": 168,
+          "y:3": 150,
           "id:3": 681,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -60,
+          "x:3": 84,
+          "y:3": -42,
           "id:3": 748,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -60,
+          "x:3": 84,
+          "y:3": -12,
           "id:3": 749,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -60,
+          "x:3": 84,
+          "y:3": 12,
           "id:3": 750,
           "sizeY:3": 24
         }
@@ -63027,62 +63676,62 @@
         "2:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 60,
+          "y:3": 54,
           "id:3": 417,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 96,
+          "y:3": 84,
           "id:3": 418,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 132,
+          "y:3": 114,
           "id:3": 419,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 168,
+          "y:3": 144,
           "id:3": 420,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 168,
+          "x:3": -12,
+          "y:3": 144,
           "id:3": 421,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 132,
+          "x:3": -12,
+          "y:3": 114,
           "id:3": 422,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 96,
+          "x:3": -12,
+          "y:3": 84,
           "id:3": 423,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 60,
+          "x:3": -12,
+          "y:3": 54,
           "id:3": 424,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": -12,
           "y:3": 24,
           "id:3": 425,
           "sizeY:3": 24
@@ -63090,104 +63739,104 @@
         "11:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 60,
+          "y:3": 54,
           "id:3": 477,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 96,
+          "y:3": 84,
           "id:3": 478,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 132,
+          "y:3": 114,
           "id:3": 479,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 168,
+          "y:3": 144,
           "id:3": 480,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 168,
+          "x:3": 12,
+          "y:3": 144,
           "id:3": 481,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 132,
+          "x:3": 12,
+          "y:3": 114,
           "id:3": 482,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 96,
+          "x:3": 12,
+          "y:3": 84,
           "id:3": 483,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 60,
+          "x:3": 12,
+          "y:3": 54,
           "id:3": 484,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": 12,
           "y:3": 24,
           "id:3": 485,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 126,
           "y:3": -24,
           "id:3": 556,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 120,
           "y:3": -84,
           "id:3": 557,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 120,
           "y:3": 0,
           "id:3": 558,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 126,
           "y:3": -60,
           "id:3": 559,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 150,
           "y:3": -60,
           "id:3": 560,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 174,
           "y:3": -60,
           "id:3": 561,
           "sizeY:3": 24
@@ -63202,84 +63851,84 @@
         "27:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 60,
+          "y:3": 54,
           "id:3": 809,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 96,
+          "y:3": 84,
           "id:3": 810,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 132,
+          "y:3": 114,
           "id:3": 811,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 168,
+          "y:3": 144,
           "id:3": 812,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 168,
+          "x:3": -36,
+          "y:3": 144,
           "id:3": 813,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 132,
+          "x:3": -36,
+          "y:3": 114,
           "id:3": 814,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 96,
+          "x:3": -36,
+          "y:3": 84,
           "id:3": 815,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 60,
+          "x:3": -36,
+          "y:3": 54,
           "id:3": 816,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 24,
           "y:3": -60,
           "id:3": 824,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -36,
+          "x:3": 24,
+          "y:3": -30,
           "id:3": 825,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -24,
+          "x:3": -12,
+          "y:3": -18,
           "id:3": 826,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -48,
+          "x:3": -12,
+          "y:3": -42,
           "id:3": 827,
           "sizeY:3": 24
         }
@@ -64260,9 +64909,44 @@
           "sizeY:3": 36
         },
         "136:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 48,
+          "sizeX:3": 36,
+          "x:3": -96,
+          "y:3": 96,
+          "id:3": 663,
+          "sizeY:3": 24
+        },
+        "137:10": {
+          "sizeX:3": 36,
+          "x:3": -36,
+          "y:3": 156,
+          "id:3": 665,
+          "sizeY:3": 24
+        },
+        "138:10": {
+          "sizeX:3": 36,
+          "x:3": -96,
+          "y:3": 216,
+          "id:3": 682,
+          "sizeY:3": 24
+        },
+        "139:10": {
+          "sizeX:3": 36,
+          "x:3": -36,
+          "y:3": 276,
+          "id:3": 753,
+          "sizeY:3": 24
+        },
+        "140:10": {
+          "sizeX:3": 36,
+          "x:3": -96,
+          "y:3": 336,
+          "id:3": 754,
+          "sizeY:3": 24
+        },
+        "141:10": {
+          "sizeX:3": 36,
+          "x:3": -36,
+          "y:3": 36,
           "id:3": 768,
           "sizeY:3": 24
         }
@@ -64317,14 +65001,14 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
+          "x:3": 36,
+          "y:3": 36,
           "id:3": 502,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 72,
           "id:3": 503,
           "sizeY:3": 24
@@ -64332,90 +65016,90 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": 48,
+          "y:3": 72,
           "id:3": 504,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 108,
           "id:3": 511,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 0,
           "y:3": 108,
           "id:3": 512,
           "sizeY:3": 24
         },
         "9:10": {
-          "sizeX:3": 36,
-          "x:3": 96,
-          "y:3": 96,
+          "sizeX:3": 30,
+          "x:3": 72,
+          "y:3": 102,
           "id:3": 513,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 144,
           "id:3": 514,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 180,
           "id:3": 515,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -120,
           "y:3": 36,
           "id:3": 516,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 114,
           "y:3": 108,
           "id:3": 517,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 144,
+          "x:3": 114,
+          "y:3": 138,
           "id:3": 518,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
           "x:3": -72,
-          "y:3": 0,
+          "y:3": 6,
           "id:3": 519,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
           "x:3": -96,
-          "y:3": 0,
+          "y:3": 6,
           "id:3": 520,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 168,
+          "x:3": 114,
+          "y:3": 162,
           "id:3": 521,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 204,
           "id:3": 522,
           "sizeY:3": 24
@@ -64604,106 +65288,106 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -24,
+          "x:3": -36,
+          "y:3": 60,
           "id:3": 43,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 0,
+          "x:3": 60,
+          "y:3": -60,
           "id:3": 44,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 0,
+          "x:3": 36,
+          "y:3": -96,
           "id:3": 165,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 0,
+          "x:3": 12,
+          "y:3": -102,
           "id:3": 166,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 24,
+          "x:3": -12,
+          "y:3": -96,
           "id:3": 167,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 24,
+          "x:3": -36,
+          "y:3": -96,
           "id:3": 168,
           "sizeY:3": 24
         },
         "7:10": {
-          "sizeX:3": 36,
-          "x:3": -156,
-          "y:3": -12,
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -138,
           "id:3": 363,
-          "sizeY:3": 48
+          "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 24,
+          "x:3": 12,
+          "y:3": 66,
           "id:3": 401,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 84,
+          "y:3": 60,
           "id:3": 402,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 0,
+          "x:3": 12,
+          "y:3": -66,
           "id:3": 474,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 84,
+          "x:3": -12,
+          "y:3": 60,
           "id:3": 476,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 84,
+          "x:3": 60,
+          "y:3": 60,
           "id:3": 490,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 48,
+          "x:3": -60,
+          "y:3": 0,
           "id:3": 575,
           "sizeY:3": 24
         },
         "14:10": {
-          "sizeX:3": 36,
+          "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 72,
+          "y:3": 0,
           "id:3": 609,
-          "sizeY:3": 36
+          "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -84,
+          "x:3": 96,
+          "y:3": -108,
           "id:3": 694,
           "sizeY:3": 24
         },
@@ -64716,14 +65400,14 @@
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": -12,
           "y:3": -60,
           "id:3": 718,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -36,
           "y:3": -60,
           "id:3": 719,
           "sizeY:3": 24
@@ -64735,7 +65419,7 @@
           "visibility:8": "ALWAYS",
           "name:8": "- §oNuclear Dream",
           "icon:10": {
-            "id:8": "nuclearcraft:melter_idle",
+            "id:8": "nuclearcraft:fission_controller_new_fixed",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -64752,7 +65436,7 @@
         "0:10": {
           "sizeX:3": 48,
           "x:3": 36,
-          "y:3": -24,
+          "y:3": -18,
           "id:3": 27,
           "sizeY:3": 36
         },
@@ -65324,37 +66008,37 @@
           "sizeY:3": 24
         },
         "82:10": {
-          "sizeX:3": 48,
-          "x:3": 36,
-          "y:3": 252,
+          "sizeX:3": 36,
+          "x:3": 42,
+          "y:3": 246,
           "id:3": 157,
-          "sizeY:3": 36
+          "sizeY:3": 42
         },
         "83:10": {
           "sizeX:3": 48,
           "x:3": -84,
-          "y:3": -96,
+          "y:3": -84,
           "id:3": 170,
           "sizeY:3": 36
         },
         "84:10": {
           "sizeX:3": 48,
           "x:3": -24,
-          "y:3": -96,
+          "y:3": -84,
           "id:3": 171,
           "sizeY:3": 36
         },
         "85:10": {
           "sizeX:3": 48,
           "x:3": 36,
-          "y:3": -96,
+          "y:3": -84,
           "id:3": 172,
           "sizeY:3": 36
         },
         "86:10": {
           "sizeX:3": 48,
           "x:3": 96,
-          "y:3": -96,
+          "y:3": -84,
           "id:3": 173,
           "sizeY:3": 36
         },
@@ -65366,16 +66050,16 @@
           "sizeY:3": 36
         },
         "88:10": {
-          "sizeX:3": 48,
-          "x:3": 36,
-          "y:3": -156,
+          "sizeX:3": 36,
+          "x:3": 42,
+          "y:3": -132,
           "id:3": 179,
-          "sizeY:3": 36
+          "sizeY:3": 42
         },
         "89:10": {
           "sizeX:3": 48,
           "x:3": 156,
-          "y:3": -96,
+          "y:3": -84,
           "id:3": 840,
           "sizeY:3": 36
         }
@@ -65403,35 +66087,35 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -72,
+          "y:3": -60,
           "id:3": 176,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -36,
+          "x:3": -30,
+          "y:3": -30,
           "id:3": 177,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -36,
+          "y:3": -24,
           "id:3": 178,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 48,
           "x:3": -12,
-          "y:3": 24,
+          "y:3": 30,
           "id:3": 180,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -36,
+          "x:3": 30,
+          "y:3": -30,
           "id:3": 322,
           "sizeY:3": 24
         },
@@ -65444,85 +66128,85 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 108,
+          "x:3": 36,
+          "y:3": 144,
           "id:3": 344,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 48,
+          "x:3": -60,
+          "y:3": 60,
           "id:3": 345,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
           "x:3": -72,
-          "y:3": 132,
+          "y:3": 84,
           "id:3": 346,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 72,
+          "x:3": -36,
+          "y:3": 144,
           "id:3": 347,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 72,
+          "x:3": 12,
+          "y:3": 156,
           "id:3": 348,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 108,
+          "x:3": -12,
+          "y:3": 156,
           "id:3": 349,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 48,
+          "x:3": 60,
+          "y:3": 60,
           "id:3": 350,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 132,
+          "y:3": 84,
           "id:3": 351,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 108,
           "id:3": 352,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 72,
+          "x:3": 60,
+          "y:3": 132,
           "id:3": 353,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 108,
+          "x:3": -60,
+          "y:3": 132,
           "id:3": 354,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 72,
+          "x:3": -72,
+          "y:3": 108,
           "id:3": 355,
           "sizeY:3": 24
         }
@@ -65549,189 +66233,189 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 60,
+          "x:3": 246,
+          "y:3": 84,
           "id:3": 320,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 48,
-          "x:3": 192,
-          "y:3": -24,
+          "x:3": 198,
+          "y:3": -6,
           "id:3": 438,
           "sizeY:3": 36
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 24,
+          "x:3": 210,
+          "y:3": 48,
           "id:3": 439,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 24,
+          "x:3": 234,
+          "y:3": 48,
           "id:3": 440,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 24,
+          "x:3": 258,
+          "y:3": 48,
           "id:3": 441,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 72,
+          "x:3": 282,
+          "y:3": 84,
           "id:3": 442,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 24,
+          "x:3": 282,
+          "y:3": 48,
           "id:3": 443,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 108,
+          "x:3": 282,
+          "y:3": 120,
           "id:3": 444,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 108,
+          "x:3": 258,
+          "y:3": 120,
           "id:3": 445,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 108,
+          "x:3": 234,
+          "y:3": 120,
           "id:3": 446,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 108,
+          "x:3": 210,
+          "y:3": 120,
           "id:3": 447,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 132,
+          "x:3": 210,
+          "y:3": 144,
           "id:3": 448,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 132,
+          "x:3": 234,
+          "y:3": 144,
           "id:3": 449,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 132,
+          "x:3": 258,
+          "y:3": 144,
           "id:3": 450,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 132,
+          "x:3": 282,
+          "y:3": 144,
           "id:3": 451,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 156,
+          "x:3": 282,
+          "y:3": 168,
           "id:3": 452,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 156,
+          "x:3": 258,
+          "y:3": 168,
           "id:3": 453,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 156,
+          "x:3": 234,
+          "y:3": 168,
           "id:3": 454,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 156,
+          "x:3": 210,
+          "y:3": 168,
           "id:3": 455,
           "sizeY:3": 24
         },
         "19:10": {
-          "sizeX:3": 48,
-          "x:3": 216,
-          "y:3": 204,
+          "sizeX:3": 30,
+          "x:3": 162,
+          "y:3": 114,
           "id:3": 456,
           "sizeY:3": 36
         },
         "20:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 204,
+          "sizeX:3": 30,
+          "x:3": 162,
+          "y:3": 168,
           "id:3": 457,
-          "sizeY:3": 36
+          "sizeY:3": 24
         },
         "21:10": {
-          "sizeX:3": 24,
-          "x:3": 276,
+          "sizeX:3": 30,
+          "x:3": 162,
           "y:3": 204,
           "id:3": 458,
-          "sizeY:3": 36
+          "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 60,
+          "x:3": 222,
+          "y:3": 84,
           "id:3": 486,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 48,
           "x:3": -36,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 562,
           "sizeY:3": 36
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 156,
+          "x:3": -60,
+          "y:3": 150,
           "id:3": 563,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 204,
+          "y:3": 198,
           "id:3": 564,
           "sizeY:3": 24
         },
         "26:10": {
-          "sizeX:3": 36,
-          "x:3": 96,
+          "sizeX:3": 30,
+          "x:3": 84,
           "y:3": 84,
           "id:3": 565,
           "sizeY:3": 24
@@ -65758,30 +66442,30 @@
           "sizeY:3": 24
         },
         "30:10": {
-          "sizeX:3": 36,
-          "x:3": 96,
-          "y:3": 24,
+          "sizeX:3": 30,
+          "x:3": 84,
+          "y:3": 42,
           "id:3": 569,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "31:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 228,
+          "y:3": 222,
           "id:3": 570,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 156,
+          "y:3": 150,
           "id:3": 571,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 180,
+          "y:3": 174,
           "id:3": 572,
           "sizeY:3": 24
         },
@@ -65802,41 +66486,41 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 204,
+          "y:3": 198,
           "id:3": 576,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 156,
+          "y:3": 150,
           "id:3": 577,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 180,
+          "y:3": 174,
           "id:3": 578,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 36,
+          "y:3": 48,
           "id:3": 677,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 36,
+          "y:3": 48,
           "id:3": 680,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": -72,
+          "x:3": -60,
           "y:3": 84,
           "id:3": 747,
           "sizeY:3": 24
@@ -65849,8 +66533,8 @@
           "sizeY:3": 24
         },
         "43:10": {
-          "sizeX:3": 36,
-          "x:3": 96,
+          "sizeX:3": 30,
+          "x:3": 84,
           "y:3": 144,
           "id:3": 842,
           "sizeY:3": 24
@@ -65888,15 +66572,15 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 96,
+          "x:3": 42,
+          "y:3": 102,
           "id:3": 26,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
+          "x:3": 36,
+          "y:3": 78,
           "id:3": 63,
           "sizeY:3": 24
         },
@@ -65909,7 +66593,7 @@
         },
         "4:10": {
           "sizeX:3": 36,
-          "x:3": 336,
+          "x:3": 312,
           "y:3": 156,
           "id:3": 305,
           "sizeY:3": 36
@@ -65917,21 +66601,21 @@
         "5:10": {
           "sizeX:3": 36,
           "x:3": 60,
-          "y:3": 252,
+          "y:3": 234,
           "id:3": 357,
           "sizeY:3": 36
         },
         "6:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 300,
+          "y:3": 288,
           "id:3": 358,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 228,
+          "x:3": 120,
+          "y:3": 216,
           "id:3": 359,
           "sizeY:3": 24
         },
@@ -65944,71 +66628,71 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 276,
+          "x:3": 150,
+          "y:3": 264,
           "id:3": 362,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 240,
+          "y:3": 222,
           "id:3": 365,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 252,
+          "x:3": 120,
+          "y:3": 240,
           "id:3": 366,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 216,
+          "y:3": 198,
           "id:3": 367,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 192,
+          "y:3": 174,
           "id:3": 368,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": 300,
+          "y:3": 294,
           "id:3": 369,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 300,
+          "y:3": 294,
           "id:3": 370,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 276,
+          "x:3": 120,
+          "y:3": 264,
           "id:3": 371,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 300,
+          "y:3": 294,
           "id:3": 373,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 60,
+          "y:3": 54,
           "id:3": 374,
           "sizeY:3": 24
         },
@@ -66021,7 +66705,7 @@
         },
         "20:10": {
           "sizeX:3": 36,
-          "x:3": 96,
+          "x:3": 102,
           "y:3": 48,
           "id:3": 376,
           "sizeY:3": 36
@@ -66029,83 +66713,83 @@
         "21:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 168,
+          "y:3": 150,
           "id:3": 377,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 36,
+          "y:3": 30,
           "id:3": 379,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 84,
+          "y:3": 78,
           "id:3": 382,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 24,
+          "x:3": 66,
+          "y:3": 30,
           "id:3": 384,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 72,
+          "x:3": 66,
+          "y:3": 78,
           "id:3": 386,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 48,
+          "x:3": 66,
+          "y:3": 54,
           "id:3": 387,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
           "x:3": 192,
-          "y:3": 144,
+          "y:3": 138,
           "id:3": 390,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
           "x:3": 192,
-          "y:3": 192,
+          "y:3": 186,
           "id:3": 391,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
           "x:3": 192,
-          "y:3": 168,
+          "y:3": 162,
           "id:3": 393,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 240,
+          "y:3": 216,
           "id:3": 396,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 288,
+          "y:3": 264,
           "id:3": 399,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 330,
           "y:3": 204,
           "id:3": 475,
           "sizeY:3": 24
@@ -66113,20 +66797,20 @@
         "33:10": {
           "sizeX:3": 36,
           "x:3": 228,
-          "y:3": 252,
+          "y:3": 234,
           "id:3": 505,
           "sizeY:3": 36
         },
         "34:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 264,
+          "y:3": 240,
           "id:3": 508,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 66,
           "y:3": 108,
           "id:3": 684,
           "sizeY:3": 24
@@ -66134,70 +66818,70 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": 96,
+          "y:3": 90,
           "id:3": 685,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 276,
+          "y:3": 258,
           "id:3": 704,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": 300,
+          "y:3": 288,
           "id:3": 705,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 144,
+          "x:3": 360,
+          "y:3": 138,
           "id:3": 708,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 306,
           "y:3": 204,
           "id:3": 709,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 168,
+          "x:3": 360,
+          "y:3": 162,
           "id:3": 710,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 192,
+          "x:3": 360,
+          "y:3": 186,
           "id:3": 711,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": -12,
+          "x:3": 312,
+          "y:3": 0,
           "id:3": 720,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": -12,
+          "x:3": 336,
+          "y:3": 0,
           "id:3": 721,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": -12,
+          "x:3": 360,
+          "y:3": 0,
           "id:3": 722,
           "sizeY:3": 24
         },
@@ -66210,22 +66894,22 @@
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 36,
+          "x:3": 312,
+          "y:3": 30,
           "id:3": 725,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 36,
+          "x:3": 336,
+          "y:3": 30,
           "id:3": 726,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 36,
+          "x:3": 360,
+          "y:3": 30,
           "id:3": 727,
           "sizeY:3": 24
         },
@@ -66253,35 +66937,35 @@
         "53:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 731,
           "sizeY:3": 24
         },
         "54:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 732,
           "sizeY:3": 24
         },
         "55:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 733,
           "sizeY:3": 24
         },
         "56:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 734,
           "sizeY:3": 24
         },
         "57:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": -24,
+          "y:3": -6,
           "id:3": 735,
           "sizeY:3": 24
         },
@@ -66294,50 +66978,50 @@
         },
         "59:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 60,
+          "x:3": 312,
+          "y:3": 54,
           "id:3": 769,
           "sizeY:3": 24
         },
         "60:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 60,
+          "x:3": 336,
+          "y:3": 54,
           "id:3": 770,
           "sizeY:3": 24
         },
         "61:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 60,
+          "x:3": 360,
+          "y:3": 54,
           "id:3": 771,
           "sizeY:3": 24
         },
         "62:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 84,
+          "x:3": 312,
+          "y:3": 78,
           "id:3": 772,
           "sizeY:3": 24
         },
         "63:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 84,
+          "x:3": 336,
+          "y:3": 78,
           "id:3": 773,
           "sizeY:3": 24
         },
         "64:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 84,
+          "x:3": 360,
+          "y:3": 78,
           "id:3": 774,
           "sizeY:3": 24
         },
         "65:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
+          "x:3": 312,
+          "y:3": 102,
           "id:3": 775,
           "sizeY:3": 24
         }
@@ -66377,11 +67061,11 @@
     "13:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 36,
+          "sizeX:3": 24,
           "x:3": 72,
-          "y:3": -12,
+          "y:3": 0,
           "id:3": 25,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "1:10": {
           "sizeX:3": 24,
@@ -66392,7 +67076,7 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 96,
           "id:3": 524,
           "sizeY:3": 24
@@ -66400,7 +67084,7 @@
         "3:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": 36,
+          "y:3": 42,
           "id:3": 525,
           "sizeY:3": 24
         },
@@ -66420,7 +67104,7 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 72,
           "id:3": 528,
           "sizeY:3": 24
@@ -66428,7 +67112,7 @@
         "7:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 36,
+          "y:3": 42,
           "id:3": 529,
           "sizeY:3": 24
         },
@@ -66463,7 +67147,7 @@
         "12:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 36,
+          "y:3": 42,
           "id:3": 534,
           "sizeY:3": 24
         },
@@ -66553,7 +67237,7 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 66,
           "y:3": 168,
           "id:3": 585,
           "sizeY:3": 24
@@ -66561,21 +67245,21 @@
         "26:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 0,
+          "y:3": 6,
           "id:3": 598,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": 132,
+          "y:3": 114,
           "id:3": 599,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 0,
+          "y:3": 6,
           "id:3": 600,
           "sizeY:3": 24
         },
@@ -66636,8 +67320,8 @@
     "14:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
+          "sizeX:3": 36,
+          "x:3": -6,
           "y:3": 0,
           "id:3": 19,
           "sizeY:3": 24
@@ -66645,21 +67329,21 @@
         "1:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 120,
+          "y:3": 108,
           "id:3": 163,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 156,
+          "y:3": 138,
           "id:3": 181,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 276,
-          "y:3": 204,
+          "y:3": 180,
           "id:3": 324,
           "sizeY:3": 24
         },
@@ -66722,37 +67406,37 @@
         "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 120,
+          "y:3": 108,
           "id:3": 411,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 156,
+          "x:3": 30,
+          "y:3": 144,
           "id:3": 412,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 168,
+          "y:3": 150,
           "id:3": 413,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 156,
+          "x:3": -30,
+          "y:3": 144,
           "id:3": 414,
           "sizeY:3": 24
         },
         "16:10": {
-          "sizeX:3": 48,
-          "x:3": -12,
-          "y:3": 204,
+          "sizeX:3": 36,
+          "x:3": -6,
+          "y:3": 186,
           "id:3": 415,
-          "sizeY:3": 36
+          "sizeY:3": 30
         },
         "17:10": {
           "sizeX:3": 24,
@@ -66791,36 +67475,36 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 132,
+          "x:3": 150,
+          "y:3": 126,
           "id:3": 551,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 168,
+          "x:3": 186,
+          "y:3": 162,
           "id:3": 552,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 168,
+          "x:3": 150,
+          "y:3": 162,
           "id:3": 553,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 192,
+          "x:3": 150,
+          "y:3": 186,
           "id:3": 554,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 132,
+          "x:3": 114,
+          "y:3": 126,
           "id:3": 555,
           "sizeY:3": 24
         }
@@ -66849,274 +67533,274 @@
     "15:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 48,
-          "x:3": -12,
-          "y:3": 0,
+          "sizeX:3": 30,
+          "x:3": 48,
+          "y:3": 30,
           "id:3": 325,
           "sizeY:3": 36
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 48,
+          "x:3": 12,
+          "y:3": 36,
           "id:3": 326,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 48,
+          "x:3": -18,
+          "y:3": 36,
           "id:3": 327,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 48,
+          "x:3": -54,
+          "y:3": 36,
           "id:3": 328,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -108,
           "y:3": 12,
           "id:3": 329,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -108,
           "y:3": 36,
           "id:3": 331,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -12,
+          "x:3": -54,
+          "y:3": -18,
           "id:3": 332,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 108,
+          "x:3": -30,
+          "y:3": 90,
           "id:3": 333,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -102,
           "y:3": 84,
           "id:3": 334,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -108,
           "y:3": 60,
           "id:3": 335,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 108,
+          "x:3": -54,
+          "y:3": 90,
           "id:3": 336,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 108,
+          "x:3": -78,
+          "y:3": 90,
           "id:3": 337,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": -156,
           "id:3": 338,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 198,
           "y:3": -132,
           "id:3": 339,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 126,
           "y:3": -84,
           "id:3": 381,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 150,
           "y:3": -84,
           "id:3": 383,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 174,
           "y:3": -84,
           "id:3": 385,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 198,
           "y:3": -84,
           "id:3": 388,
           "sizeY:3": 24
         },
         "18:10": {
-          "sizeX:3": 36,
-          "x:3": 72,
-          "y:3": -60,
+          "sizeX:3": 30,
+          "x:3": 48,
+          "y:3": -54,
           "id:3": 634,
-          "sizeY:3": 48
+          "sizeY:3": 36
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": -48,
           "id:3": 635,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 90,
           "y:3": -120,
           "id:3": 636,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 114,
           "y:3": -120,
           "id:3": 637,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 138,
           "y:3": -120,
           "id:3": 638,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 126,
           "y:3": -48,
           "id:3": 639,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 150,
           "y:3": -48,
           "id:3": 640,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 174,
           "y:3": -48,
           "id:3": 641,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 198,
           "y:3": -48,
           "id:3": 642,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 150,
           "y:3": 12,
           "id:3": 643,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 48,
+          "x:3": 150,
+          "y:3": 42,
           "id:3": 644,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 72,
+          "x:3": 150,
+          "y:3": 66,
           "id:3": 645,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 126,
           "y:3": 12,
           "id:3": 646,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 126,
           "y:3": -12,
           "id:3": 647,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 48,
+          "x:3": 126,
+          "y:3": 42,
           "id:3": 648,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 72,
+          "x:3": 126,
+          "y:3": 66,
           "id:3": 649,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 96,
+          "x:3": 126,
+          "y:3": 90,
           "id:3": 650,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 120,
+          "x:3": 126,
+          "y:3": 114,
           "id:3": 651,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 54,
           "y:3": -120,
           "id:3": 652,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 174,
           "y:3": -120,
           "id:3": 653,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 174,
           "y:3": -144,
           "id:3": 654,
           "sizeY:3": 24
@@ -67138,9 +67822,9 @@
         "41:10": {
           "sizeX:3": 24,
           "x:3": -120,
-          "y:3": -120,
+          "y:3": -126,
           "id:3": 738,
-          "sizeY:3": 24
+          "sizeY:3": 36
         },
         "42:10": {
           "sizeX:3": 24,
@@ -67214,49 +67898,49 @@
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 102,
           "y:3": -12,
           "id:3": 818,
           "sizeY:3": 24
         },
         "53:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 150,
           "y:3": -12,
           "id:3": 819,
           "sizeY:3": 24
         },
         "54:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 174,
           "y:3": -12,
           "id:3": 820,
           "sizeY:3": 24
         },
         "55:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 126,
           "y:3": -156,
           "id:3": 821,
           "sizeY:3": 24
         },
         "56:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 150,
           "y:3": -156,
           "id:3": 822,
           "sizeY:3": 24
         },
         "57:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 12,
+          "x:3": -18,
+          "y:3": 0,
           "id:3": 823,
           "sizeY:3": 24
         },
         "58:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": -6,
           "y:3": 84,
           "id:3": 828,
           "sizeY:3": 24
@@ -67287,295 +67971,267 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 192,
+          "x:3": -12,
+          "y:3": 198,
           "id:3": 18,
-          "sizeY:3": 24
+          "sizeY:3": 36
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 60,
+          "x:3": -48,
+          "y:3": 72,
           "id:3": 159,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 60,
+          "x:3": -84,
+          "y:3": 72,
           "id:3": 160,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 84,
+          "y:3": 90,
           "id:3": 161,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": 204,
-          "y:3": 36,
+          "y:3": 66,
           "id:3": 340,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 36,
+          "x:3": 120,
+          "y:3": 102,
           "id:3": 341,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 60,
+          "x:3": 156,
+          "y:3": 66,
           "id:3": 342,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 132,
+          "x:3": 156,
+          "y:3": 186,
           "id:3": 372,
           "sizeY:3": 24
         },
         "8:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 0,
+          "sizeX:3": 36,
+          "x:3": 150,
+          "y:3": 30,
           "id:3": 380,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 48,
+          "y:3": 60,
           "id:3": 433,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": -48,
           "y:3": 120,
           "id:3": 434,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": -84,
           "y:3": 120,
           "id:3": 435,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 120,
+          "x:3": -12,
+          "y:3": 144,
           "id:3": 436,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 144,
+          "x:3": 18,
+          "y:3": 120,
           "id:3": 437,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 228,
+          "x:3": -12,
+          "y:3": 252,
           "id:3": 494,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 24,
+          "x:3": 108,
+          "y:3": 66,
           "id:3": 495,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 132,
-          "id:3": 496,
+          "x:3": 186,
+          "y:3": 180,
+          "id:3": 498,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 12,
-          "id:3": 498,
+          "x:3": 156,
+          "y:3": 114,
+          "id:3": 506,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 72,
-          "id:3": 506,
+          "x:3": 156,
+          "y:3": 162,
+          "id:3": 507,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 96,
-          "id:3": 507,
+          "x:3": 126,
+          "y:3": 144,
+          "id:3": 509,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 96,
-          "id:3": 509,
+          "x:3": 126,
+          "y:3": 168,
+          "id:3": 510,
           "sizeY:3": 24
         },
         "21:10": {
-          "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 120,
-          "id:3": 510,
+          "sizeX:3": 36,
+          "x:3": -54,
+          "y:3": 30,
+          "id:3": 539,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 0,
-          "id:3": 539,
+          "x:3": 192,
+          "y:3": 102,
+          "id:3": 597,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 84,
-          "id:3": 597,
+          "x:3": 186,
+          "y:3": 144,
+          "id:3": 607,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 48,
-          "id:3": 607,
+          "x:3": 126,
+          "y:3": 192,
+          "id:3": 608,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 144,
-          "id:3": 608,
+          "x:3": 126,
+          "y:3": 216,
+          "id:3": 660,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 168,
-          "id:3": 660,
+          "x:3": 126,
+          "y:3": 240,
+          "id:3": 664,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 192,
-          "id:3": 664,
+          "x:3": 156,
+          "y:3": 210,
+          "id:3": 670,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 168,
-          "id:3": 670,
+          "x:3": 156,
+          "y:3": 234,
+          "id:3": 672,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 168,
-          "id:3": 671,
+          "x:3": 156,
+          "y:3": 258,
+          "id:3": 674,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 204,
-          "id:3": 672,
+          "x:3": 18,
+          "y:3": 168,
+          "id:3": 686,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 204,
-          "id:3": 673,
+          "x:3": 48,
+          "y:3": 138,
+          "id:3": 687,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 240,
-          "id:3": 674,
+          "x:3": 48,
+          "y:3": 102,
+          "id:3": 688,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 240,
-          "id:3": 676,
+          "x:3": 48,
+          "y:3": 66,
+          "id:3": 689,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 96,
-          "id:3": 686,
+          "x:3": -42,
+          "y:3": 168,
+          "id:3": 690,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": -108,
+          "x:3": -72,
           "y:3": 168,
-          "id:3": 687,
+          "id:3": 691,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 120,
-          "id:3": 688,
+          "x:3": 24,
+          "y:3": 204,
+          "id:3": 692,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 84,
-          "id:3": 689,
-          "sizeY:3": 24
-        },
-        "38:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 156,
-          "id:3": 690,
-          "sizeY:3": 24
-        },
-        "39:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 156,
-          "id:3": 691,
-          "sizeY:3": 24
-        },
-        "40:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 192,
-          "id:3": 692,
-          "sizeY:3": 24
-        },
-        "41:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 228,
+          "x:3": -42,
+          "y:3": 252,
           "id:3": 693,
           "sizeY:3": 24
         }
@@ -67603,91 +68259,91 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 120,
-          "y:3": 192,
+          "y:3": 198,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 192,
+          "y:3": 198,
           "id:3": 2,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 192,
+          "y:3": 198,
           "id:3": 3,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 48,
+          "x:3": -90,
+          "y:3": 90,
           "id:3": 72,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 84,
+          "x:3": 126,
+          "y:3": 120,
           "id:3": 73,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 12,
+          "x:3": 54,
+          "y:3": 42,
           "id:3": 74,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 84,
+          "x:3": -102,
+          "y:3": 120,
           "id:3": 75,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 252,
+          "x:3": 108,
+          "y:3": 258,
           "id:3": 164,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 120,
+          "x:3": -90,
+          "y:3": 150,
           "id:3": 361,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 252,
+          "y:3": 258,
           "id:3": 473,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 168,
+          "x:3": -48,
+          "y:3": 192,
           "id:3": 492,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 192,
+          "x:3": -48,
+          "y:3": 216,
           "id:3": 493,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 36,
-          "x:3": 156,
-          "y:3": 72,
+          "x:3": 168,
+          "y:3": 108,
           "id:3": 655,
           "sizeY:3": 48
         },
@@ -67700,106 +68356,106 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 84,
+          "x:3": 6,
+          "y:3": 120,
           "id:3": 657,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 48,
+          "x:3": 6,
+          "y:3": 90,
           "id:3": 658,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 12,
+          "y:3": 36,
           "id:3": 659,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 156,
+          "y:3": 162,
           "id:3": 661,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 36,
-          "x:3": -48,
-          "y:3": 72,
+          "x:3": -54,
+          "y:3": 108,
           "id:3": 662,
           "sizeY:3": 48
         },
         "19:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 60,
+          "y:3": 78,
           "id:3": 666,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 132,
+          "x:3": -48,
+          "y:3": 168,
           "id:3": 697,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
           "x:3": 48,
-          "y:3": 216,
+          "y:3": 222,
           "id:3": 700,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 216,
+          "y:3": 222,
           "id:3": 701,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
           "x:3": 96,
-          "y:3": 216,
+          "y:3": 222,
           "id:3": 702,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 192,
+          "y:3": 198,
           "id:3": 703,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 84,
+          "x:3": 42,
+          "y:3": 120,
           "id:3": 713,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 252,
+          "x:3": 132,
+          "y:3": 258,
           "id:3": 723,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 12,
+          "x:3": 114,
+          "y:3": 42,
           "id:3": 767,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 120,
+          "x:3": 6,
+          "y:3": 150,
           "id:3": 838,
           "sizeY:3": 24
         }
@@ -67976,238 +68632,238 @@
         "0:10": {
           "sizeX:3": 36,
           "x:3": 0,
-          "y:3": -60,
+          "y:3": -36,
           "id:3": 16,
           "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -72,
+          "x:3": -36,
+          "y:3": -24,
           "id:3": 59,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -72,
+          "x:3": -36,
+          "y:3": -48,
           "id:3": 60,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -96,
+          "x:3": -60,
+          "y:3": -72,
           "id:3": 61,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": -36,
           "y:3": -72,
           "id:3": 62,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -96,
+          "x:3": -60,
+          "y:3": -48,
           "id:3": 64,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -108,
+          "x:3": 48,
+          "y:3": -42,
           "id:3": 65,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -132,
+          "x:3": 72,
+          "y:3": -42,
           "id:3": 66,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -108,
+          "x:3": 48,
+          "y:3": -6,
           "id:3": 67,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 60,
+          "x:3": 54,
+          "y:3": 30,
           "id:3": 68,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 96,
+          "x:3": 84,
+          "y:3": 30,
           "id:3": 69,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 96,
+          "x:3": 114,
+          "y:3": 30,
           "id:3": 70,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": -96,
+          "x:3": -60,
+          "y:3": -24,
           "id:3": 304,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 36,
-          "x:3": 0,
-          "y:3": 12,
+          "x:3": 36,
+          "y:3": 60,
           "id:3": 459,
           "sizeY:3": 48
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 24,
+          "x:3": 84,
+          "y:3": 72,
           "id:3": 460,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 24,
+          "x:3": 84,
+          "y:3": 102,
           "id:3": 461,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 60,
+          "x:3": 114,
+          "y:3": 72,
           "id:3": 462,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 24,
+          "x:3": 144,
+          "y:3": 42,
           "id:3": 463,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 48,
+          "x:3": 168,
+          "y:3": 42,
           "id:3": 464,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 72,
+          "x:3": 168,
+          "y:3": 66,
           "id:3": 465,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 24,
+          "x:3": 144,
+          "y:3": 66,
           "id:3": 466,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 48,
+          "x:3": 144,
+          "y:3": 90,
           "id:3": 467,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 72,
+          "x:3": 168,
+          "y:3": 90,
           "id:3": 468,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 108,
+          "x:3": 168,
+          "y:3": 120,
           "id:3": 469,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": -96,
+          "x:3": -60,
+          "y:3": 6,
           "id:3": 499,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 36,
-          "x:3": -72,
-          "y:3": -24,
+          "x:3": -36,
+          "y:3": 84,
           "id:3": 582,
           "sizeY:3": 48
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -24,
+          "x:3": 6,
+          "y:3": -66,
           "id:3": 706,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -12,
+          "x:3": -66,
+          "y:3": 54,
           "id:3": 755,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 24,
+          "x:3": -96,
+          "y:3": 42,
           "id:3": 756,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": 24,
+          "x:3": -96,
+          "y:3": 66,
           "id:3": 757,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -12,
+          "x:3": -30,
+          "y:3": 54,
           "id:3": 758,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -60,
+          "x:3": -66,
+          "y:3": 96,
           "id:3": 759,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -60,
+          "x:3": -66,
+          "y:3": 120,
           "id:3": 760,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -60,
+          "x:3": -90,
+          "y:3": 120,
           "id:3": 761,
           "sizeY:3": 24
         }
@@ -68237,114 +68893,170 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 36,
-          "x:3": 132,
-          "y:3": -72,
+          "x:3": 48,
+          "y:3": 18,
           "id:3": 9,
           "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": -96,
+          "x:3": 54,
+          "y:3": -12,
           "id:3": 13,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -12,
+          "x:3": -54,
+          "y:3": -114,
           "id:3": 28,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -60,
+          "x:3": 18,
+          "y:3": 30,
           "id:3": 29,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -60,
+          "x:3": -12,
+          "y:3": 30,
           "id:3": 30,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -60,
+          "x:3": -54,
+          "y:3": 24,
           "id:3": 31,
-          "sizeY:3": 24
+          "sizeY:3": 36
         },
         "6:10": {
-          "sizeX:3": 48,
+          "sizeX:3": 36,
           "x:3": -60,
           "y:3": -72,
           "id:3": 32,
-          "sizeY:3": 36
+          "sizeY:3": 48
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 0,
+          "x:3": -30,
+          "y:3": -108,
           "id:3": 34,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": -54,
           "y:3": -12,
           "id:3": 36,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -144,
+          "x:3": -132,
+          "y:3": -60,
           "id:3": 71,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -108,
-          "id:3": 579,
+          "x:3": 12,
+          "y:3": -114,
+          "id:3": 496,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -108,
-          "id:3": 580,
+          "x:3": -96,
+          "y:3": 30,
+          "id:3": 579,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -144,
-          "id:3": 581,
+          "x:3": -96,
+          "y:3": -60,
+          "id:3": 580,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 36,
-          "id:3": 594,
+          "x:3": -126,
+          "y:3": -84,
+          "id:3": 581,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -24,
+          "x:3": -30,
           "y:3": -144,
-          "id:3": 765,
+          "id:3": 594,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -24,
+          "x:3": 12,
+          "y:3": -90,
+          "id:3": 671,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -66,
+          "id:3": 673,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -42,
+          "id:3": 676,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -126,
+          "y:3": -36,
+          "id:3": 765,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -78,
+          "y:3": -108,
           "id:3": 766,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -42,
+          "id:3": 839,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -66,
+          "id:3": 845,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -90,
+          "id:3": 846,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -114,
+          "id:3": 847,
           "sizeY:3": 24
         }
       },
@@ -68354,7 +69066,7 @@
           "visibility:8": "ALWAYS",
           "name:8": "- Tinkering",
           "icon:10": {
-            "id:8": "tconstruct:smeltery_controller",
+            "id:8": "tcomplement:melter",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -68374,7 +69086,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "evergood:book/evergoodbqhm.png",
       "party_enable:1": 1,

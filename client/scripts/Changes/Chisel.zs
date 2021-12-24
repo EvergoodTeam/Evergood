@@ -28,6 +28,6 @@ mods.chisel.Carving.addGroup("guides");
     addVariation("guides", <rftoolsdim:rftoolsdim_manual>);
     addVariation("guides", <xnet:xnet_manual>);
     addVariation("guides", <logisticspipes:guide_book>);
-
+    addVariation("guides", <cookingforblockheads:recipe_book>);
 
 print("- Chisel.zs Initialized");

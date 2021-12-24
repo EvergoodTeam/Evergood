@@ -68,10 +68,6 @@ nucleardisc4.maxStackSize = 64;
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
 recipes.addShaped(<mob_grinding_utils:absorption_hopper>, [[null, <minecraft:ender_eye>, null],[null, <openblocks:vacuum_hopper>, null], [<ore:obsidian>, <minecraft:hopper>, <ore:obsidian>]]);
 
-#Tree Fluid extractor
-recipes.remove(<industrialforegoing:tree_fluid_extractor>);
-recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [[<ore:craftingPiston>, <thermalfoundation:material:25>, <ore:craftingPiston>],[<minecraft:iron_bars>, <teslacorelib:machine_case>, <minecraft:iron_bars>], [<thermalfoundation:material:24>, <minecraft:redstone>, <thermalfoundation:material:24>]]);
-
 #Bronze unidict
 recipes.removeByRecipeName("unidict:ingotbronze_x4_size.4");
 
@@ -98,10 +94,6 @@ recipes.addShaped(<furnaceoverhaul:end_furnace>, [[<minecraft:ender_pearl>, <ore
 recipes.remove(<furnaceoverhaul:zenith_furnace>);
 recipes.addShaped(<furnaceoverhaul:zenith_furnace>, [[<ore:blockBlaze>, <mysticalagradditions:special>, <ore:blockBlaze>],[<minecraft:nether_brick>, <furnaceoverhaul:end_furnace>, <minecraft:nether_brick>], [<ore:blockBlaze>, <mysticalagriculture:coal_block:4>, <ore:blockBlaze>]]);
 
-#Base Addon
-recipes.remove(<teslacorelib:base_addon>);
-recipes.addShaped(<teslacorelib:base_addon>, [[<projectred-core:resource_item:2>, <industrialforegoing:plastic>, <projectred-core:resource_item:2>],[<industrialforegoing:plastic>, <projectred-core:resource_item:342>, <industrialforegoing:plastic>], [<projectred-core:resource_item:2>, <industrialforegoing:plastic>, <projectred-core:resource_item:2>]]);
-
 #Flux Core
 recipes.remove(<fluxnetworks:fluxcore>);
 recipes.addShaped(<fluxnetworks:fluxcore>, [[<fluxnetworks:flux>, <redstonearsenal:material:128>, <fluxnetworks:flux>],[<redstonearsenal:material:128>, <appliedenergistics2:material:46>, <redstonearsenal:material:128>], [<fluxnetworks:flux>, <redstonearsenal:material:128>, <fluxnetworks:flux>]]);
@@ -112,7 +104,9 @@ recipes.addShaped(<fluxnetworks:fluxpoint>, [[<fluxnetworks:flux>, <fluxnetworks
 
 #Time in a Bottle
 recipes.remove(<randomthings:timeinabottle>);
-recipes.addShaped(<randomthings:timeinabottle>, [[<thermalfoundation:material:166>, <thermalfoundation:material:166>, <thermalfoundation:material:166>],[<botania:manaresource:2>, <minecraft:clock>, <botania:manaresource:2>], [<botania:manaresource:23>, <minecraft:potion>, <botania:manaresource:23>]]);
+recipes.addShaped(<randomthings:timeinabottle>, [[<thermalfoundation:material:166>, <thermalfoundation:material:166>, <thermalfoundation:material:166>],[<botania:manaresource:2>, <minecraft:clock>, <botania:manaresource:2>], [<botania:manaresource:23>, <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}), <botania:manaresource:23>]]);
 
+#Alkahestry Tome
+recipes.remove(<xreliquary:alkahestry_tome:1001>);
 
 print("- CasualChanges.zs Initialized");

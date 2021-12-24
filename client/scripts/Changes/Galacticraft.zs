@@ -24,9 +24,23 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier6_items:
 
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier4_items:4>, <nuclearcraft:alloy:2>, <nuclearcraft:alloy:2>);
 
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:6>);
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:6>, <evergoodutilities:ingot_titanium>, <evergoodutilities:ingot_titanium>);
+
+mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<extraplanets:wafer:2>*3);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<extraplanets:wafer:2>*3, <evergoodutilities:ingot_titanium>, <galacticraftcore:basic_item:2>, <galacticraftcore:basic_item:2>, <minecraft:redstone>, <minecraft:redstone_torch>);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<extraplanets:wafer:2>*3, <evergoodutilities:ingot_titanium>, <appliedenergistics2:material:5>, <appliedenergistics2:material:5>, <minecraft:redstone>, <minecraft:redstone_torch>);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<extraplanets:wafer:2>*3, <evergoodutilities:ingot_titanium>, <nuclearcraft:gem:6>, <nuclearcraft:gem:6>, <minecraft:redstone>, <minecraft:redstone_torch>);
+
+
+
 furnace.remove(<extraplanets:ingot_mercury>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<extraplanets:ingot_mercury> * 2);
 recipes.replaceAllOccurences(<extraplanets:ingot_mercury>, <evergoodutilities:ingot_mercury>);
+
+recipes.replaceAllOccurences(<extraplanets:tier8_items:5>, <evergoodutilities:ingot_zinc>);
+recipes.replaceAllOccurences(<extraplanets:tier5_items:5>, <evergoodutilities:ingot_palladium>);
+recipes.replaceAllOccurences(<galacticraftplanets:item_basic_asteroids>, <evergoodutilities:ingot_titanium>);
 
 recipes.replaceAllOccurences(<extraplanets:tier6_items:5>, <nuclearcraft:ingot:7>);
 

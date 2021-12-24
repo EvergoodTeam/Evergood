@@ -1,0 +1,185 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = test
+  action = setbackgroundslideshow
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=400346%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = ...
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  hoverlabel = Use code Libra for 25% OFF
+  buttonaction = openlink
+  x = -100
+  width = 200
+  actionid = ea3074c1-5167-43c6-ace6-c1e92e80b4321639816139778
+  action = addbutton
+  y = 21
+  description = Support Us!
+  label = BisectHosting
+  value = https://bisecthosting.com/Libra
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -27
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openfile
+  x = -124
+  width = 20
+  actionid = 8affaf09-dc93-47b0-9741-cc60686d57641639816139779
+  action = addbutton
+  y = 57
+  description = Modpack Folder
+  label = 
+  value = ./
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 0d4ccd95-621f-4784-986f-2495ccdc1cf21639816139779
+  action = addbutton
+  y = 21
+  description = Discord
+  label = 
+  value = https://discord.gg/k2P68Y8
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = 104
+  width = 20
+  actionid = e7abca14-6d0c-47fe-bfaf-ed63400fa0e01639816139779
+  action = addbutton
+  y = 21
+  description = GitHub Issues Page
+  label = 
+  value = https://github.com/EvergoodTeam/Evergood/issues
+  height = 20
+}
+
+customization {
+  path = resources/fancymenu/evergoodtitle.png
+  orientation = mid-centered
+  x = -113
+  width = 227
+  actionid = 47a6cf95-9d72-4f16-b9bf-59207c6df4861639781883074
+  action = addtexture
+  y = -104
+  height = 52
+}
+
+customization {
+  path = resources/fancymenu/discord.png
+  orientation = mid-centered
+  x = -124
+  width = 20
+  actionid = 00ba089c-daee-43e6-bf42-3eeb55b0c5821639815789332
+  action = addtexture
+  y = 21
+  height = 20
+}
+
+customization {
+  path = resources/fancymenu/github.png
+  orientation = mid-centered
+  x = 104
+  width = 20
+  actionid = 4a78017e-f10d-4709-8308-c54ee9f547e91639815869410
+  action = addtexture
+  y = 21
+  height = 20
+}
+
+customization {
+  path = resources/fancymenu/folder.png
+  orientation = mid-centered
+  x = -124
+  width = 20
+  actionid = dedb2112-61ae-41f7-b917-fac3d5294bb61639815985277
+  action = addtexture
+  y = 57
+  height = 20
+}
+

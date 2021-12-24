@@ -57,6 +57,21 @@
                 "gui" : "mods"
             }
         },
+
+        "refreshtemp":
+        {
+            "text" : "",
+            "tooltip": "Mods",
+            "posX" : -124,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:buttons/mods.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
             
         "options":
         {

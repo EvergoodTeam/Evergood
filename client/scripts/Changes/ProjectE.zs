@@ -1,8 +1,3 @@
-#Energy condenser
-recipes.removeByRecipeName("projecte:condenser_mk1");
-recipes.remove(<projecte:condenser_mk1>);
-recipes.addShaped(<projecte:condenser_mk1>, [[<projecte:matter_block>, <extraplanets:tier8_items:6>, <projecte:matter_block>],[<extraplanets:tier8_items:6>, <projecte:alchemical_chest>, <extraplanets:tier8_items:6>], [<projecte:matter_block>, <extraplanets:tier8_items:6>, <projecte:matter_block>]]);
-
 #Philosophers stone
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:item.pe_philosophers_stone>, [
@@ -47,6 +42,19 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:item.pe_transmutation
 
 #Stone Transmutation Table
 recipes.remove(<projectex:stone_table>);
+
+#Energy condenser
+recipes.removeByRecipeName("projecte:condenser_mk1");
+recipes.remove(<projecte:condenser_mk1>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <projecte:condenser_mk1>, [
+	[<mysticalagriculture:crafting:3>, <actuallyadditions:block_crystal:3>, <astralsorcery:itemcraftingcomponent:2>, <actuallyadditions:block_crystal:3>, <astralsorcery:itemcraftingcomponent:2>, <actuallyadditions:block_crystal:3>, <mysticalagriculture:crafting:3>], 
+	[<actuallyadditions:block_crystal:3>, <mysticalagriculture:crafting:3>, <nuclearcraft:alloy:15>, <extraplanets:tier8_items:6>, <nuclearcraft:alloy:15>, <mysticalagriculture:crafting:3>, <actuallyadditions:block_crystal:3>], 
+	[<astralsorcery:itemcraftingcomponent:2>, <nuclearcraft:alloy:15>, <projecte:fuel_block:2>, <projecte:matter_block:1>, <projecte:fuel_block:2>, <nuclearcraft:alloy:15>, <astralsorcery:itemcraftingcomponent:2>], 
+	[<botania:corporeaspark:1>, <projecte:matter_block>, <enderio:item_capacitor_melodic>, <projecte:alchemical_chest>, <enderio:item_capacitor_melodic>, <projecte:matter_block>, <botania:corporeaspark:1>], 
+	[<astralsorcery:itemcraftingcomponent:2>, <nuclearcraft:alloy:15>, <projecte:fuel_block:2>, <projecte:matter_block:1>, <projecte:fuel_block:2>, <nuclearcraft:alloy:15>, <astralsorcery:itemcraftingcomponent:2>], 
+	[<actuallyadditions:block_crystal:3>, <mysticalagriculture:crafting:3>, <nuclearcraft:alloy:15>, <extraplanets:tier8_items:6>, <nuclearcraft:alloy:15>, <mysticalagriculture:crafting:3>, <actuallyadditions:block_crystal:3>], 
+	[<mysticalagriculture:crafting:3>, <actuallyadditions:block_crystal:3>, <astralsorcery:itemcraftingcomponent:2>, <actuallyadditions:block_crystal:3>, <astralsorcery:itemcraftingcomponent:2>, <actuallyadditions:block_crystal:3>, <mysticalagriculture:crafting:3>]
+]);
 
 
 print("- ProjectE.zs Initialized");

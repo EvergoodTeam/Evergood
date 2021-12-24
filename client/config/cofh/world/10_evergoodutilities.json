@@ -66,6 +66,28 @@
 					0
 				]
 			}
+		},
+        "ore-titanium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "evergoodutilities:ore_titanium"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 5,
+			"max-height": 18,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
 		}
 	}
 }
